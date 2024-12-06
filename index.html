@@ -1,0 +1,279 @@
+<!DOCTYPE html>
+<html lang="es">
+<!-- [Previous head content remains the same...] -->
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mi Portafolio</title>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/js/all.min.js"></script>
+    <style>
+        /* [Previous styles remain the same...] */
+        :root {
+            --primary-color: #2563eb;
+            --secondary-color: #1e40af;
+            --text-color: #1f2937;
+            --bg-color: #f3f4f6;
+        }
+
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        body {
+            font-family: system-ui, -apple-system, sans-serif;
+            line-height: 1.6;
+            color: var(--text-color);
+            background-color: var(--bg-color);
+        }
+
+        header {
+            background-color: white;
+            padding: 2rem;
+            box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+        }
+
+        .container {
+            max-width: 1200px;
+            margin: 0 auto;
+            padding: 0 2rem;
+        }
+
+        .hero {
+            text-align: center;
+            padding: 4rem 0;
+        }
+
+        .hero h1 {
+            font-size: 2.5rem;
+            margin-bottom: 1rem;
+        }
+
+        .hero p {
+            font-size: 1.25rem;
+            color: #4b5563;
+            margin-bottom: 2rem;
+        }
+
+        .profile-img {
+            width: 150px;
+            height: 150px;
+            border-radius: 50%;
+            margin-bottom: 2rem;
+        }
+
+        .projects {
+            padding: 4rem 0;
+        }
+
+        .projects h2 {
+            text-align: center;
+            margin-bottom: 3rem;
+        }
+
+        .project-grid {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+            gap: 2rem;
+        }
+
+        .project-card {
+            background: white;
+            border-radius: 0.5rem;
+            overflow: hidden;
+            box-shadow: 0 4px 6px rgba(0,0,0,0.1);
+        }
+
+        /* Aquí están los cambios principales para las imágenes de los proyectos */
+        .project-image-container {
+            width: 100%;
+            height: 200px;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            background-color: #f8f9fa;
+            overflow: hidden;
+            padding: 1rem;
+        }
+
+        .project-card img {
+            max-width: 90%;
+            max-height: 180px;
+            object-fit: contain;
+            border-radius: 0.25rem;
+        }
+
+        .project-content {
+            padding: 1.5rem;
+        }
+
+        .project-content h3 {
+            margin-bottom: 1rem;
+        }
+
+        .project-links {
+            margin-top: 1rem;
+        }
+
+        .project-links a {
+            display: inline-block;
+            padding: 0.5rem 1rem;
+            background-color: var(--primary-color);
+            color: white;
+            text-decoration: none;
+            border-radius: 0.25rem;
+            margin-right: 1rem;
+        }
+
+        .project-links a:hover {
+            background-color: var(--secondary-color);
+        }
+
+        .skills {
+            padding: 4rem 0;
+            background-color: white;
+        }
+
+        .skills h2 {
+            text-align: center;
+            margin-bottom: 3rem;
+        }
+
+        .skills-grid {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(120px, 1fr));
+            gap: 2rem;
+            text-align: center;
+        }
+
+        .skill-item i {
+            font-size: 2.5rem;
+            color: var(--primary-color);
+            margin-bottom: 1rem;
+        }
+
+        footer {
+            background-color: var(--text-color);
+            color: white;
+            padding: 2rem 0;
+            text-align: center;
+        }
+
+        .social-links {
+            margin-top: 1rem;
+        }
+
+        .social-links a {
+            color: white;
+            font-size: 1.5rem;
+            margin: 0 0.5rem;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <div class="container">
+            <nav>
+                <h1>Jim Requena</h1>
+            </nav>
+        </div>
+    </header>
+
+    <main>
+        <section class="hero">
+            <div class="container">
+                <img src="./profile_picture.jpg" alt="Tu foto de perfil" class="profile-img">
+                <h1>¡Hola! Soy Jim</h1>
+                <p>Gerenete de productos digitales y Geek apasionado por crear soluciones innovadoras</p>
+            </div>
+        </section>
+
+        <section class="projects">
+            <div class="container">
+                <h2>Mis Proyectos</h2>
+                <div class="project-grid">
+                    <!-- Proyecto 1 -->
+                    <article class="project-card">
+                        <div class="project-image-container">
+                            <img src="./sisaf.jpg" alt="Proyecto 1">
+                        </div>
+                        <div class="project-content">
+                            <h3>SISAF</h3>
+                            <p>Sistema de Reserva de Citas médicas para Ecografía y Medicina General para consultorios médicos</p> 
+                            <div class="project-links">
+                                <a href="#"><i class="fab fa-github"></i> GitHub</a>
+                                <a href="#"><i class="fas fa-external-link-alt"></i> Demo</a>
+                            </div>
+                        </div>
+                    </article>
+
+                    <!-- Proyecto 2 -->
+                    <article class="project-card">
+                        <div class="project-image-container">
+                            <img src="./cevichito-crm.jpg" alt="Proyecto 2">
+                        </div>
+                        <div class="project-content">
+                            <h3>CRM | Cevichito</h3>
+                            <p>Sistema de registro, entrega y cobro de pedidos de cevichitos a domicilio.</p> <br>
+                            <div class="project-links">
+                                <a href="#"><i class="fab fa-github"></i> GitHub</a>
+                                <a href="#"><i class="fas fa-external-link-alt"></i> Demo</a>
+                            </div>
+                        </div>
+                    </article>
+					<!-- Proyecto 3 -->
+                    <article class="project-card">
+                        <div class="project-image-container">
+                            <img src="./nextjs.jpg" alt="Diseño y Desarrollo Web">
+                        </div>
+                        <div class="project-content">
+                            <h3>Diseño Web</h3>
+                            <p>Diseño y desarrollo de Sitios Web Interactivos.</p> <br>
+                            <div class="project-links">
+                                <a href="https://gray-salmon-664409.hostingersite.com/"><i class="fab fa-github"></i> GitHub</a>
+                                <a href="https://gray-salmon-664409.hostingersite.com/"><i class="fas fa-external-link-alt"></i> Demo</a>
+                            </div>
+                        </div>
+                    </article>
+                </div>
+            </div>
+        </section>
+
+        <section class="skills">
+            <div class="container">
+                <h2>Habilidades</h2>
+                <div class="skills-grid">
+                    <div class="skill-item">
+                        <i class="fab fa-html5"></i>
+                        <p>HTML5</p>
+                    </div>
+                    <div class="skill-item">
+                        <i class="fab fa-css3-alt"></i>
+                        <p>CSS3</p>
+                    </div>
+                    <div class="skill-item">
+                        <i class="fab fa-js"></i>
+                        <p>JavaScript</p>
+                    </div>
+                    <div class="skill-item">
+                        <i class="fab fa-react"></i>
+                        <p>React</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <footer>
+        <div class="container">
+            <p>Contacto: tu@email.com</p>
+            <div class="social-links">
+                <a href="#"><i class="fab fa-github"></i></a>
+                <a href="https://www.linkedin.com/in/jimrequena"><i class="fab fa-linkedin"></i></a>
+                <a href="https://x.com/jimrequena"><i class="fab fa-twitter"></i></a>
+            </div>
+        </div>
+    </footer>
+</body>
+</html>
