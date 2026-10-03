@@ -1,0 +1,18 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 200 200" role="img" aria-label="Isotipo AIgentic Bolivianotech" fill="none">
+  <g stroke="currentColor" stroke-linecap="round" fill="none">
+    <circle cx="100" cy="96" r="52" stroke-width="3.4"/>
+    <line x1="48" y1="96" x2="152" y2="96" stroke-width="3.4"/>
+    <line x1="100" y1="44" x2="100" y2="148" stroke-width="3.4"/>
+    <path d="M100,44 A26,52 0 0,0 100,148" stroke-width="3.4"/>
+    <path d="M100,44 A26,52 0 0,1 100,148" stroke-width="3.4"/>
+    <path d="M 46.4,141.0 A 70,70 0 1 1 169.4,87.2" stroke-width="1.6" stroke-opacity="0.28"/>
+    <line x1="148" y1="52" x2="168" y2="36" stroke-width="2" stroke-opacity="0.6"/>
+  </g>
+  <circle cx="100" cy="44" r="4.4" fill="currentColor"/>
+  <circle cx="100" cy="148" r="4.4" fill="currentColor"/>
+  <circle cx="48" cy="96" r="4.4" fill="currentColor"/>
+  <circle cx="152" cy="96" r="4.4" fill="currentColor"/>
+  <circle cx="100" cy="96" r="6.2" fill="currentColor"/>
+  <circle cx="168" cy="36" r="3.6" fill="currentColor"/>
+  <path d="M124,112 L124,140 L131,133.4 L135.4,143.4 L141.2,140.6 L136.8,130.6 L146,130.6 Z" fill="currentColor"/>
+</svg>
