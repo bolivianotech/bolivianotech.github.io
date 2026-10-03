@@ -1,279 +1,390 @@
 <!DOCTYPE html>
 <html lang="es">
-<!-- [Previous head content remains the same...] -->
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Mi Portafolio</title>
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/js/all.min.js"></script>
-    <style>
-        /* [Previous styles remain the same...] */
-        :root {
-            --primary-color: #2563eb;
-            --secondary-color: #1e40af;
-            --text-color: #1f2937;
-            --bg-color: #f3f4f6;
-        }
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Jim Requena — Líder Ágil, Arquitecto de Agentes de IA y Docente</title>
+<meta name="description" content="Jimmy Requena Llorentty · M.Sc. en Ingeniería de Sistemas · Scrum Master escalado, Product Owner y arquitecto de agentes de IA. Más de 25 años liderando tecnología en Bolivia, EE. UU., Chile y México.">
+<meta property="og:title" content="Jim Requena — Líder Ágil y Arquitecto de Agentes de IA">
+<meta property="og:description" content="Inteligencia con raíces. Consultoría, transformación digital y agentes de IA desde Bolivia.">
+<meta property="og:type" content="website">
+<link rel="icon" type="image/svg+xml" href="assets/isotipo-simple.svg">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap">
+<style>
+:root{
+  --blanco:#FFFFFF; --niebla:#F5F5F7; --plata:#D2D2D7; --gris:#86868B;
+  --gris-texto:#6E6E73; --grafito:#1D1D1F; --negro:#000000;
+  --hairline-dark:rgba(0,0,0,.08); --hairline-light:rgba(255,255,255,.14);
+  --ease:cubic-bezier(.2,.6,.2,1);
+  --font:'Inter',-apple-system,BlinkMacSystemFont,'Segoe UI',sans-serif;
+}
+[hidden]{display:none!important}
+*{margin:0;padding:0;box-sizing:border-box}
+html{scroll-behavior:smooth;scroll-padding-top:64px}
+body{font-family:var(--font);color:var(--grafito);background:var(--blanco);line-height:1.6;-webkit-font-smoothing:antialiased}
+a{color:inherit}
+.wrap{max-width:1080px;margin:0 auto;padding:0 24px}
+.eyebrow{font-size:12px;font-weight:600;letter-spacing:.22em;text-transform:uppercase;color:var(--gris);margin-bottom:16px}
+h2{font-size:clamp(28px,4.2vw,44px);font-weight:700;letter-spacing:-.02em;line-height:1.12;margin-bottom:20px}
+.lead{font-size:clamp(16px,2vw,20px);color:var(--gris-texto);max-width:680px}
+section{padding:112px 0}
+.dark{background:var(--negro);color:var(--niebla)}
+.dark .lead{color:var(--gris)}
+.fog{background:var(--niebla)}
+.center{text-align:center}.center .lead{margin:0 auto}
 
-        * {
-            margin: 0;
-            padding: 0;
-            box-sizing: border-box;
-        }
+/* nav */
+.nav{position:fixed;top:0;left:0;right:0;z-index:20;height:56px;color:var(--niebla);transition:background .45s var(--ease),color .45s var(--ease),box-shadow .45s var(--ease)}
+.nav.solid{background:rgba(255,255,255,.78);backdrop-filter:saturate(180%) blur(20px);-webkit-backdrop-filter:saturate(180%) blur(20px);color:var(--grafito);box-shadow:inset 0 -1px 0 var(--hairline-dark)}
+.nav .wrap{display:flex;align-items:center;justify-content:space-between;height:100%}
+.brand{display:flex;align-items:center;gap:10px;text-decoration:none;font-weight:600;font-size:15px}
+.brand svg{width:28px;height:28px}
+.nav ul{display:flex;gap:28px;list-style:none;font-size:13px;font-weight:500}
+.nav ul a{text-decoration:none;opacity:.8}.nav ul a:hover{opacity:1}
+.nav .cta{font-size:13px;font-weight:600;text-decoration:none;padding:7px 16px;border-radius:999px;background:var(--niebla);color:var(--negro);transition:background .3s,color .3s}
+.nav.solid .cta{background:var(--negro);color:var(--blanco)}
+@media(max-width:760px){.nav ul{display:none}}
 
-        body {
-            font-family: system-ui, -apple-system, sans-serif;
-            line-height: 1.6;
-            color: var(--text-color);
-            background-color: var(--bg-color);
-        }
+/* hero */
+.hero{min-height:100vh;display:flex;align-items:center;padding:120px 0 80px;position:relative;overflow:hidden}
+.hero .grid{display:grid;grid-template-columns:1.25fr .75fr;gap:56px;align-items:center}
+.hero h1{font-size:clamp(34px,5.6vw,64px);font-weight:700;letter-spacing:-.03em;line-height:1.05;margin-bottom:22px}
+.hero .role{font-size:clamp(16px,2vw,20px);color:var(--gris);max-width:560px;margin-bottom:34px}
+.hero .slogan{font-size:13px;letter-spacing:.22em;text-transform:uppercase;color:var(--gris);font-weight:600;margin-bottom:22px}
+.btns{display:flex;flex-wrap:wrap;gap:12px}
+.btn{display:inline-flex;align-items:center;gap:8px;font:600 15px var(--font);text-decoration:none;padding:13px 24px;border-radius:999px;border:1px solid transparent;cursor:pointer;transition:transform .3s var(--ease),background .3s,color .3s,border-color .3s}
+.btn:hover{transform:translateY(-2px)}
+.btn.primary{background:var(--niebla);color:var(--negro)}
+.btn.ghost{border-color:var(--hairline-light);color:var(--niebla)}
+.btn.ghost:hover{border-color:var(--gris)}
+.btn.solid{background:var(--negro);color:var(--blanco)}
+.btn.line{border-color:var(--plata);color:var(--grafito)}
+.btn.line:hover{border-color:var(--grafito)}
+.portrait{position:relative;justify-self:center;width:min(320px,70vw)}
+.portrait img{width:100%;aspect-ratio:1;object-fit:cover;border-radius:50%;filter:grayscale(1) contrast(1.05);border:1px solid var(--hairline-light)}
+.portrait svg{position:absolute;right:-8%;bottom:-6%;width:34%;color:var(--niebla);background:var(--negro);border-radius:50%;padding:6px}
+.stats{display:grid;grid-template-columns:repeat(4,1fr);gap:24px;margin-top:72px;padding-top:36px;border-top:1px solid var(--hairline-light)}
+.stat b{display:block;font-size:clamp(28px,4vw,44px);font-weight:700;letter-spacing:-.02em;color:var(--blanco)}
+.stat span{font-size:13px;color:var(--gris)}
+@media(max-width:820px){.hero .grid{grid-template-columns:1fr}.portrait{order:-1;width:180px;justify-self:start}.stats{grid-template-columns:repeat(2,1fr)}}
 
-        header {
-            background-color: white;
-            padding: 2rem;
-            box-shadow: 0 2px 4px rgba(0,0,0,0.1);
-        }
+/* cards */
+.cards{display:grid;grid-template-columns:repeat(auto-fit,minmax(280px,1fr));gap:20px;margin-top:56px}
+.card{background:var(--blanco);border:1px solid var(--hairline-dark);border-radius:20px;padding:32px;transition:transform .4s var(--ease),box-shadow .4s var(--ease)}
+.card:hover{transform:translateY(-4px);box-shadow:0 18px 40px rgba(0,0,0,.08)}
+.card .n{font-size:12px;font-weight:600;letter-spacing:.2em;color:var(--gris);margin-bottom:18px}
+.card h3{font-size:20px;font-weight:600;letter-spacing:-.01em;margin-bottom:10px}
+.card p{font-size:15px;color:var(--gris-texto)}
+.dark .card{background:#0c0c0d;border-color:var(--hairline-light)}
+.dark .card p{color:var(--gris)}.dark .card h3{color:var(--blanco)}
 
-        .container {
-            max-width: 1200px;
-            margin: 0 auto;
-            padding: 0 2rem;
-        }
+/* timeline */
+.tl{margin-top:56px;border-left:1px solid var(--plata);padding-left:32px;display:grid;gap:40px}
+.tl article{position:relative}
+.tl article::before{content:"";position:absolute;left:-37px;top:9px;width:9px;height:9px;border-radius:50%;background:var(--grafito)}
+.tl .when{font-size:12px;font-weight:600;letter-spacing:.16em;text-transform:uppercase;color:var(--gris)}
+.tl h3{font-size:19px;font-weight:600;margin:4px 0 2px}
+.tl .org{font-size:15px;color:var(--gris-texto);margin-bottom:8px}
+.tl ul{list-style:none;display:grid;gap:6px;font-size:15px;color:var(--grafito)}
+.tl li{padding-left:18px;position:relative}
+.tl li::before{content:"";position:absolute;left:0;top:11px;width:8px;height:1px;background:var(--gris)}
+.more{margin-top:40px;font-size:15px;color:var(--gris-texto)}
 
-        .hero {
-            text-align: center;
-            padding: 4rem 0;
-        }
+/* skills */
+.chips{display:flex;flex-wrap:wrap;gap:8px;margin-top:14px}
+.chip{font-size:13px;font-weight:500;padding:6px 14px;border-radius:999px;border:1px solid var(--hairline-light);color:var(--niebla)}
+.skillgroup{margin-top:36px}
+.skillgroup h3{font-size:12px;letter-spacing:.2em;text-transform:uppercase;color:var(--gris);font-weight:600}
+.two{display:grid;grid-template-columns:1fr 1fr;gap:56px;margin-top:56px}
+.two h3{font-size:12px;letter-spacing:.2em;text-transform:uppercase;color:var(--gris);font-weight:600;margin-bottom:16px}
+.two ul{list-style:none;display:grid;gap:12px;font-size:15px}
+.two li small{display:block;color:var(--gris-texto);font-size:13px}
+@media(max-width:760px){.two{grid-template-columns:1fr;gap:40px}}
 
-        .hero h1 {
-            font-size: 2.5rem;
-            margin-bottom: 1rem;
-        }
+/* contact */
+.contact-grid{display:grid;grid-template-columns:repeat(auto-fit,minmax(240px,1fr));gap:16px;margin-top:56px;text-align:left}
+.ch{display:block;text-decoration:none;border:1px solid var(--hairline-light);border-radius:20px;padding:28px;transition:transform .4s var(--ease),border-color .3s,background .3s}
+.ch:hover{transform:translateY(-4px);border-color:var(--gris);background:#0c0c0d}
+.ch svg{width:26px;height:26px;margin-bottom:18px;stroke:var(--niebla)}
+.ch h3{font-size:18px;font-weight:600;color:var(--blanco);margin-bottom:4px}
+.ch p{font-size:14px;color:var(--gris);word-break:break-word}
+.ch .go{display:inline-block;margin-top:14px;font-size:13px;font-weight:600;color:var(--niebla)}
+.book{margin-top:20px;border:1px solid var(--hairline-light);border-radius:20px;padding:32px;text-align:left;display:grid;grid-template-columns:1fr 1.1fr;gap:40px}
+.book h3{font-size:22px;font-weight:600;color:var(--blanco);margin-bottom:8px}
+.book p{color:var(--gris);font-size:15px}
+.book form{display:grid;gap:12px}
+.book .row{display:grid;grid-template-columns:1fr 1fr;gap:12px}
+.book label{font-size:12px;color:var(--gris);font-weight:500;display:grid;gap:6px}
+.book input,.book select,.book textarea{font:400 15px var(--font);background:#0c0c0d;color:var(--blanco);border:1px solid var(--hairline-light);border-radius:12px;padding:11px 14px;width:100%;color-scheme:dark}
+.book input:focus,.book select:focus,.book textarea:focus{outline:2px solid var(--gris);outline-offset:1px}
+.book .btn{justify-self:start;margin-top:4px}
+.note{font-size:12px;color:var(--gris);margin-top:4px}
+@media(max-width:820px){.book{grid-template-columns:1fr}.book .row{grid-template-columns:1fr}}
 
-        .hero p {
-            font-size: 1.25rem;
-            color: #4b5563;
-            margin-bottom: 2rem;
-        }
+footer{background:var(--negro);color:var(--gris);border-top:1px solid var(--hairline-light);padding:40px 0;font-size:13px}
+footer .wrap{display:flex;flex-wrap:wrap;gap:16px;align-items:center;justify-content:space-between}
+footer a{text-decoration:none}footer a:hover{color:var(--niebla)}
+footer .l{display:flex;align-items:center;gap:10px;color:var(--niebla)}
+footer svg{width:22px;height:22px}
 
-        .profile-img {
-            width: 150px;
-            height: 150px;
-            border-radius: 50%;
-            margin-bottom: 2rem;
-        }
-
-        .projects {
-            padding: 4rem 0;
-        }
-
-        .projects h2 {
-            text-align: center;
-            margin-bottom: 3rem;
-        }
-
-        .project-grid {
-            display: grid;
-            grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
-            gap: 2rem;
-        }
-
-        .project-card {
-            background: white;
-            border-radius: 0.5rem;
-            overflow: hidden;
-            box-shadow: 0 4px 6px rgba(0,0,0,0.1);
-        }
-
-        /* Aquí están los cambios principales para las imágenes de los proyectos */
-        .project-image-container {
-            width: 100%;
-            height: 200px;
-            display: flex;
-            justify-content: center;
-            align-items: center;
-            background-color: #f8f9fa;
-            overflow: hidden;
-            padding: 1rem;
-        }
-
-        .project-card img {
-            max-width: 90%;
-            max-height: 180px;
-            object-fit: contain;
-            border-radius: 0.25rem;
-        }
-
-        .project-content {
-            padding: 1.5rem;
-        }
-
-        .project-content h3 {
-            margin-bottom: 1rem;
-        }
-
-        .project-links {
-            margin-top: 1rem;
-        }
-
-        .project-links a {
-            display: inline-block;
-            padding: 0.5rem 1rem;
-            background-color: var(--primary-color);
-            color: white;
-            text-decoration: none;
-            border-radius: 0.25rem;
-            margin-right: 1rem;
-        }
-
-        .project-links a:hover {
-            background-color: var(--secondary-color);
-        }
-
-        .skills {
-            padding: 4rem 0;
-            background-color: white;
-        }
-
-        .skills h2 {
-            text-align: center;
-            margin-bottom: 3rem;
-        }
-
-        .skills-grid {
-            display: grid;
-            grid-template-columns: repeat(auto-fit, minmax(120px, 1fr));
-            gap: 2rem;
-            text-align: center;
-        }
-
-        .skill-item i {
-            font-size: 2.5rem;
-            color: var(--primary-color);
-            margin-bottom: 1rem;
-        }
-
-        footer {
-            background-color: var(--text-color);
-            color: white;
-            padding: 2rem 0;
-            text-align: center;
-        }
-
-        .social-links {
-            margin-top: 1rem;
-        }
-
-        .social-links a {
-            color: white;
-            font-size: 1.5rem;
-            margin: 0 0.5rem;
-        }
-    </style>
+/* motion */
+.reveal,.stagger>*{opacity:0;transform:translateY(26px);transition:opacity .9s var(--ease),transform .9s var(--ease)}
+.reveal.in,.stagger.in>*{opacity:1;transform:none}
+.stagger.in>*:nth-child(2){transition-delay:.12s}.stagger.in>*:nth-child(3){transition-delay:.24s}.stagger.in>*:nth-child(4){transition-delay:.36s}
+.draw{stroke-dasharray:1;stroke-dashoffset:1;animation:draw 1.1s var(--ease) forwards}
+@keyframes draw{to{stroke-dashoffset:0}}
+@media(prefers-reduced-motion:reduce){
+  *{animation-duration:.01ms!important;animation-delay:0ms!important;transition-duration:.01ms!important}
+  .reveal,.stagger>*{opacity:1;transform:none}.draw{stroke-dashoffset:0}
+  html{scroll-behavior:auto}
+}
+</style>
 </head>
 <body>
-    <header>
-        <div class="container">
-            <nav>
-                <h1>Jim Requena</h1>
-            </nav>
+
+<svg width="0" height="0" style="position:absolute" aria-hidden="true">
+  <symbol id="iso" viewBox="0 0 200 200" fill="none">
+    <g stroke="currentColor" stroke-linecap="round" fill="none" stroke-width="3.4">
+      <circle cx="100" cy="96" r="52"/><line x1="48" y1="96" x2="152" y2="96"/><line x1="100" y1="44" x2="100" y2="148"/>
+      <path d="M100,44 A26,52 0 0,0 100,148"/><path d="M100,44 A26,52 0 0,1 100,148"/>
+    </g>
+    <g fill="currentColor"><circle cx="100" cy="44" r="4.4"/><circle cx="100" cy="148" r="4.4"/><circle cx="48" cy="96" r="4.4"/><circle cx="152" cy="96" r="4.4"/><circle cx="100" cy="96" r="6.2"/>
+    <path d="M124,112 L124,140 L131,133.4 L135.4,143.4 L141.2,140.6 L136.8,130.6 L146,130.6 Z"/></g>
+  </symbol>
+</svg>
+
+<header class="nav" id="nav">
+  <div class="wrap">
+    <a class="brand" href="#inicio" aria-label="Jim Requena — inicio"><svg><use href="#iso"/></svg>Jim Requena</a>
+    <ul>
+      <li><a href="#perfil">Perfil</a></li>
+      <li><a href="#servicios">Servicios</a></li>
+      <li><a href="#trayectoria">Trayectoria</a></li>
+      <li><a href="#formacion">Formación</a></li>
+      <li><a href="#contacto">Contacto</a></li>
+    </ul>
+    <a class="cta" href="#contacto">Hablemos</a>
+  </div>
+</header>
+
+<main>
+<section class="hero dark" id="inicio">
+  <div class="wrap">
+    <div class="grid">
+      <div>
+        <p class="slogan">Inteligencia con raíces</p>
+        <h1>Líder ágil y arquitecto de agentes de IA.</h1>
+        <p class="role">Jimmy Requena Llorentty · M.Sc. en Ingeniería de Sistemas. Convierto estrategia de producto en software que funciona, y procesos manuales en operaciones asistidas por IA.</p>
+        <div class="btns">
+          <a class="btn primary" href="#contacto">Agenda una reunión</a>
+          <a class="btn ghost" href="https://www.linkedin.com/in/jimrequena" target="_blank" rel="noopener">Ver LinkedIn</a>
         </div>
-    </header>
+      </div>
+      <div class="portrait">
+        <img src="profile_picture.jpg" alt="Retrato de Jim Requena">
+        <svg viewBox="0 0 200 200" aria-hidden="true"><use href="#iso"/></svg>
+      </div>
+    </div>
+    <div class="stats stagger">
+      <div class="stat"><b>25+</b><span>años en tecnología</span></div>
+      <div class="stat"><b>4</b><span>países de equipos liderados</span></div>
+      <div class="stat"><b>15+</b><span>años de docencia universitaria</span></div>
+      <div class="stat"><b>60%</b><span>menos tiempo de prototipo a producción</span></div>
+    </div>
+  </div>
+</section>
 
-    <main>
-        <section class="hero">
-            <div class="container">
-                <img src="./profile_picture.jpg" alt="Tu foto de perfil" class="profile-img">
-                <h1>¡Hola! Soy Jim</h1>
-                <p>Gerente de productos digitales y Geek apasionado por crear soluciones innovadoras</p>
-            </div>
-        </section>
+<section id="perfil">
+  <div class="wrap">
+    <p class="eyebrow reveal">Perfil</p>
+    <h2 class="reveal">De la base de datos al agente autónomo.</h2>
+    <p class="lead reveal">Mi carrera recorre programación de sistemas, administración Oracle, inteligencia de negocios, arquitectura cloud, entrega ágil escalada y diseño de agentes de IA. He liderado equipos multidisciplinarios en Bolivia, Estados Unidos, Chile y México, en telecomunicaciones, agrofinanzas, banca, e-commerce y educación superior.</p>
+    <p class="lead reveal" style="margin-top:16px">Hoy dirijo BolivianoTech, enseño en la UPDS y acompaño proyectos de transformación digital con impacto social en Bolivia. En mayo de 2026 presenté la ponencia <em>«Operadores que nunca duermen: agentes inteligentes para contingencia operativa autónoma»</em> en el Congreso de IA y Tecnologías Digitales de la UPDS.</p>
+  </div>
+</section>
 
-        <section class="projects">
-            <div class="container">
-                <h2>Mis Proyectos</h2>
-                <div class="project-grid">
-                    <!-- Proyecto 1 -->
-                    <article class="project-card">
-                        <div class="project-image-container">
-                            <img src="./sisaf.jpg" alt="Proyecto 1">
-                        </div>
-                        <div class="project-content">
-                            <h3>SISAF</h3>
-                            <p>Sistema de Reserva de Citas médicas para Ecografía y Medicina General para consultorios médicos</p> 
-                            <div class="project-links">
-                                <a href="#"><i class="fab fa-github"></i> GitHub</a>
-                                <a href="#"><i class="fas fa-external-link-alt"></i> Demo</a>
-                            </div>
-                        </div>
-                    </article>
+<section class="fog" id="servicios">
+  <div class="wrap">
+    <p class="eyebrow reveal">Servicios</p>
+    <h2 class="reveal">Cómo puedo ayudarte.</h2>
+    <div class="cards stagger">
+      <div class="card"><p class="n">01</p><h3>Agentes de IA y automatización</h3><p>Diseño de agentes con APIs de OpenAI, Claude, Gemini, n8n y Make para ejecutar procesos de negocio y apoyar decisiones.</p></div>
+      <div class="card"><p class="n">02</p><h3>Liderazgo ágil y PMO</h3><p>Scrum Master escalado, Scrum of Scrums, OKR, ITIL 4 y reportes ejecutivos para equipos de producto y tecnología.</p></div>
+      <div class="card"><p class="n">03</p><h3>Arquitectura y desarrollo</h3><p>Arquitecturas serverless y cloud, ERP/CRM, PostgreSQL, Supabase, React, Node y desarrollo asistido por IA (vibe coding).</p></div>
+      <div class="card"><p class="n">04</p><h3>Datos y gobernanza</h3><p>Inteligencia de negocios, data marts, ETL y evaluaciones de madurez en gobierno de datos.</p></div>
+      <div class="card"><p class="n">05</p><h3>Docencia y capacitación</h3><p>Talleres y cursos de ingeniería de software, bases de datos, desarrollo web e IA aplicada, para universidades y empresas.</p></div>
+      <div class="card"><p class="n">06</p><h3>Consultoría digital</h3><p>Auditorías WCAG/ADA, estrategia de contenidos y software a medida con BolivianoTech para clientes de Bolivia y EE. UU.</p></div>
+    </div>
+  </div>
+</section>
 
-                    <!-- Proyecto 2 -->
-                    <article class="project-card">
-                        <div class="project-image-container">
-                            <img src="./cevichito-crm.jpg" alt="Proyecto 2">
-                        </div>
-                        <div class="project-content">
-                            <h3>CRM | Cevichito</h3>
-                            <p>Sistema de registro, entrega y cobro de pedidos de cevichitos a domicilio.</p> <br>
-                            <div class="project-links">
-                                <a href="#"><i class="fab fa-github"></i> GitHub</a>
-                                <a href="#"><i class="fas fa-external-link-alt"></i> Demo</a>
-                            </div>
-                        </div>
-                    </article>
-					<!-- Proyecto 3 -->
-                    <article class="project-card">
-                        <div class="project-image-container">
-                            <img src="./nextjs.jpg" alt="Diseño y Desarrollo Web">
-                        </div>
-                        <div class="project-content">
-                            <h3>Diseño Web</h3>
-                            <p>Diseño y desarrollo de Sitios Web Interactivos.</p> <br>
-                            <div class="project-links">
-                                <a href="https://gray-salmon-664409.hostingersite.com/"><i class="fab fa-github"></i> GitHub</a>
-                                <a href="https://gray-salmon-664409.hostingersite.com/"><i class="fas fa-external-link-alt"></i> Demo</a>
-                            </div>
-                        </div>
-                    </article>
-                </div>
-            </div>
-        </section>
+<section class="dark" id="trayectoria">
+  <div class="wrap">
+    <p class="eyebrow reveal">Trayectoria</p>
+    <h2 class="reveal">Experiencia reciente.</h2>
+    <div class="tl stagger" style="color:var(--niebla)">
+      <article><p class="when">Jun 2025 — Presente</p><h3 style="color:#fff">Docente e investigador externo</h3><p class="org">Universidad Privada Domingo Savio (UPDS)</p>
+        <ul style="color:var(--niebla)"><li>Ingeniería de Software, Bases de Datos, Programación, Diseño Web, Auditoría e IA, en dos carreras.</li><li>Investigador en dos proyectos institucionales sobre IA en educación superior.</li><li>Expositor del Congreso de IA y Tecnologías Digitales, mayo 2026.</li></ul></article>
+      <article><p class="when">Ene 2021 — Presente</p><h3 style="color:#fff">Fundador y CEO</h3><p class="org">BolivianoTech</p>
+        <ul style="color:var(--niebla)"><li>Consultoría de transformación digital cloud-first: auditorías WCAG/ADA, software a medida e integraciones de API.</li><li>Proyectos de automatización con IA y espacios de trabajo en Notion para clientes de Bolivia y EE. UU.</li></ul></article>
+      <article><p class="when">Dic 2025 — May 2026</p><h3 style="color:#fff">Senior Scaled Scrum Master</h3><p class="org">MotoClick App / Nexus Patio Tech</p>
+        <ul style="color:var(--niebla)"><li>Coaching ágil en dos líneas de producto: delivery en EE. UU. y hardware inteligente.</li><li>Redujo 40% la latencia p95 optimizando consultas MySQL sobre EC2.</li></ul></article>
+      <article><p class="when">2025 — 2026</p><h3 style="color:#fff">Arquitecto de software y consultor de IA</h3><p class="org">IN-ADVANCE (socio estratégico de DAMA)</p>
+        <ul style="color:var(--niebla)"><li>Arquitecturas de agentes con OpenAI; PM técnico del ERP OMNIA / CorreSur (~85 tablas PostgreSQL, Supabase RLS).</li><li>Vibe coding con Claude Code, Gemini y Codex: 60% menos tiempo de prototipo a producción.</li></ul></article>
+      <article><p class="when">2020 — 2024</p><h3 style="color:#fff">Product Owner, Business Analyst y Team Leader</h3><p class="org">Encora · Derco/Inchcape · Oktana</p>
+        <ul style="color:var(--niebla)"><li>Cuatro proyectos simultáneos en banca digital, 12 campañas de fidelización en cuatro países y proyectos Salesforce para clientes globales.</li></ul></article>
+      <article><p class="when">2000 — 2017</p><h3 style="color:#fff">Telecomunicaciones, datos y entrega ágil</h3><p class="org">Huawei · Digital Harbor · Tigo/Millicom · ENTEL</p>
+        <ul style="color:var(--niebla)"><li>Líder de pruebas de la integración BSS de TIGO Bolivia; Scrum of Scrums para portales médicos de California y Maryland; quince años en Oracle y BI.</li></ul></article>
+    </div>
+  </div>
+</section>
 
-        <section class="skills">
-            <div class="container">
-                <h2>Habilidades</h2>
-                <div class="skills-grid">
-                    <div class="skill-item">
-                        <i class="fab fa-html5"></i>
-                        <p>HTML5</p>
-                    </div>
-                    <div class="skill-item">
-                        <i class="fab fa-css3-alt"></i>
-                        <p>CSS3</p>
-                    </div>
-                    <div class="skill-item">
-                        <i class="fab fa-js"></i>
-                        <p>JavaScript</p>
-                    </div>
-                    <div class="skill-item">
-                        <i class="fab fa-react"></i>
-                        <p>React</p>
-                    </div>
-                </div>
-            </div>
-        </section>
-    </main>
+<section id="formacion">
+  <div class="wrap">
+    <p class="eyebrow reveal">Formación y capacidades</p>
+    <h2 class="reveal">Base académica, certificaciones y herramientas.</h2>
+    <div class="two reveal">
+      <div>
+        <h3>Educación</h3>
+        <ul>
+          <li>Maestría en Ingeniería de Sistemas — Sistemas Flexibles Inteligentes<small>Universidad Católica Boliviana · La Paz</small></li>
+          <li>Licenciatura en Ingeniería de Sistemas<small>Universidad Católica Boliviana · La Paz</small></li>
+          <li>Diplomado en Tecnologías de la Información<small>Universidad Católica Boliviana</small></li>
+        </ul>
+        <h3 style="margin-top:32px">Certificaciones</h3>
+        <ul>
+          <li>ACPC · Agile Coach Professional<small>CertiProf</small></li>
+          <li>SMPC · Scrum Master Professional<small>CertiProf</small></li>
+          <li>SPLPC · Software Project Leader<small>CertiProf</small></li>
+          <li>AIRMPC · AI Risk Management<small>CertiProf</small></li>
+          <li>BDPC · Big Data Professional<small>CertiProf</small></li>
+          <li>Microsoft Power BI Data Analyst · AI Project Management Specialist</li>
+        </ul>
+      </div>
+      <div>
+        <h3>Herramientas y tecnologías</h3>
+        <div class="skillgroup" style="margin-top:0"><p class="note" style="margin:0 0 8px">IA y automatización</p>
+          <div class="chips"><span class="chip" style="color:var(--grafito);border-color:var(--plata)">OpenAI API</span><span class="chip" style="color:var(--grafito);border-color:var(--plata)">Claude Code</span><span class="chip" style="color:var(--grafito);border-color:var(--plata)">Gemini</span><span class="chip" style="color:var(--grafito);border-color:var(--plata)">n8n</span><span class="chip" style="color:var(--grafito);border-color:var(--plata)">Make</span></div></div>
+        <div class="skillgroup"><p class="note" style="margin:0 0 8px">Cloud y desarrollo</p>
+          <div class="chips"><span class="chip" style="color:var(--grafito);border-color:var(--plata)">AWS</span><span class="chip" style="color:var(--grafito);border-color:var(--plata)">Google Cloud</span><span class="chip" style="color:var(--grafito);border-color:var(--plata)">Supabase</span><span class="chip" style="color:var(--grafito);border-color:var(--plata)">React</span><span class="chip" style="color:var(--grafito);border-color:var(--plata)">Node.js · NestJS</span><span class="chip" style="color:var(--grafito);border-color:var(--plata)">TypeScript</span><span class="chip" style="color:var(--grafito);border-color:var(--plata)">Flask</span></div></div>
+        <div class="skillgroup"><p class="note" style="margin:0 0 8px">Datos</p>
+          <div class="chips"><span class="chip" style="color:var(--grafito);border-color:var(--plata)">Oracle</span><span class="chip" style="color:var(--grafito);border-color:var(--plata)">PostgreSQL</span><span class="chip" style="color:var(--grafito);border-color:var(--plata)">MySQL</span><span class="chip" style="color:var(--grafito);border-color:var(--plata)">SQL Server</span><span class="chip" style="color:var(--grafito);border-color:var(--plata)">Power BI</span></div></div>
+        <div class="skillgroup"><p class="note" style="margin:0 0 8px">Gestión</p>
+          <div class="chips"><span class="chip" style="color:var(--grafito);border-color:var(--plata)">Scrum · SAFe · Kanban</span><span class="chip" style="color:var(--grafito);border-color:var(--plata)">ITIL 4</span><span class="chip" style="color:var(--grafito);border-color:var(--plata)">OKR</span><span class="chip" style="color:var(--grafito);border-color:var(--plata)">Jira · Notion</span><span class="chip" style="color:var(--grafito);border-color:var(--plata)">MS Project</span></div></div>
+        <div class="skillgroup"><p class="note" style="margin:0 0 8px">Idiomas</p>
+          <div class="chips"><span class="chip" style="color:var(--grafito);border-color:var(--plata)">Español nativo</span><span class="chip" style="color:var(--grafito);border-color:var(--plata)">Inglés C1</span><span class="chip" style="color:var(--grafito);border-color:var(--plata)">Portugués intermedio</span></div></div>
+      </div>
+    </div>
+  </div>
+</section>
 
-    <footer>
-        <div class="container">
-            <p>Contacto: tu@email.com</p>
-            <div class="social-links">
-                <a href="#"><i class="fab fa-github"></i></a>
-                <a href="https://www.linkedin.com/in/jimrequena"><i class="fab fa-linkedin"></i></a>
-                <a href="https://x.com/jimrequena"><i class="fab fa-twitter"></i></a>
-            </div>
+<section class="fog" id="proyectos">
+  <div class="wrap">
+    <p class="eyebrow reveal">Proyectos</p>
+    <h2 class="reveal">Algo de lo que he construido.</h2>
+    <div class="cards stagger">
+      <div class="card"><p class="n">SALUD</p><h3>SISAF</h3><p>Sistema de reserva de citas médicas para ecografía y medicina general en consultorios.</p></div>
+      <div class="card"><p class="n">CRM</p><h3>CRM Cevichito</h3><p>Registro, entrega y cobro de pedidos a domicilio.</p></div>
+      <div class="card"><p class="n">WEB</p><h3>Diseño y desarrollo web</h3><p>Sitios web interactivos para pequeñas y medianas empresas.</p><p style="margin-top:14px"><a href="https://gray-salmon-664409.hostingersite.com/" target="_blank" rel="noopener" style="font-weight:600;font-size:14px">Ver demo →</a></p></div>
+    </div>
+  </div>
+</section>
+
+<section class="dark center" id="contacto">
+  <div class="wrap">
+    <p class="eyebrow reveal">Contacto</p>
+    <h2 class="reveal">Conversemos sobre tu próximo proyecto.</h2>
+    <p class="lead reveal">Elige el canal que prefieras. Respondo en horario de Bolivia (GMT−4).</p>
+
+    <div class="contact-grid stagger">
+      <a class="ch" href="mailto:jimrequena@bolivianotech.com?subject=Contacto%20desde%20bolivianotech.github.io">
+        <svg viewBox="0 0 24 24" fill="none" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"><rect x="3" y="5" width="18" height="14" rx="2"/><path d="m3 7 9 6 9-6"/></svg>
+        <h3>Correo</h3><p>jimrequena@bolivianotech.com</p><span class="go">Escribir →</span></a>
+      <a class="ch" href="https://wa.me/19142223263?text=Hola%20Jim%2C%20vi%20tu%20sitio%20y%20quisiera%20conversar." target="_blank" rel="noopener">
+        <svg viewBox="0 0 24 24" fill="none" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"><path d="M4 20l1.3-4A8 8 0 1 1 8 18.7z"/></svg>
+        <h3>WhatsApp</h3><p>Línea de AIgentic · +1 914 222 3263</p><span class="go">Abrir chat →</span></a>
+      <a class="ch" href="tel:+59175009349">
+        <svg viewBox="0 0 24 24" fill="none" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"><path d="M5 4h4l2 5-2.5 1.5a11 11 0 0 0 5 5L15 13l5 2v4a2 2 0 0 1-2 2A16 16 0 0 1 3 6a2 2 0 0 1 2-2z"/></svg>
+        <h3>Llamada</h3><p>+591 75009349</p><span class="go">Llamar →</span></a>
+    </div>
+
+    <div class="book reveal" id="agenda">
+      <div>
+        <h3>Agenda una reunión por Google Meet</h3>
+        <p>Propón un horario y se enviará una invitación a mi calendario de Google (jimrequena@bolivianotech.com). Te confirmo por correo con el enlace de Meet.</p>
+        <p class="note" id="bookNote">Zona horaria de referencia: Bolivia (GMT−4).</p>
+        <div class="btns" id="bookDirect" style="margin-top:20px" hidden>
+          <a class="btn primary" id="bookLink" href="#" target="_blank" rel="noopener">Ver horarios disponibles</a>
         </div>
-    </footer>
+      </div>
+      <form id="bookForm" novalidate>
+        <div class="row">
+          <label>Nombre<input name="n" required autocomplete="name"></label>
+          <label>Tu correo<input name="e" type="email" required autocomplete="email"></label>
+        </div>
+        <div class="row">
+          <label>Fecha<input name="d" type="date" required></label>
+          <label>Hora (Bolivia)<input name="t" type="time" required value="10:00"></label>
+        </div>
+        <div class="row">
+          <label>Duración<select name="m"><option value="30">30 minutos</option><option value="45">45 minutos</option><option value="60">1 hora</option></select></label>
+          <label>Tema<input name="s" placeholder="Agentes de IA, consultoría…"></label>
+        </div>
+        <button class="btn primary" type="submit">Solicitar reunión</button>
+        <p class="note" id="formMsg" role="status"></p>
+      </form>
+    </div>
+  </div>
+</section>
+</main>
+
+<footer>
+  <div class="wrap">
+    <span class="l"><svg><use href="#iso"/></svg> Jim Requena · BolivianoTech</span>
+    <span>Santa Cruz de la Sierra, Bolivia · <a href="https://www.linkedin.com/in/jimrequena" target="_blank" rel="noopener">LinkedIn</a> · <a href="https://x.com/jimrequena" target="_blank" rel="noopener">X</a></span>
+    <span>Inteligencia con raíces.</span>
+  </div>
+</footer>
+
+<script>
+// Si publicas una página de reservas de Google Calendar (Citas), pega su URL aquí
+// y aparecerá el botón «Ver horarios disponibles».
+var BOOKING_URL = "";
+
+(function(){
+  var nav=document.getElementById('nav'), hero=document.getElementById('inicio');
+  function onScroll(){ nav.classList.toggle('solid', window.scrollY > hero.offsetHeight - 80); }
+  window.addEventListener('scroll',onScroll,{passive:true}); onScroll();
+
+  var io=new IntersectionObserver(function(es){es.forEach(function(e){if(e.isIntersecting){e.target.classList.add('in');io.unobserve(e.target);}});},{threshold:.15,rootMargin:'0px 0px -6% 0px'});
+  document.querySelectorAll('.reveal,.stagger').forEach(function(el){io.observe(el);});
+
+  if(BOOKING_URL){var b=document.getElementById('bookDirect');b.hidden=false;document.getElementById('bookLink').href=BOOKING_URL;}
+
+  var f=document.getElementById('bookForm'), msg=document.getElementById('formMsg');
+  var today=new Date(); f.d.min=today.toISOString().slice(0,10);
+  f.addEventListener('submit',function(ev){
+    ev.preventDefault();
+    if(!f.n.value.trim()||!f.e.value.trim()||!f.d.value||!f.t.value){msg.textContent='Completa nombre, correo, fecha y hora.';return;}
+    // Hora de Bolivia (UTC-4) -> UTC para el enlace de Google Calendar
+    var p=f.d.value.split('-'), h=f.t.value.split(':');
+    var start=new Date(Date.UTC(+p[0],+p[1]-1,+p[2],+h[0]+4,+h[1]));
+    var end=new Date(start.getTime()+(+f.m.value)*60000);
+    var fmt=function(d){return d.toISOString().replace(/[-:]|\.\d{3}/g,'');};
+    var title='Reunión con Jim Requena — '+(f.s.value.trim()||f.n.value.trim());
+    var details='Solicitada desde bolivianotech.github.io\nNombre: '+f.n.value+'\nCorreo: '+f.e.value+'\nTema: '+(f.s.value||'—');
+    var url='https://calendar.google.com/calendar/render?action=TEMPLATE'
+      +'&text='+encodeURIComponent(title)
+      +'&dates='+fmt(start)+'/'+fmt(end)
+      +'&details='+encodeURIComponent(details)
+      +'&add='+encodeURIComponent('jimrequena@bolivianotech.com')
+      +'&add='+encodeURIComponent(f.e.value.trim());
+    window.open(url,'_blank','noopener');
+    msg.textContent='Se abrió Google Calendar con la invitación lista. Guárdala para enviarla; te confirmaré con el enlace de Meet.';
+  });
+})();
+</script>
 </body>
 </html>
