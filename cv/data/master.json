@@ -1,0 +1,634 @@
+{
+  "name": "Jimmy Nataniel Requena Llorentty",
+  "contact": {
+    "location": "Santa Cruz de la Sierra, Bolivia",
+    "phones": [
+      "+591 75009349",
+      "+1 914 222 3263"
+    ],
+    "email": "jimrequena@bolivianotech.com",
+    "web": "bolivianotech.github.io",
+    "linkedin": "linkedin.com/in/jimrequena"
+  },
+  "experience": [
+    {
+      "id": "upds",
+      "org": "Universidad Privada Domingo Savio (UPDS)",
+      "place": "Santa Cruz, Bolivia",
+      "role": {
+        "es": "Docente de Ingeniería de Sistemas e Investigador",
+        "en": "Systems Engineering Lecturer and Researcher"
+      },
+      "start": "06/2025",
+      "end": {
+        "es": "Presente",
+        "en": "Present"
+      },
+      "tags": [
+        "teach",
+        "ai",
+        "dev",
+        "data"
+      ],
+      "bullets": [
+        {
+          "tags": [
+            "teach",
+            "dev"
+          ],
+          "es": "Ha dictado Programación I, II, III y IV, Desarrollo de Software I y II, Ingeniería de Software I y II, Bases de Datos II, Sistemas de Información I y II, Inteligencia Artificial I y Sistemas Operativos II.",
+          "en": "Has taught Programming I-IV, Software Development I-II, Software Engineering I-II, Databases II, Information Systems I-II, Artificial Intelligence I and Operating Systems II."
+        },
+        {
+          "tags": [
+            "teach",
+            "dev"
+          ],
+          "es": "Actualmente dicta Diseño Web I, Tecnologías Web I y Tecnologías Web II, con enfoque en desarrollo de software asistido por IA.",
+          "en": "Currently teaches Web Design I and Web Technologies I and II, with a focus on AI-assisted software development."
+        },
+        {
+          "tags": [
+            "ai",
+            "teach"
+          ],
+          "es": "Crea herramientas de IA para docentes y administrativos de la UPDS: Agente-Docente (genera maletas didácticas, ofrece un chat con un agente y mantiene una base de conocimiento) y un generador de exámenes de diagnóstico y evaluación para distintas materias.",
+          "en": "Builds AI tools for UPDS faculty and administrative staff: Agente-Docente (generates teaching kits, offers an agent chat and maintains a knowledge base) and an exam generator for diagnostic and assessment tests across courses."
+        },
+        {
+          "tags": [
+            "ai",
+            "teach"
+          ],
+          "es": "Co-crea el Diplomado de IA Administrativa de la UPDS, orientado al uso adecuado de Claude por el personal administrativo (módulos definidos; implementación en curso).",
+          "en": "Co-creates the UPDS Administrative AI Diploma, teaching administrative staff to use Claude effectively (modules defined; implementation under way)."
+        },
+        {
+          "tags": [
+            "ai",
+            "teach",
+            "cloud"
+          ],
+          "es": "Expositor del Congreso de IA y Tecnologías Digitales de la UPDS (mayo 2026): «Operadores que nunca duermen: agentes inteligentes para contingencia operativa autónoma», sobre agentes de IA para el monitoreo de infraestructura como código (IaC) en sistemas altamente escalables.",
+          "en": "Speaker at the UPDS AI and Digital Technologies Congress (May 2026): \"Operators that never sleep: intelligent agents for autonomous operational contingency\", on AI agents that monitor infrastructure as code (IaC) in highly scalable systems."
+        },
+        {
+          "tags": [
+            "ai",
+            "teach"
+          ],
+          "es": "Investigador en dos proyectos institucionales sobre IA en educación superior.",
+          "en": "Researcher on two institutional projects about AI in higher education."
+        }
+      ]
+    },
+    {
+      "id": "bolivianotech",
+      "org": "BolivianoTech",
+      "place": "Santa Cruz, Bolivia",
+      "role": {
+        "es": "Fundador y Líder Técnico (CEO)",
+        "en": "Founder and Technical Lead (CEO)"
+      },
+      "start": "01/2021",
+      "end": {
+        "es": "Presente",
+        "en": "Present"
+      },
+      "tags": [
+        "ai",
+        "dev",
+        "mgmt",
+        "cloud"
+      ],
+      "bullets": [
+        {
+          "tags": [
+            "ai",
+            "dev"
+          ],
+          "es": "Diseña y orquesta agentes de IA (percepción, planificación, uso de herramientas y memoria) con Anthropic Claude, OpenAI y Gemini, integrados con bases de datos, pasarelas de pago/QR, CRMs y sistemas de negocio, en un portafolio de más de 7 productos propios.",
+          "en": "Designs and orchestrates AI agents (perception, planning, tool use and memory) with Anthropic Claude, OpenAI and Gemini, integrated with databases, payment/QR gateways, CRMs and business systems, across a portfolio of 7+ in-house products."
+        },
+        {
+          "tags": [
+            "ai",
+            "dev"
+          ],
+          "es": "Construye flujos de automatización multiagente en n8n y Make para calificación de leads, atención al cliente, cobranzas y agendamiento, con scripts en Python y APIs REST.",
+          "en": "Builds multi-agent automation flows in n8n and Make for lead qualification, customer support, collections and scheduling, using Python scripts and REST APIs."
+        },
+        {
+          "tags": [
+            "dev",
+            "cloud"
+          ],
+          "es": "Desarrolla software full-stack (Laravel, Angular, React, Node.js) con Docker y Git/GitHub (Issues y Projects) en el ciclo completo build-test-deploy; usa Claude Code, Gemini y Codex para desarrollo asistido por IA.",
+          "en": "Develops full-stack software (Laravel, Angular, React, Node.js) with Docker and Git/GitHub (Issues and Projects) across the full build-test-deploy cycle; uses Claude Code, Gemini and Codex for AI-assisted development."
+        },
+        {
+          "tags": [
+            "mgmt",
+            "support",
+            "dev"
+          ],
+          "es": "Consultoría de transformación digital cloud-first para clientes de Bolivia y EE. UU.: auditorías de accesibilidad WCAG/ADA, software a medida, integraciones de API y espacios de trabajo en Notion.",
+          "en": "Cloud-first digital transformation consulting for clients in Bolivia and the US: WCAG/ADA accessibility audits, custom software, API integrations and Notion workspaces."
+        }
+      ]
+    },
+    {
+      "id": "motoclick",
+      "org": "MotoClick App / Nexus Patio Tech",
+      "place": "Remoto",
+      "role": {
+        "es": "Senior Scaled Scrum Master",
+        "en": "Senior Scaled Scrum Master"
+      },
+      "start": "12/2025",
+      "end": "05/2026",
+      "tags": [
+        "agile",
+        "mgmt",
+        "qa",
+        "cloud"
+      ],
+      "bullets": [
+        {
+          "tags": [
+            "agile",
+            "mgmt"
+          ],
+          "es": "Coaching ágil escalado a dos líneas de producto: delivery en EE. UU. y hardware inteligente.",
+          "en": "Scaled agile coaching for two product lines: US delivery and smart hardware."
+        },
+        {
+          "tags": [
+            "dev",
+            "cloud",
+            "support"
+          ],
+          "es": "Redujo 40% la latencia p95 optimizando consultas MySQL sobre EC2.",
+          "en": "Cut p95 latency by 40% by optimizing MySQL queries on EC2."
+        }
+      ]
+    },
+    {
+      "id": "inadvance",
+      "org": "IN-ADVANCE (socio estratégico de DAMA)",
+      "place": "Santa Cruz, Bolivia (remoto)",
+      "role": {
+        "es": "Arquitecto de Software y Consultor de IA | Gobernanza de Datos",
+        "en": "Software Architect and AI Consultant | Data Governance"
+      },
+      "start": "02/2025",
+      "end": "12/2025",
+      "tags": [
+        "ai",
+        "dev",
+        "data",
+        "mgmt",
+        "cloud"
+      ],
+      "bullets": [
+        {
+          "tags": [
+            "ai",
+            "dev"
+          ],
+          "es": "Diseñó arquitecturas de agentes de IA con OpenAI y aplicó vibe coding con Claude Code, Gemini y Codex: 60% menos tiempo de prototipo a producción.",
+          "en": "Designed AI agent architectures with OpenAI and applied vibe coding with Claude Code, Gemini and Codex: 60% shorter prototype-to-production time."
+        },
+        {
+          "tags": [
+            "dev",
+            "cloud",
+            "mgmt"
+          ],
+          "es": "Project Manager técnico y arquitecto serverless del ERP OMNIA y CRM de CorreSur (~85 tablas PostgreSQL, Supabase con RLS), integrando APIs REST con los sistemas del cliente.",
+          "en": "Technical project manager and serverless architect of the OMNIA ERP and CorreSur CRM (~85 PostgreSQL tables, Supabase with RLS), integrating REST APIs with client systems."
+        },
+        {
+          "tags": [
+            "data",
+            "mgmt"
+          ],
+          "es": "Lideró una evaluación de madurez en gobernanza de datos (Seguros Alianza): políticas, roles y controles de acceso y seguridad de la información.",
+          "en": "Led a data governance maturity assessment (Seguros Alianza): policies, roles, and access and information security controls."
+        }
+      ]
+    },
+    {
+      "id": "encora",
+      "org": "Encora",
+      "place": "Piura, Perú (remoto)",
+      "role": {
+        "es": "Business Analyst | Project Manager y Scrum Master",
+        "en": "Business Analyst | Project Manager and Scrum Master"
+      },
+      "start": "06/2023",
+      "end": "04/2024",
+      "tags": [
+        "agile",
+        "po",
+        "mgmt",
+        "qa"
+      ],
+      "bullets": [
+        {
+          "tags": [
+            "agile",
+            "po",
+            "mgmt"
+          ],
+          "es": "Lideró cuatro proyectos simultáneos de banca digital con equipos multidisciplinarios (frontend, backend, UI/UX, QA) bajo ceremonias ágiles completas: planning, refinement, review y retrospectiva.",
+          "en": "Led four simultaneous digital banking projects with multidisciplinary teams (frontend, backend, UI/UX, QA) running full agile ceremonies: planning, refinement, review and retrospective."
+        },
+        {
+          "tags": [
+            "po",
+            "ai",
+            "support"
+          ],
+          "es": "Levantó y analizó requerimientos funcionales y técnicos, identificando oportunidades de mejora y automatización en los canales digitales de un cliente financiero.",
+          "en": "Gathered and analyzed functional and technical requirements, identifying improvement and automation opportunities in a financial client's digital channels."
+        }
+      ]
+    },
+    {
+      "id": "derco-oktana",
+      "org": "Derco (hoy Inchcape) y Oktana Corporation",
+      "place": "Remoto",
+      "role": {
+        "es": "Product Owner | Business Analyst | Team Leader",
+        "en": "Product Owner | Business Analyst | Team Leader"
+      },
+      "start": "2020",
+      "end": "2023",
+      "tags": [
+        "po",
+        "agile",
+        "ai",
+        "mgmt"
+      ],
+      "bullets": [
+        {
+          "tags": [
+            "ai",
+            "po",
+            "dev"
+          ],
+          "es": "Oktana: entregó un Contact Center con IA sobre Salesforce, integrando Google Dialogflow, para AT&T, cliente de Google que solicitó la implementación.",
+          "en": "Oktana: delivered an AI Contact Center on Salesforce, integrating Google Dialogflow, for AT&T, a Google client that requested the implementation."
+        },
+        {
+          "tags": [
+            "po",
+            "agile",
+            "mgmt"
+          ],
+          "es": "Derco: Product Owner de 12 campañas de fidelización en cuatro países con Salesforce Marketing Cloud; definió indicadores de gestión y analizó procesos de negocio.",
+          "en": "Derco: Product Owner for 12 loyalty campaigns across four countries on Salesforce Marketing Cloud; defined management KPIs and analyzed business processes."
+        }
+      ]
+    },
+    {
+      "id": "huawei",
+      "org": "Huawei Technologies",
+      "place": "Santa Cruz, Bolivia",
+      "role": {
+        "es": "Project Manager | Solution Manager | Test Leader",
+        "en": "Project Manager | Solution Manager | Test Leader"
+      },
+      "start": "02/2015",
+      "end": "03/2017",
+      "tags": [
+        "qa",
+        "mgmt",
+        "agile",
+        "support",
+        "data"
+      ],
+      "bullets": [
+        {
+          "tags": [
+            "qa",
+            "mgmt"
+          ],
+          "es": "Test Lead de la Fase 1 del BSS (CBS 5.0 prepago) para TIGO Bolivia: estrategia de pruebas, análisis de procesos y coordinación técnica entre el BSS de Huawei y la red core, con equipos multidisciplinarios.",
+          "en": "Test Lead for Phase 1 of the BSS (CBS 5.0 prepaid) for TIGO Bolivia: test strategy, process analysis and technical coordination between Huawei BSS and the core network, with multidisciplinary teams."
+        }
+      ]
+    },
+    {
+      "id": "digitalharbor",
+      "org": "Digital Harbor",
+      "place": "",
+      "role": {
+        "es": "Scrum Master | Líder de Proyecto",
+        "en": "Scrum Master | Project Lead"
+      },
+      "start": "",
+      "end": "",
+      "tags": [
+        "agile",
+        "mgmt",
+        "po"
+      ],
+      "bullets": [
+        {
+          "tags": [
+            "agile",
+            "mgmt"
+          ],
+          "es": "Scrum of Scrums para los portales médicos de California y Maryland, con múltiples equipos coordinados.",
+          "en": "Scrum of Scrums for the California and Maryland medical portals, coordinating multiple teams."
+        },
+        {
+          "tags": [
+            "mgmt",
+            "po"
+          ],
+          "es": "Definió un roadmap para Digital Harbor que consolidó el reporte al día de todos los proyectos, tanto de PAVE como del Core.",
+          "en": "Defined a roadmap for Digital Harbor that consolidated up-to-date reporting for all projects, both PAVE and Core."
+        }
+      ]
+    },
+    {
+      "id": "oracle",
+      "org": "Banco Mercantil Santa Cruz · Intersoft · Fortaleza Seguros · RUAT · Zurich–La Boliviana Ciacruz",
+      "place": "Bolivia",
+      "role": {
+        "es": "Desarrollador PL/SQL, Administrador y Migrador Oracle, Arquitecto de Software",
+        "en": "PL/SQL Developer, Oracle Administrator and Migration Engineer, Software Architect"
+      },
+      "start": "2000",
+      "end": "2012",
+      "tags": [
+        "oracle",
+        "dev",
+        "data",
+        "support"
+      ],
+      "bullets": [
+        {
+          "tags": [
+            "oracle",
+            "dev"
+          ],
+          "es": "Banco Mercantil Santa Cruz: ingresó como programador y desarrolló en PL/SQL, Oracle Forms y Reports.",
+          "en": "Banco Mercantil Santa Cruz: joined as a programmer and developed in PL/SQL, Oracle Forms and Reports."
+        },
+        {
+          "tags": [
+            "oracle",
+            "data",
+            "support"
+          ],
+          "es": "Intersoft: migraciones de bases de datos Oracle para las entidades públicas FNDR y FPC (sistemas ABC Cost y Controler Info).",
+          "en": "Intersoft: Oracle database migrations for public entities FNDR and FPC (ABC Cost and Controler Info systems)."
+        },
+        {
+          "tags": [
+            "oracle",
+            "data",
+            "support"
+          ],
+          "es": "ASOBAN: fusión de dos bases de datos en versiones distintas, Oracle 8i y 9i.",
+          "en": "ASOBAN: merged two databases on different versions, Oracle 8i and 9i."
+        },
+        {
+          "tags": [
+            "oracle",
+            "dev"
+          ],
+          "es": "Desarrollador senior Java y Oracle Forms & Reports (Fortaleza Seguros); ingeniero de software Oracle Forms & Reports (RUAT); arquitecto de software en Visual Studio (Zurich–La Boliviana Ciacruz); integraciones bancarias.",
+          "en": "Senior Java and Oracle Forms & Reports developer (Fortaleza Seguros); Oracle Forms & Reports software engineer (RUAT); Visual Studio software architect (Zurich–La Boliviana Ciacruz); banking integrations."
+        }
+      ]
+    }
+  ],
+  "other_experience": {
+    "es": "BI Analyst y soporte de Data Warehouse en TIGO/Millicom; Prepaid Billing Specialist en Viva Nuevatel; Project Manager del eCommerce de ENTEL; PM del sistema de gestión documental de Con4T–Talento Humano Corp.",
+    "en": "BI Analyst and Data Warehouse support at TIGO/Millicom; Prepaid Billing Specialist at Viva Nuevatel; Project Manager of the ENTEL eCommerce platform; PM of the Con4T–Talento Humano Corp. document management system."
+  },
+  "teaching_history": {
+    "es": "Docencia universitaria y técnica desde 1995: instructor de algoritmos en la institución Ayudantes de la Universidad y docente en la Escuela Naval Militar, en paralelo a la Licenciatura en Ingeniería de Sistemas en la UCB; hoy docente en la UPDS.",
+    "en": "University and technical teaching since 1995: algorithms instructor at the institution Ayudantes de la Universidad and lecturer at the Naval Military School, while completing the Systems Engineering degree at UCB; today a lecturer at UPDS."
+  },
+  "education": [
+    {
+      "es": "Maestría en Ingeniería Matemática e Informática, mención en Sistemas Flexibles Inteligentes — Universidad Católica Boliviana «San Pablo», La Paz",
+      "en": "Master's in Mathematical and Computer Engineering, specialization in Intelligent Flexible Systems — Universidad Católica Boliviana \"San Pablo\", La Paz"
+    },
+    {
+      "es": "Diplomado en Tecnologías de la Información (cursado durante la Maestría) — Universidad Católica Boliviana «San Pablo»",
+      "en": "Diploma in Information Technologies (earned during the Master's) — Universidad Católica Boliviana \"San Pablo\""
+    },
+    {
+      "es": "Licenciatura en Ingeniería de Sistemas — Universidad Católica Boliviana «San Pablo», La Paz",
+      "en": "Bachelor's in Systems Engineering — Universidad Católica Boliviana \"San Pablo\", La Paz"
+    }
+  ],
+  "certifications": [
+    "AI Project Management Specialist",
+    "AI Risk Management Professional (AIRMPC)",
+    "CSPO (Certified Scrum Product Owner)",
+    "Agile Coach Professional (ACPC)",
+    "Scrum Master Professional (SMPC)",
+    "Software Project Leader (SPLPC)",
+    "Big Data Professional (BDPC)",
+    "CT-SM",
+    "Microsoft Power BI Data Analyst",
+    "BPMN / Bizagi"
+  ],
+  "skills": [
+    {
+      "id": "ai",
+      "label": {
+        "es": "IA y agentes",
+        "en": "AI and agents"
+      },
+      "items": [
+        {
+          "es": "Agentes de IA",
+          "en": "AI agents"
+        },
+        "Anthropic Claude",
+        "OpenAI API",
+        "Gemini",
+        "Claude Code",
+        "n8n",
+        "Make",
+        {
+          "es": "LangChain/LangGraph, CrewAI, AutoGen (exposición práctica)",
+          "en": "LangChain/LangGraph, CrewAI, AutoGen (hands-on exposure)"
+        },
+        "Prompt engineering",
+        {
+          "es": "Desarrollo asistido por IA",
+          "en": "AI-assisted development"
+        }
+      ]
+    },
+    {
+      "id": "dev",
+      "label": {
+        "es": "Desarrollo",
+        "en": "Development"
+      },
+      "items": [
+        {
+          "es": "Python (intermedio)",
+          "en": "Python (intermediate)"
+        },
+        "JavaScript",
+        "TypeScript",
+        "Node.js",
+        "NestJS",
+        "React",
+        "Laravel",
+        "Angular",
+        "PHP",
+        "Java",
+        "Flask",
+        "APIs REST",
+        {
+          "es": "Microservicios",
+          "en": "Microservices"
+        },
+        "WebSockets"
+      ]
+    },
+    {
+      "id": "oracle",
+      "label": {
+        "es": "Oracle y datos",
+        "en": "Oracle and data"
+      },
+      "items": [
+        {
+          "es": "Oracle (administración y migraciones)",
+          "en": "Oracle (administration and migrations)"
+        },
+        "PL/SQL",
+        "Oracle Forms & Reports",
+        "SQL Server",
+        "PostgreSQL",
+        "MySQL",
+        "Supabase",
+        "Data Warehouse / Data Mart",
+        "ETL",
+        "Power BI",
+        "Azure Data Lake / PySpark"
+      ]
+    },
+    {
+      "id": "cloud",
+      "label": {
+        "es": "Cloud e infraestructura",
+        "en": "Cloud and infrastructure"
+      },
+      "items": [
+        "AWS",
+        "Google Cloud",
+        "Docker",
+        "Git / GitHub (Issues & Projects)",
+        {
+          "es": "Arquitecturas serverless",
+          "en": "Serverless architectures"
+        },
+        "CI/CD",
+        {
+          "es": "IaC (monitoreo)",
+          "en": "IaC (monitoring)"
+        }
+      ]
+    },
+    {
+      "id": "agile",
+      "label": {
+        "es": "Gestión y agilidad",
+        "en": "Management and agile"
+      },
+      "items": [
+        "Scrum",
+        "Kanban",
+        "SAFe",
+        "Scrum of Scrums",
+        "Product Owner",
+        "ITIL 4",
+        "OKR",
+        "PMBOK",
+        "Jira",
+        "Azure DevOps",
+        "Notion",
+        "MS Project",
+        {
+          "es": "Gestión de riesgos",
+          "en": "Risk management"
+        }
+      ]
+    },
+    {
+      "id": "qa",
+      "label": {
+        "es": "Pruebas y calidad",
+        "en": "Testing and quality"
+      },
+      "items": [
+        {
+          "es": "Liderazgo de pruebas",
+          "en": "Test leadership"
+        },
+        {
+          "es": "Estrategia de pruebas",
+          "en": "Test strategy"
+        },
+        "UAT",
+        {
+          "es": "Auditorías WCAG/ADA",
+          "en": "WCAG/ADA audits"
+        },
+        {
+          "es": "Auditoría de sistemas",
+          "en": "Systems audit"
+        }
+      ]
+    }
+  ],
+  "languages": {
+    "es": "Español (nativo) · Inglés (B2–C1) · Portugués (intermedio) · Hebreo (lectura básica)",
+    "en": "Spanish (native) · English (B2–C1) · Portuguese (intermediate) · Hebrew (basic reading)"
+  },
+  "section_labels": {
+    "es": {
+      "summary": "PERFIL PROFESIONAL",
+      "skills": "COMPETENCIAS CLAVE",
+      "experience": "EXPERIENCIA PROFESIONAL",
+      "other": "OTRA EXPERIENCIA",
+      "teaching": "DOCENCIA",
+      "education": "EDUCACIÓN",
+      "certs": "CERTIFICACIONES",
+      "languages": "IDIOMAS",
+      "present": "Presente",
+      "web": "Portafolio",
+      "refs": "REFERENCIAS",
+      "refs_text": "Disponibles a solicitud."
+    },
+    "en": {
+      "summary": "PROFESSIONAL SUMMARY",
+      "skills": "CORE SKILLS",
+      "experience": "PROFESSIONAL EXPERIENCE",
+      "other": "OTHER EXPERIENCE",
+      "teaching": "TEACHING",
+      "education": "EDUCATION",
+      "certs": "CERTIFICATIONS",
+      "languages": "LANGUAGES",
+      "present": "Present",
+      "web": "Portfolio",
+      "refs": "REFERENCES",
+      "refs_text": "Available upon request."
+    }
+  }
+}
