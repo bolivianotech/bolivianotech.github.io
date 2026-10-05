@@ -38,7 +38,15 @@
             "data"
           ],
           "es": "Ha dictado Programación I a IV, Desarrollo de Software I y II, Ingeniería de Software I y II, Bases de Datos II, Sistemas de Información I y II, Inteligencia Artificial I, Inteligencia de Negocios, Auditoría de Sistemas y Sistemas Operativos II.",
-          "en": "Has taught Programming I-IV, Software Development I-II, Software Engineering I-II, Databases II, Information Systems I-II, Artificial Intelligence I, Business Intelligence, Systems Auditing and Operating Systems II."
+          "en": "Has taught Programming I-IV, Software Development I-II, Software Engineering I-II, Databases II, Information Systems I-II, Artificial Intelligence I, Business Intelligence, Systems Auditing and Operating Systems II.",
+          "pin": [
+            "general",
+            "ia-agentes",
+            "docente",
+            "desarrollo",
+            "soporte",
+            "qa-sdet"
+          ]
         },
         {
           "tags": [
@@ -46,7 +54,15 @@
             "dev"
           ],
           "es": "Actualmente dicta Diseño Web I, Tecnologías Web I y Tecnologías Web II, con enfoque en desarrollo de software asistido por IA.",
-          "en": "Currently teaches Web Design I and Web Technologies I and II, with a focus on AI-assisted software development."
+          "en": "Currently teaches Web Design I and Web Technologies I and II, with a focus on AI-assisted software development.",
+          "pin": [
+            "general",
+            "ia-agentes",
+            "docente",
+            "desarrollo",
+            "soporte",
+            "qa-sdet"
+          ]
         },
         {
           "tags": [
@@ -54,7 +70,13 @@
             "teach"
           ],
           "es": "Crea herramientas de IA para docentes y administrativos de la UPDS: Agente-Docente (genera maletas didácticas, ofrece un chat con un agente y mantiene una base de conocimiento) y un generador de exámenes de diagnóstico y evaluación para distintas materias.",
-          "en": "Builds AI tools for UPDS faculty and administrative staff: Agente-Docente (generates teaching kits, offers an agent chat and maintains a knowledge base) and an exam generator for diagnostic and assessment tests across courses."
+          "en": "Builds AI tools for UPDS faculty and administrative staff: Agente-Docente (generates teaching kits, offers an agent chat and maintains a knowledge base) and an exam generator for diagnostic and assessment tests across courses.",
+          "pin": [
+            "general",
+            "ia-agentes",
+            "docente",
+            "desarrollo"
+          ]
         },
         {
           "tags": [
@@ -62,7 +84,13 @@
             "teach"
           ],
           "es": "Co-crea el Diplomado de IA Aplicada a Entornos Empresariales de la UPDS, orientado a que el personal administrativo use Claude adecuadamente (módulos definidos; implementación en curso).",
-          "en": "Co-creates the UPDS Diploma in Applied AI in Business Environments, teaching administrative staff to use Claude effectively (modules defined; implementation under way)."
+          "en": "Co-creates the UPDS Diploma in Applied AI in Business Environments, teaching administrative staff to use Claude effectively (modules defined; implementation under way).",
+          "pin": [
+            "general",
+            "ia-agentes",
+            "docente",
+            "desarrollo"
+          ]
         },
         {
           "tags": [
@@ -71,7 +99,16 @@
             "cloud"
           ],
           "es": "Expositor del Congreso de IA y Tecnologías Digitales de la UPDS (mayo 2026): «Operadores que nunca duermen: agentes inteligentes para contingencia operativa autónoma», sobre agentes de IA para el monitoreo de infraestructura como código (IaC) en sistemas altamente escalables.",
-          "en": "Speaker at the UPDS AI and Digital Technologies Congress (May 2026): \"Operators that never sleep: intelligent agents for autonomous operational contingency\", on AI agents that monitor infrastructure as code (IaC) in highly scalable systems."
+          "en": "Speaker at the UPDS AI and Digital Technologies Congress (May 2026): \"Operators that never sleep: intelligent agents for autonomous operational contingency\", on AI agents that monitor infrastructure as code (IaC) in highly scalable systems.",
+          "pin": [
+            "general",
+            "ia-agentes",
+            "docente",
+            "gerente-it",
+            "desarrollo",
+            "soporte",
+            "qa-sdet"
+          ]
         },
         {
           "tags": [

@@ -42,12 +42,17 @@ def tr(value, lang):
 def select_bullets(job, profile):
     limit = profile["max_bullets"].get(job["id"], profile["max_bullets"]["default"])
     prio = profile["priority_tags"]
+    pid = profile["_id"]
+    # Viñetas "fijas" (campo pin = lista de perfiles): siempre se incluyen, aunque superen el límite
+    pinned = {i for i, b in enumerate(job["bullets"]) if pid in b.get("pin", [])}
     scored = []
     for idx, b in enumerate(job["bullets"]):
+        if idx in pinned:
+            continue
         score = sum(len(prio) - prio.index(t) for t in b["tags"] if t in prio)
-        scored.append((-score, idx, b))
-    chosen = sorted(scored)[:limit]
-    return [b for _, _, b in sorted(chosen, key=lambda x: x[1])]  # conserva orden original
+        scored.append((-score, idx))
+    chosen = pinned | {idx for _, idx in sorted(scored)[: max(limit - len(pinned), 0)]}
+    return [job["bullets"][i] for i in sorted(chosen)]  # conserva orden original
 
 
 def set_style(doc):
@@ -105,8 +110,8 @@ def para(doc, text="", bold=False, italic=False, size=None, align=None, space_af
 
 
 def build(profile_id, lang):
-    profile = PROFILES[profile_id]
-    lab = MASTER["section_labels"][lang]
+    profile = dict(PROFILES[profile_id], _id=profile_id)
+    lab =MASTER["section_labels"][lang]
     c = MASTER["contact"]
     doc = Document()
     s = doc.sections[0]
