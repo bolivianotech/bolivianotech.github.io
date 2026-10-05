@@ -34,13 +34,13 @@
       "default": 1,
       "upds": 4,
       "bolivianotech": 3,
-      "motoclick": 2,
+      "motoclick": 3,
       "inadvance": 2,
       "encora": 2,
       "consultor-oracle": 2,
       "huawei": 2,
-      "oktana": 2,
-      "digitalharbor": 2
+      "oktana": 1,
+      "digitalharbor": 1
     },
     "skill_order": [
       "ai",
@@ -83,7 +83,8 @@
       "upds": 4,
       "inadvance": 3,
       "oktana": 2,
-      "consultor-oracle": 1
+      "consultor-oracle": 1,
+      "motoclick": 3
     },
     "skill_order": [
       "ai",
@@ -214,7 +215,8 @@
       "inadvance": 3,
       "consultor-oracle": 4,
       "upds": 3,
-      "oktana": 2
+      "oktana": 2,
+      "motoclick": 3
     },
     "skill_order": [
       "dev",

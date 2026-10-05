@@ -204,7 +204,9 @@
         "agile",
         "mgmt",
         "qa",
-        "cloud"
+        "cloud",
+        "ai",
+        "dev"
       ],
       "bullets": [
         {
@@ -214,6 +216,14 @@
           ],
           "es": "Coaching ágil y coordinación de alcance, cronograma y avance entre dos líneas de producto: delivery en Bolivia y EE. UU. y hardware inteligente.",
           "en": "Agile coaching and coordination of scope, schedule and progress across two product lines: delivery in Bolivia and the US, and smart hardware."
+        },
+        {
+          "tags": [
+            "ai",
+            "dev"
+          ],
+          "es": "Experiencia con AI-DLC (ciclo de vida de desarrollo impulsado por IA): diseño e implementación de agentes de IA, integración con n8n y la API de WhatsApp, y códigos QR dinámicos para cobros en línea.",
+          "en": "AI-DLC (AI-Driven Development Life Cycle) experience: design and implementation of AI agents, integration with n8n and the WhatsApp API, and dynamic QR codes for online payments."
         },
         {
           "tags": [
@@ -579,7 +589,7 @@
         "es": "Programador PL/SQL, Oracle Forms y Reports",
         "en": "PL/SQL, Oracle Forms and Reports Programmer"
       },
-      "start": "2000",
+      "start": "12/2000",
       "end": "2002",
       "tags": [
         "oracle",
@@ -650,8 +660,8 @@
     },
     {
       "id": "mercantil",
-      "es": "Programador PL/SQL, Oracle Forms y Reports en Banco Mercantil Santa Cruz (2000 – 2002).",
-      "en": "PL/SQL, Oracle Forms and Reports programmer at Banco Mercantil Santa Cruz (2000 – 2002)."
+      "es": "Programador PL/SQL, Oracle Forms y Reports en Banco Mercantil Santa Cruz (12/2000 – 2002).",
+      "en": "PL/SQL, Oracle Forms and Reports programmer at Banco Mercantil Santa Cruz (12/2000 – 2002)."
     }
   ],
   "teaching_history": {
@@ -710,7 +720,13 @@
         {
           "es": "Desarrollo asistido por IA",
           "en": "AI-assisted development"
-        }
+        },
+        "WhatsApp API",
+        {
+          "es": "QR dinámicos para cobros en línea",
+          "en": "Dynamic QR codes for online payments"
+        },
+        "AI-DLC"
       ]
     },
     {
