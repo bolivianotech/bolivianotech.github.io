@@ -34,10 +34,11 @@
         {
           "tags": [
             "teach",
-            "dev"
+            "dev",
+            "data"
           ],
-          "es": "Ha dictado Programación I, II, III y IV, Desarrollo de Software I y II, Ingeniería de Software I y II, Bases de Datos II, Sistemas de Información I y II, Inteligencia Artificial I y Sistemas Operativos II.",
-          "en": "Has taught Programming I-IV, Software Development I-II, Software Engineering I-II, Databases II, Information Systems I-II, Artificial Intelligence I and Operating Systems II."
+          "es": "Ha dictado Programación I a IV, Desarrollo de Software I y II, Ingeniería de Software I y II, Bases de Datos II, Sistemas de Información I y II, Inteligencia Artificial I, Inteligencia de Negocios, Auditoría de Sistemas y Sistemas Operativos II.",
+          "en": "Has taught Programming I-IV, Software Development I-II, Software Engineering I-II, Databases II, Information Systems I-II, Artificial Intelligence I, Business Intelligence, Systems Auditing and Operating Systems II."
         },
         {
           "tags": [
@@ -77,8 +78,8 @@
             "ai",
             "teach"
           ],
-          "es": "Investigador en dos proyectos institucionales sobre IA en educación superior.",
-          "en": "Researcher on two institutional projects about AI in higher education."
+          "es": "Investigador en dos proyectos institucionales sobre IA en educación superior; coautor de un artículo sobre ética y autoría en rúbricas de evaluación.",
+          "en": "Researcher on two institutional projects about AI in higher education; co-author of an article on ethics and authorship in assessment rubrics."
         }
       ]
     },
@@ -87,8 +88,8 @@
       "org": "BolivianoTech",
       "place": "Santa Cruz, Bolivia",
       "role": {
-        "es": "Fundador y Líder Técnico (CEO)",
-        "en": "Founder and Technical Lead (CEO)"
+        "es": "Fundador y Líder Técnico (CEO) | QA/Automation Lead",
+        "en": "Founder and Technical Lead (CEO) | QA/Automation Lead"
       },
       "start": "01/2021",
       "end": {
@@ -99,7 +100,8 @@
         "ai",
         "dev",
         "mgmt",
-        "cloud"
+        "cloud",
+        "qa"
       ],
       "bullets": [
         {
@@ -134,19 +136,70 @@
           ],
           "es": "Consultoría de transformación digital cloud-first para clientes de Bolivia y EE. UU.: auditorías de accesibilidad WCAG/ADA, software a medida, integraciones de API y espacios de trabajo en Notion.",
           "en": "Cloud-first digital transformation consulting for clients in Bolivia and the US: WCAG/ADA accessibility audits, custom software, API integrations and Notion workspaces."
+        },
+        {
+          "tags": [
+            "qa",
+            "dev"
+          ],
+          "es": "Diseña y ejecuta pruebas automatizadas de APIs y UI (Postman/Newman) con patrones BDD y Page Object Model para los 7 productos de su portafolio.",
+          "en": "Designs and runs automated API and UI tests (Postman/Newman) using BDD and Page Object Model patterns across the 7 products in its portfolio."
+        },
+        {
+          "tags": [
+            "qa",
+            "data"
+          ],
+          "es": "Valida el backend con SQL/JDBC sobre MySQL y PostgreSQL, verificando integridad de datos y reglas de negocio antes de cada release.",
+          "en": "Validates the backend with SQL/JDBC on MySQL and PostgreSQL, checking data integrity and business rules before every release."
+        },
+        {
+          "tags": [
+            "qa",
+            "cloud"
+          ],
+          "es": "Incorpora controles de calidad en CI/CD con GitHub Actions sobre los flujos de automatización en n8n y gestiona backlog y defectos en GitHub Issues y Projects.",
+          "en": "Adds quality gates to CI/CD with GitHub Actions around n8n automation flows and manages backlog and defects in GitHub Issues and Projects."
+        }
+      ]
+    },
+    {
+      "id": "usbsw",
+      "org": "US-BSW, con IAdáptate Bolivia",
+      "place": "Santa Cruz, Bolivia",
+      "role": {
+        "es": "Coordinador del Proyecto",
+        "en": "Project Coordinator"
+      },
+      "start": "2026",
+      "end": {
+        "es": "Presente",
+        "en": "Present"
+      },
+      "tags": [
+        "mgmt",
+        "agile"
+      ],
+      "bullets": [
+        {
+          "tags": [
+            "mgmt"
+          ],
+          "es": "Coordinación diaria, control de cronogramas y documentación de la propuesta presentada al Departamento de Estado de EE. UU. (monitoreo hidrográfico del Canal Tamengo, con Platypus LLC).",
+          "en": "Daily coordination, schedule control and documentation of the proposal submitted to the US Department of State (hydrographic monitoring of the Tamengo Canal, with Platypus LLC)."
         }
       ]
     },
     {
       "id": "motoclick",
-      "org": "MotoClick App / Nexus Patio Tech",
-      "place": "Remoto",
+      "org": "NexusPatio Tech y MotoClick App",
+      "place": "Bolivia / EE. UU. (remoto)",
       "role": {
-        "es": "Senior Scaled Scrum Master",
-        "en": "Senior Scaled Scrum Master"
+        "es": "Senior Scaled Scrum Master | Consultor Coordinador",
+        "en": "Senior Scaled Scrum Master | Coordinating Consultant"
       },
       "start": "12/2025",
-      "end": "05/2026",
+      "end": "08/2026",
       "tags": [
         "agile",
         "mgmt",
@@ -159,8 +212,8 @@
             "agile",
             "mgmt"
           ],
-          "es": "Coaching ágil escalado a dos líneas de producto: delivery en EE. UU. y hardware inteligente.",
-          "en": "Scaled agile coaching for two product lines: US delivery and smart hardware."
+          "es": "Coaching ágil y coordinación de alcance, cronograma y avance entre dos líneas de producto: delivery en Bolivia y EE. UU. y hardware inteligente.",
+          "en": "Agile coaching and coordination of scope, schedule and progress across two product lines: delivery in Bolivia and the US, and smart hardware."
         },
         {
           "tags": [
@@ -178,8 +231,8 @@
       "org": "IN-ADVANCE (socio estratégico de DAMA)",
       "place": "Santa Cruz, Bolivia (remoto)",
       "role": {
-        "es": "Arquitecto de Software y Consultor de IA | Gobernanza de Datos",
-        "en": "Software Architect and AI Consultant | Data Governance"
+        "es": "Arquitecto de Software y Consultor de IA | Facilitador de Equipos Ágiles",
+        "en": "Software Architect and AI Consultant | Agile Team Facilitator"
       },
       "start": "02/2025",
       "end": "12/2025",
@@ -256,20 +309,56 @@
       ]
     },
     {
-      "id": "derco-oktana",
-      "org": "Derco (hoy Inchcape) y Oktana Corporation",
-      "place": "Remoto",
+      "id": "derco",
+      "org": "Derco (hoy Inchcape)",
+      "place": "Santiago, Chile (remoto)",
       "role": {
-        "es": "Product Owner | Business Analyst | Team Leader",
-        "en": "Product Owner | Business Analyst | Team Leader"
+        "es": "Product Owner | Business Analytics",
+        "en": "Product Owner | Business Analytics"
       },
-      "start": "2020",
-      "end": "2023",
+      "start": "01/2022",
+      "end": "05/2023",
       "tags": [
         "po",
         "agile",
+        "mgmt",
+        "data"
+      ],
+      "bullets": [
+        {
+          "tags": [
+            "po",
+            "mgmt"
+          ],
+          "es": "Product Owner de 12 campañas de fidelización en cuatro países: definió y priorizó KPIs e indicadores de gestión y los tradujo en un backlog accionable.",
+          "en": "Product Owner for 12 loyalty campaigns across four countries: defined and prioritized KPIs and management indicators and turned them into an actionable backlog."
+        },
+        {
+          "tags": [
+            "data",
+            "po"
+          ],
+          "es": "Diseñó dashboards comerciales y de marketing sobre Salesforce Marketing Cloud para el retail automotriz.",
+          "en": "Designed commercial and marketing dashboards on Salesforce Marketing Cloud for automotive retail."
+        }
+      ]
+    },
+    {
+      "id": "oktana",
+      "org": "Oktana Corporation",
+      "place": "Nueva York y San Francisco, EE. UU. (remoto)",
+      "role": {
+        "es": "Team Leader | Business Analyst",
+        "en": "Team Leader | Business Analyst"
+      },
+      "start": "12/2020",
+      "end": "12/2021",
+      "tags": [
         "ai",
-        "mgmt"
+        "po",
+        "dev",
+        "mgmt",
+        "qa"
       ],
       "bullets": [
         {
@@ -278,27 +367,76 @@
             "po",
             "dev"
           ],
-          "es": "Oktana: entregó un Contact Center con IA sobre Salesforce, integrando Google Dialogflow, para AT&T, cliente de Google que solicitó la implementación.",
-          "en": "Oktana: delivered an AI Contact Center on Salesforce, integrating Google Dialogflow, for AT&T, a Google client that requested the implementation."
+          "es": "Entregó un Contact Center con IA (API Dialogflow) sobre Salesforce para AT&T, cliente final de Google que solicitó la implementación.",
+          "en": "Delivered an AI Contact Center (Dialogflow API) on Salesforce for AT&T, the end client of Google that requested the implementation."
+        },
+        {
+          "tags": [
+            "mgmt",
+            "dev",
+            "agile"
+          ],
+          "es": "Lideró la colaboración entre equipos backend y frontend en proyectos Salesforce (Sales/Service Cloud) para Sony y Google.",
+          "en": "Led collaboration between backend and frontend teams on Salesforce (Sales/Service Cloud) projects for Sony and Google."
         },
         {
           "tags": [
             "po",
+            "mgmt"
+          ],
+          "es": "Coordinó la comunicación con el cliente, levantó requerimientos y documentó flujos e historias de usuario.",
+          "en": "Coordinated client communication, gathered requirements and documented flows and user stories."
+        },
+        {
+          "tags": [
+            "qa"
+          ],
+          "es": "Recibió capacitación en automatización de pruebas con Selenium y Cucumber (exposición, no rol principal).",
+          "en": "Trained in test automation with Selenium and Cucumber (exposure, not a primary role)."
+        }
+      ]
+    },
+    {
+      "id": "orbis",
+      "org": "Orbis Compliance LLC",
+      "place": "California, EE. UU.",
+      "role": {
+        "es": "Program Manager | Agile Coach",
+        "en": "Program Manager | Agile Coach"
+      },
+      "start": "05/2019",
+      "end": "09/2019",
+      "tags": [
+        "agile",
+        "mgmt",
+        "qa"
+      ],
+      "bullets": [
+        {
+          "tags": [
             "agile",
             "mgmt"
           ],
-          "es": "Derco: Product Owner de 12 campañas de fidelización en cuatro países con Salesforce Marketing Cloud; definió indicadores de gestión y analizó procesos de negocio.",
-          "en": "Derco: Product Owner for 12 loyalty campaigns across four countries on Salesforce Marketing Cloud; defined management KPIs and analyzed business processes."
+          "es": "Implementó Scrum y OKR y capacitó a más de cuatro equipos multidisciplinarios (abogados e ingenieros eléctricos, de sistemas e industriales).",
+          "en": "Implemented Scrum and OKRs and trained 4+ multidisciplinary teams (lawyers and electrical, systems and industrial engineers)."
+        },
+        {
+          "tags": [
+            "qa",
+            "mgmt"
+          ],
+          "es": "Coordinó pruebas de telefonía celular y de eficiencia energética y la preparación de evidencias para certificación ante TÜV Rheinland.",
+          "en": "Coordinated cell phone and energy-efficiency testing and the preparation of evidence for TÜV Rheinland certification."
         }
       ]
     },
     {
       "id": "huawei",
-      "org": "Huawei Technologies",
+      "org": "Huawei Technologies (cuenta MIC G-KAD)",
       "place": "Santa Cruz, Bolivia",
       "role": {
-        "es": "Project Manager | Solution Manager | Test Leader",
-        "en": "Project Manager | Solution Manager | Test Leader"
+        "es": "Test Leader | Solution Manager | Project Manager",
+        "en": "Test Leader | Solution Manager | Project Manager"
       },
       "start": "02/2015",
       "end": "03/2017",
@@ -307,7 +445,8 @@
         "mgmt",
         "agile",
         "support",
-        "data"
+        "data",
+        "oracle"
       ],
       "bullets": [
         {
@@ -315,25 +454,43 @@
             "qa",
             "mgmt"
           ],
-          "es": "Test Lead de la Fase 1 del BSS (CBS 5.0 prepago) para TIGO Bolivia: estrategia de pruebas, análisis de procesos y coordinación técnica entre el BSS de Huawei y la red core, con equipos multidisciplinarios.",
-          "en": "Test Lead for Phase 1 of the BSS (CBS 5.0 prepaid) for TIGO Bolivia: test strategy, process analysis and technical coordination between Huawei BSS and the core network, with multidisciplinary teams."
+          "es": "Como Test Leader, diseñó y documentó la estrategia de pruebas de integración y actualización (upgrade/patch) del Core Banking/Billing System (CBS), Fase 1, validando la integración entre el BSS de Huawei y la red core de TIGO Bolivia.",
+          "en": "As Test Leader, designed and documented the integration and upgrade/patch test strategy for the Core Banking/Billing System (CBS), Phase 1, validating the integration between the Huawei BSS and the TIGO Bolivia core network."
+        },
+        {
+          "tags": [
+            "qa",
+            "mgmt"
+          ],
+          "es": "Coordinó equipos multidisciplinarios de prueba y desarrollo y dio seguimiento a defectos, cronogramas, recursos y riesgos hasta el cierre de cada ciclo.",
+          "en": "Coordinated multidisciplinary test and development teams and tracked defects, schedules, resources and risks to the close of each cycle."
+        },
+        {
+          "tags": [
+            "qa",
+            "oracle",
+            "data"
+          ],
+          "es": "Verificó integridad de datos y reglas de negocio con consultas SQL sobre Oracle, validando cargas y migraciones de la actualización.",
+          "en": "Verified data integrity and business rules with SQL queries on Oracle, validating loads and migrations for the upgrade."
         }
       ]
     },
     {
       "id": "digitalharbor",
       "org": "Digital Harbor",
-      "place": "",
+      "place": "Cochabamba, Bolivia",
       "role": {
-        "es": "Scrum Master | Líder de Proyecto",
-        "en": "Scrum Master | Project Lead"
+        "es": "Project Manager | Scrum of Scrums",
+        "en": "Project Manager | Scrum of Scrums"
       },
-      "start": "",
-      "end": "",
+      "start": "02/2017",
+      "end": "12/2017",
       "tags": [
         "agile",
         "mgmt",
-        "po"
+        "po",
+        "qa"
       ],
       "bullets": [
         {
@@ -341,28 +498,35 @@
             "agile",
             "mgmt"
           ],
-          "es": "Scrum of Scrums para los portales médicos de California y Maryland, con múltiples equipos coordinados.",
-          "en": "Scrum of Scrums for the California and Maryland medical portals, coordinating multiple teams."
+          "es": "Coordinó múltiples equipos (QA, desarrollo, soporte y administración) de un portal de afiliación de profesionales médicos de California y Maryland bajo Scrum of Scrums, con reportes ejecutivos de métricas, riesgos e hitos.",
+          "en": "Coordinated multiple teams (QA, development, support and administration) on a California and Maryland medical-professional enrollment portal under Scrum of Scrums, with executive reporting on metrics, risks and milestones."
         },
         {
           "tags": [
             "mgmt",
             "po"
           ],
-          "es": "Definió un roadmap para Digital Harbor que consolidó el reporte al día de todos los proyectos, tanto de PAVE como del Core.",
-          "en": "Defined a roadmap for Digital Harbor that consolidated up-to-date reporting for all projects, both PAVE and Core."
+          "es": "Definió un roadmap que consolidó el reporte al día de todos los proyectos, tanto de PAVE como del Core.",
+          "en": "Defined a roadmap that consolidated up-to-date reporting for all projects, both PAVE and Core."
+        },
+        {
+          "tags": [
+            "qa"
+          ],
+          "es": "Tuvo exposición a prácticas de QA y automatización de pruebas de los equipos (su rol principal fue Scrum of Scrums).",
+          "en": "Gained exposure to the teams' QA and test automation practices (his main role was Scrum of Scrums)."
         }
       ]
     },
     {
-      "id": "oracle",
-      "org": "Banco Mercantil Santa Cruz · Intersoft · Fortaleza Seguros · RUAT · Zurich–La Boliviana Ciacruz",
-      "place": "Bolivia",
+      "id": "consultor-oracle",
+      "org": "Intersoft · Iteam · Advantech (consultoría)",
+      "place": "La Paz y Santa Cruz, Bolivia",
       "role": {
-        "es": "Desarrollador PL/SQL, Administrador y Migrador Oracle, Arquitecto de Software",
-        "en": "PL/SQL Developer, Oracle Administrator and Migration Engineer, Software Architect"
+        "es": "Consultor Oracle: Desarrollador PL/SQL, Administrador y Migrador de Bases de Datos, Arquitecto de Software",
+        "en": "Oracle Consultant: PL/SQL Developer, Database Administrator and Migration Engineer, Software Architect"
       },
-      "start": "2000",
+      "start": "2006",
       "end": "2012",
       "tags": [
         "oracle",
@@ -371,14 +535,6 @@
         "support"
       ],
       "bullets": [
-        {
-          "tags": [
-            "oracle",
-            "dev"
-          ],
-          "es": "Banco Mercantil Santa Cruz: ingresó como programador y desarrolló en PL/SQL, Oracle Forms y Reports.",
-          "en": "Banco Mercantil Santa Cruz: joined as a programmer and developed in PL/SQL, Oracle Forms and Reports."
-        },
         {
           "tags": [
             "oracle",
@@ -402,19 +558,105 @@
             "oracle",
             "dev"
           ],
-          "es": "Desarrollador senior Java y Oracle Forms & Reports (Fortaleza Seguros); ingeniero de software Oracle Forms & Reports (RUAT); arquitecto de software en Visual Studio (Zurich–La Boliviana Ciacruz); integraciones bancarias.",
-          "en": "Senior Java and Oracle Forms & Reports developer (Fortaleza Seguros); Oracle Forms & Reports software engineer (RUAT); Visual Studio software architect (Zurich–La Boliviana Ciacruz); banking integrations."
+          "es": "Desarrollo Oracle Forms y Reports (RUAT; Fortaleza Insurance, junto con Java) y analista funcional del ERP Oracle E-Business Suite (Poultry Farm Sofía).",
+          "en": "Oracle Forms and Reports development (RUAT; Fortaleza Insurance, along with Java) and functional analyst for the Oracle E-Business Suite ERP (Poultry Farm Sofía)."
+        },
+        {
+          "tags": [
+            "dev",
+            "oracle"
+          ],
+          "es": "Arquitecto de software en Visual Studio (Zurich–La Boliviana Ciacruz); migraciones de bases de datos e interfaces bancarias.",
+          "en": "Software architect on Visual Studio (Zurich–La Boliviana Ciacruz); database migrations and banking interfaces."
+        }
+      ]
+    },
+    {
+      "id": "mercantil",
+      "org": "Banco Mercantil Santa Cruz",
+      "place": "Bolivia",
+      "role": {
+        "es": "Programador PL/SQL, Oracle Forms y Reports",
+        "en": "PL/SQL, Oracle Forms and Reports Programmer"
+      },
+      "start": "2000",
+      "end": "2002",
+      "tags": [
+        "oracle",
+        "dev"
+      ],
+      "bullets": [
+        {
+          "tags": [
+            "oracle",
+            "dev"
+          ],
+          "es": "Ingresó como programador y desarrolló en PL/SQL, Oracle Forms y Reports.",
+          "en": "Joined as a programmer and developed in PL/SQL, Oracle Forms and Reports."
+        }
+      ]
+    },
+    {
+      "id": "entel",
+      "org": "ENTEL (TI Telecom Italy)",
+      "place": "Santa Cruz, Bolivia",
+      "role": {
+        "es": "Project Manager del Portal eCommerce | TMOS PM | Analista de Facturación, Pagos y Auditoría",
+        "en": "eCommerce Portal Project Manager | TMOS PM | Billing, Payment and Audit Analyst"
+      },
+      "start": "01/2000",
+      "end": "12/2005",
+      "tags": [
+        "mgmt",
+        "data",
+        "qa"
+      ],
+      "bullets": [
+        {
+          "tags": [
+            "mgmt"
+          ],
+          "es": "Lideró el proyecto de eCommerce de un centro comercial virtual y automatizó controles de calidad de la facturación de Internet.",
+          "en": "Led the eCommerce project of a virtual shopping mall and automated quality controls for Internet billing."
         }
       ]
     }
   ],
-  "other_experience": {
-    "es": "BI Analyst y soporte de Data Warehouse en TIGO/Millicom; Prepaid Billing Specialist en Viva Nuevatel; Project Manager del eCommerce de ENTEL; PM del sistema de gestión documental de Con4T–Talento Humano Corp.",
-    "en": "BI Analyst and Data Warehouse support at TIGO/Millicom; Prepaid Billing Specialist at Viva Nuevatel; Project Manager of the ENTEL eCommerce platform; PM of the Con4T–Talento Humano Corp. document management system."
-  },
+  "other_experience": [
+    {
+      "id": "viva",
+      "es": "IT VAS Prepaid Billing Specialist en Viva Nuevatel, Cochabamba (08/2017 – 12/2018): facturación de servicios de valor agregado y dashboard de indicadores de las aplicaciones SMS y VIVA App.",
+      "en": "IT VAS Prepaid Billing Specialist at Viva Nuevatel, Cochabamba (08/2017 – 12/2018): value-added services billing and KPI dashboard for the SMS and VIVA App applications."
+    },
+    {
+      "id": "tigo",
+      "es": "BI Analyst y soporte de Data Warehouse en TIGO/Millicom Bolivia (05/2013 – 02/2015): Data Mart corporativo con SQL/PL-SQL sobre Oracle y SQL Server; lanzamiento de la app TIGO Sports y de un dashboard de Marketing Digital.",
+      "en": "BI Analyst and Data Warehouse support at TIGO/Millicom Bolivia (05/2013 – 02/2015): corporate Data Mart with SQL/PL-SQL on Oracle and SQL Server; launch of the TIGO Sports app and a Digital Marketing dashboard."
+    },
+    {
+      "id": "con4t",
+      "es": "PM del sistema de gestión documental de Con4T–Talento Humano Corp.",
+      "en": "PM of the Con4T–Talento Humano Corp. document management system."
+    },
+    {
+      "id": "orbis",
+      "es": "Program Manager y Agile Coach en Orbis Compliance LLC, California (05/2019 – 09/2019): implementó Scrum y OKR en más de cuatro equipos y coordinó pruebas para certificación TÜV Rheinland.",
+      "en": "Program Manager and Agile Coach at Orbis Compliance LLC, California (05/2019 – 09/2019): implemented Scrum and OKRs across 4+ teams and coordinated testing for TÜV Rheinland certification."
+    },
+    {
+      "id": "entel",
+      "es": "Project Manager del eCommerce y analista de facturación, pagos y auditoría en ENTEL (01/2000 – 12/2005).",
+      "en": "eCommerce Project Manager and billing, payment and audit analyst at ENTEL (01/2000 – 12/2005)."
+    },
+    {
+      "id": "mercantil",
+      "es": "Programador PL/SQL, Oracle Forms y Reports en Banco Mercantil Santa Cruz (2000 – 2002).",
+      "en": "PL/SQL, Oracle Forms and Reports programmer at Banco Mercantil Santa Cruz (2000 – 2002)."
+    }
+  ],
   "teaching_history": {
-    "es": "Docencia universitaria y técnica desde 1995: instructor de algoritmos en la institución Ayudantes de la Universidad y docente en la Escuela Naval Militar, en paralelo a la Licenciatura en Ingeniería de Sistemas en la UCB; hoy docente en la UPDS.",
-    "en": "University and technical teaching since 1995: algorithms instructor at the institution Ayudantes de la Universidad and lecturer at the Naval Military School, while completing the Systems Engineering degree at UCB; today a lecturer at UPDS."
+    "es": "Docencia universitaria y técnica desde 1995: instructor de algoritmos en la institución Ayudantes de la Universidad y docente en la Escuela Naval Militar, en paralelo a la Licenciatura en Ingeniería de Sistemas en la UCB. Docencia previa en UTEPSA y Universidad Cumbre (bases de datos, programación web); hoy docente en la UPDS.",
+    "en": "University and technical teaching since 1995: algorithms instructor at the institution Ayudantes de la Universidad and lecturer at the Naval Military School, while completing the Systems Engineering degree at UCB. Previous teaching at UTEPSA and Universidad Cumbre (databases, web programming); today a lecturer at UPDS."
   },
   "education": [
     {
@@ -426,8 +668,8 @@
       "en": "Diploma in Information Technologies (earned during the Master's) — Universidad Católica Boliviana \"San Pablo\""
     },
     {
-      "es": "Licenciatura en Ingeniería de Sistemas — Universidad Católica Boliviana «San Pablo», La Paz",
-      "en": "Bachelor's in Systems Engineering — Universidad Católica Boliviana \"San Pablo\", La Paz"
+      "es": "Licenciatura en Ingeniería de Sistemas — Universidad Católica Boliviana «San Pablo», La Paz  |  2003 – 2004",
+      "en": "Bachelor's in Systems Engineering — Universidad Católica Boliviana \"San Pablo\", La Paz  |  2003 – 2004"
     }
   ],
   "certifications": [
@@ -520,7 +762,10 @@
         "Data Warehouse / Data Mart",
         "ETL",
         "Power BI",
-        "Azure Data Lake / PySpark"
+        "Azure Data Lake / PySpark",
+        "Tableau",
+        "SSRS/SSAS/SSIS",
+        "Oracle E-Business Suite"
       ]
     },
     {
@@ -567,7 +812,15 @@
         {
           "es": "Gestión de riesgos",
           "en": "Risk management"
-        }
+        },
+        "ClickUp",
+        "Confluence",
+        "Microsoft 365",
+        "BPMN/Bizagi",
+        "Visio",
+        "UML",
+        "AS-IS/TO-BE",
+        "ISO 9001"
       ]
     },
     {
@@ -578,21 +831,43 @@
       },
       "items": [
         {
-          "es": "Liderazgo de pruebas",
-          "en": "Test leadership"
+          "es": "Pruebas automatizadas de APIs y UI (Postman, Newman, Hoppscotch, Axios)",
+          "en": "Automated API and UI testing (Postman, Newman, Hoppscotch, Axios)"
         },
         {
-          "es": "Estrategia de pruebas",
-          "en": "Test strategy"
+          "es": "Validación backend con SQL/JDBC (MySQL, Oracle, SQL Server)",
+          "en": "Backend validation with SQL/JDBC (MySQL, Oracle, SQL Server)"
         },
-        "UAT",
+        "BDD / Gherkin",
+        "Page Object Model",
+        "Singleton",
         {
-          "es": "Auditorías WCAG/ADA",
-          "en": "WCAG/ADA audits"
+          "es": "Selenium y Cucumber (capacitación, exposición)",
+          "en": "Selenium and Cucumber (training, exposure)"
         },
         {
-          "es": "Auditoría de sistemas",
-          "en": "Systems audit"
+          "es": "Pruebas de integración, regresión y upgrades/parches de sistemas core",
+          "en": "Integration, regression and core-system upgrade/patch testing"
+        },
+        {
+          "es": "CI/CD con GitHub Actions; Jenkins y Maven (conocimiento práctico)",
+          "en": "CI/CD with GitHub Actions; Jenkins and Maven (working knowledge)"
+        },
+        {
+          "es": "QA sobre AWS (S3, Lambda)",
+          "en": "QA on AWS (S3, Lambda)"
+        },
+        "Wireshark",
+        "Jira",
+        "TestLodge",
+        "Confluence",
+        {
+          "es": "Liderazgo y estrategia de pruebas",
+          "en": "Test leadership and strategy"
+        },
+        {
+          "es": "Auditorías WCAG/ADA y de sistemas",
+          "en": "WCAG/ADA and systems audits"
         }
       ]
     }

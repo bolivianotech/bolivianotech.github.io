@@ -15,10 +15,10 @@ Ingeniero de Sistemas con Maestría en Ingeniería Matemática e Informática (m
 Hoy:
 • Diseño y orquesto agentes de IA con Claude, OpenAI y Gemini integrados a bases de datos y sistemas de negocio (n8n, Python, Laravel, Angular, React).
 • Expositor del Congreso de IA y Tecnologías Digitales de la UPDS (mayo 2026) sobre agentes de IA para el monitoreo de IaC en sistemas altamente escalables.
-• Docente universitario (con más de 15 años de docencia): Diseño Web I, Tecnologías Web I y II; antes Programación I–IV, Desarrollo e Ingeniería de Software, Bases de Datos II, Sistemas de Información, Inteligencia Artificial I y Sistemas Operativos II.
+• Docente universitario (con más de 15 años de docencia): Diseño Web I, Tecnologías Web I y II; antes Programación I–IV, Desarrollo e Ingeniería de Software, Bases de Datos II, Sistemas de Información, Inteligencia Artificial I, Inteligencia de Negocios, Auditoría de Sistemas y Sistemas Operativos II.
 • Creo herramientas de IA para docentes y administrativos de la UPDS (Agente-Docente y un generador de exámenes) y co-creo el Diplomado de IA Administrativa.
 
-Antes: desarrollador y administrador Oracle/PL/SQL (Forms, Reports, migraciones Oracle 8i/9i), Test Lead del BSS CBS 5.0 de TIGO Bolivia, Scrum of Scrums para portales médicos de California y Maryland, y Product Owner/Scrum Master en banca digital, fidelización y un Contact Center con IA sobre Salesforce.
+Antes: desarrollador y administrador Oracle/PL/SQL (Forms, Reports, migraciones Oracle 8i/9i), Test Leader del CBS de TIGO Bolivia (Huawei), Scrum of Scrums para portales médicos de California y Maryland, y Product Owner/Scrum Master en banca digital, fidelización y un Contact Center con IA sobre Salesforce.
 
 Me interesa especialmente el desarrollo de software asistido por IA.
 
@@ -32,10 +32,10 @@ Systems Engineer with a Master's in Mathematical and Computer Engineering (speci
 Today:
 • I design and orchestrate AI agents with Claude, OpenAI and Gemini integrated with databases and business systems (n8n, Python, Laravel, Angular, React).
 • Speaker at the UPDS AI and Digital Technologies Congress (May 2026) on AI agents that monitor IaC in highly scalable systems.
-• University lecturer (15+ years of teaching): Web Design I and Web Technologies I and II; previously Programming I–IV, Software Development and Engineering, Databases II, Information Systems, Artificial Intelligence I and Operating Systems II.
+• University lecturer (15+ years of teaching): Web Design I and Web Technologies I and II; previously Programming I–IV, Software Development and Engineering, Databases II, Information Systems, Artificial Intelligence I, Business Intelligence, Systems Auditing and Operating Systems II.
 • I build AI tools for UPDS faculty and administrative staff (Agente-Docente and an exam generator) and co-create the Administrative AI Diploma.
 
-Before: Oracle/PL/SQL developer and administrator (Forms, Reports, Oracle 8i/9i migrations), Test Lead of the TIGO Bolivia CBS 5.0 BSS, Scrum of Scrums for California and Maryland medical portals, and Product Owner/Scrum Master in digital banking, loyalty and an AI Contact Center on Salesforce.
+Before: Oracle/PL/SQL developer and administrator (Forms, Reports, Oracle 8i/9i migrations), Test Leader of the TIGO Bolivia CBS (Huawei), Scrum of Scrums for California and Maryland medical portals, and Product Owner/Scrum Master in digital banking, loyalty and an AI Contact Center on Salesforce.
 
 I am especially interested in AI-assisted software development.
 
@@ -45,13 +45,19 @@ Portfolio and resume: https://bolivianotech.github.io
 ## Experiencia (una entrada por cargo; reutilizar las viñetas de `cv/data/master.json`)
 
 1. Docente de Ingeniería de Sistemas e Investigador — UPDS — 06/2025 – Presente
-2. Fundador y Líder Técnico (CEO) — BolivianoTech — 01/2021 – Presente
-3. Senior Scaled Scrum Master — MotoClick App / Nexus Patio Tech — 12/2025 – 05/2026
-4. Arquitecto de Software y Consultor de IA — IN-ADVANCE — 02/2025 – 12/2025
-5. Business Analyst | PM y Scrum Master — Encora — 06/2023 – 04/2024
-6. Product Owner | BA | Team Leader — Derco y Oktana — 2020 – 2023
-7. Project Manager | Solution Manager | Test Leader — Huawei Technologies — 02/2015 – 03/2017
-8. Desarrollador PL/SQL y Administrador Oracle — Banco Mercantil Santa Cruz, Intersoft y otros — 2000 – 2012
+2. Fundador y Líder Técnico (CEO) | QA/Automation Lead — BolivianoTech — 01/2021 – Presente
+3. Coordinador del Proyecto — US-BSW, con IAdáptate Bolivia — 2026 – Presente
+4. Senior Scaled Scrum Master | Consultor Coordinador — NexusPatio Tech y MotoClick App — 12/2025 – 08/2026
+5. Arquitecto de Software y Consultor de IA — IN-ADVANCE — 02/2025 – 12/2025
+6. Business Analyst | PM y Scrum Master — Encora — 06/2023 – 04/2024
+7. Product Owner | Business Analytics — Derco (hoy Inchcape) — 01/2022 – 05/2023
+8. Team Leader | Business Analyst — Oktana Corporation — 12/2020 – 12/2021
+9. Program Manager | Agile Coach — Orbis Compliance LLC — 05/2019 – 09/2019
+10. Project Manager | Scrum of Scrums — Digital Harbor — 02/2017 – 12/2017 (por confirmar)
+11. Test Leader | Solution Manager | Project Manager — Huawei Technologies — 02/2015 – 03/2017
+12. Consultor Oracle (Intersoft, Iteam, Advantech) — 2006 – 2012
+13. Programador PL/SQL, Oracle Forms y Reports — Banco Mercantil Santa Cruz — 2000 – 2002
+14. Project Manager eCommerce | Analista de facturación — ENTEL — 01/2000 – 12/2005
 
 ## Aptitudes (las 50 que LinkedIn permite; prioridad)
 

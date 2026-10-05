@@ -112,7 +112,7 @@ def build(profile_id, lang):
     s = doc.sections[0]
     s.page_width, s.page_height = Inches(8.5), Inches(11)  # carta/letter
     s.left_margin = s.right_margin = Inches(0.8)
-    s.top_margin = s.bottom_margin = Inches(0.7)
+    s.top_margin = s.bottom_margin = Inches(0.55)
     set_style(doc)
     doc.core_properties.title = f"CV {MASTER['name']}"
     doc.core_properties.author = MASTER["name"]
@@ -162,8 +162,12 @@ def build(profile_id, lang):
         for b in select_bullets(j, profile):
             doc.add_paragraph(tr(b, lang), style="List Bullet")
 
-    heading(doc, lab["other"])
-    para(doc, MASTER["other_experience"][lang])
+    # "Otra experiencia": omite lo que el perfil ya detalla arriba
+    extra = [o for o in MASTER["other_experience"] if o["id"] not in profile["experience_order"]]
+    if extra:
+        heading(doc, lab["other"])
+        for o in extra:
+            doc.add_paragraph(o[lang], style="List Bullet")
 
     if profile.get("teaching_section"):
         heading(doc, lab["teaching"])
