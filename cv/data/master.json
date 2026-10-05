@@ -61,8 +61,8 @@
             "ai",
             "teach"
           ],
-          "es": "Co-crea el Diplomado de IA Administrativa de la UPDS, orientado al uso adecuado de Claude por el personal administrativo (módulos definidos; implementación en curso).",
-          "en": "Co-creates the UPDS Administrative AI Diploma, teaching administrative staff to use Claude effectively (modules defined; implementation under way)."
+          "es": "Co-crea el Diplomado de IA Aplicada a Entornos Empresariales de la UPDS, orientado a que el personal administrativo use Claude adecuadamente (módulos definidos; implementación en curso).",
+          "en": "Co-creates the UPDS Diploma in Applied AI in Business Environments, teaching administrative staff to use Claude effectively (modules defined; implementation under way)."
         },
         {
           "tags": [
@@ -520,13 +520,13 @@
     },
     {
       "id": "consultor-oracle",
-      "org": "Intersoft · Iteam · Advantech (consultoría)",
+      "org": "Intersoft · Iteäm · Advantech (consultoría)",
       "place": "La Paz y Santa Cruz, Bolivia",
       "role": {
         "es": "Consultor Oracle: Desarrollador PL/SQL, Administrador y Migrador de Bases de Datos, Arquitecto de Software",
         "en": "Oracle Consultant: PL/SQL Developer, Database Administrator and Migration Engineer, Software Architect"
       },
-      "start": "2006",
+      "start": "2002",
       "end": "2012",
       "tags": [
         "oracle",
@@ -625,8 +625,8 @@
   "other_experience": [
     {
       "id": "viva",
-      "es": "IT VAS Prepaid Billing Specialist en Viva Nuevatel, Cochabamba (08/2017 – 12/2018): facturación de servicios de valor agregado y dashboard de indicadores de las aplicaciones SMS y VIVA App.",
-      "en": "IT VAS Prepaid Billing Specialist at Viva Nuevatel, Cochabamba (08/2017 – 12/2018): value-added services billing and KPI dashboard for the SMS and VIVA App applications."
+      "es": "IT VAS Prepaid Billing Specialist en Viva Nuevatel, Cochabamba (2018): facturación de servicios de valor agregado y dashboard de indicadores de las aplicaciones SMS y VIVA App.",
+      "en": "IT VAS Prepaid Billing Specialist at Viva Nuevatel, Cochabamba (2018): value-added services billing and KPI dashboard for the SMS and VIVA App applications."
     },
     {
       "id": "tigo",
