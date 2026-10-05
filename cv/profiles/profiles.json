@@ -1,86 +1,317 @@
 {
   "general": {
-    "headline": {"es": "Ingeniero de Sistemas | Agentes de IA, Desarrollo de Software, Oracle/PL-SQL y Liderazgo Ágil", "en": "Systems Engineer | AI Agents, Software Development, Oracle/PL-SQL and Agile Leadership"},
+    "headline": {
+      "es": "Ingeniero de Sistemas | Agentes de IA, Desarrollo de Software, Oracle/PL-SQL y Liderazgo Ágil",
+      "en": "Systems Engineer | AI Agents, Software Development, Oracle/PL-SQL and Agile Leadership"
+    },
     "summary": {
       "es": "Ingeniero de Sistemas con Maestría en Ingeniería Matemática e Informática (mención en Sistemas Flexibles Inteligentes) y más de 25 años de experiencia en desarrollo de software, Oracle/PL/SQL, liderazgo ágil y, desde 2023, agentes de IA. Scrum Master escalado y Product Owner de equipos multidisciplinarios en Bolivia, EE. UU., Chile y México. Docente universitario con más de 15 años de docencia: hoy crea herramientas de IA para docentes y administrativos de la UPDS y co-crea su Diplomado de IA. Expositor sobre agentes de IA para el monitoreo de IaC en sistemas altamente escalables.",
       "en": "Systems Engineer with a Master's in Mathematical and Computer Engineering (specialization in Intelligent Flexible Systems) and 25+ years of experience in software development, Oracle/PL/SQL, agile leadership and, since 2023, AI agents. Scaled Scrum Master and Product Owner of multidisciplinary teams in Bolivia, the US, Chile and Mexico. University lecturer with 15+ years of teaching: now builds AI tools for UPDS faculty and administrative staff and co-creates its AI Diploma. Speaker on AI agents that monitor IaC in highly scalable systems."
     },
-    "priority_tags": ["ai", "dev", "oracle", "agile", "po", "teach"],
-    "experience_order": ["upds", "bolivianotech", "motoclick", "inadvance", "encora", "derco-oktana", "huawei", "digitalharbor", "oracle"],
-    "max_bullets": {"default": 3, "upds": 5, "bolivianotech": 3, "oracle": 4},
-    "skill_order": ["ai", "dev", "oracle", "cloud", "agile"],
+    "priority_tags": [
+      "ai",
+      "dev",
+      "oracle",
+      "agile",
+      "po",
+      "teach"
+    ],
+    "experience_order": [
+      "upds",
+      "bolivianotech",
+      "usbsw",
+      "motoclick",
+      "inadvance",
+      "encora",
+      "derco",
+      "oktana",
+      "huawei",
+      "digitalharbor",
+      "consultor-oracle",
+      "mercantil"
+    ],
+    "max_bullets": {
+      "default": 1,
+      "upds": 4,
+      "bolivianotech": 3,
+      "motoclick": 3,
+      "inadvance": 2,
+      "encora": 2,
+      "consultor-oracle": 2,
+      "huawei": 2,
+      "oktana": 1,
+      "digitalharbor": 1
+    },
+    "skill_order": [
+      "ai",
+      "dev",
+      "oracle",
+      "cloud",
+      "agile"
+    ],
     "teaching_section": true
   },
   "ia-agentes": {
-    "headline": {"es": "Ingeniero de Sistemas | Especialista en Agentes de IA, Automatización y Arquitectura de Software", "en": "Systems Engineer | AI Agents, Automation and Software Architecture Specialist"},
+    "headline": {
+      "es": "Ingeniero de Sistemas | Especialista en Agentes de IA, Automatización y Arquitectura de Software",
+      "en": "Systems Engineer | AI Agents, Automation and Software Architecture Specialist"
+    },
     "summary": {
       "es": "Ingeniero de Sistemas con Maestría en Sistemas Flexibles Inteligentes y más de 25 años construyendo software. Desde 2023 diseña y orquesta agentes de IA (percepción, planificación, uso de herramientas y memoria) con Claude, OpenAI y Gemini, integrados con APIs, bases de datos y sistemas empresariales mediante n8n, Python y desarrollo a medida, en un portafolio de más de 7 productos. Expositor sobre agentes de IA para el monitoreo de IaC en sistemas altamente escalables; crea herramientas de IA para docentes y administrativos de la UPDS. Combina análisis de procesos, Oracle/PL/SQL y liderazgo ágil para llevar agentes a producción con seguridad y gobernanza.",
       "en": "Systems Engineer with a Master's in Intelligent Flexible Systems and 25+ years building software. Since 2023 designs and orchestrates AI agents (perception, planning, tool use and memory) with Claude, OpenAI and Gemini, integrated with APIs, databases and enterprise systems through n8n, Python and custom development, across 7+ products. Speaker on AI agents that monitor IaC in highly scalable systems; builds AI tools for UPDS faculty and staff. Combines process analysis, Oracle/PL/SQL and agile leadership to take agents to production with security and governance."
     },
-    "priority_tags": ["ai", "cloud", "dev", "data"],
-    "experience_order": ["bolivianotech", "upds", "inadvance", "derco-oktana", "motoclick", "encora", "huawei", "oracle", "digitalharbor"],
-    "max_bullets": {"default": 2, "bolivianotech": 4, "upds": 4, "inadvance": 3, "oracle": 2},
-    "skill_order": ["ai", "dev", "cloud", "oracle", "agile"],
+    "priority_tags": [
+      "ai",
+      "cloud",
+      "dev",
+      "data"
+    ],
+    "experience_order": [
+      "bolivianotech",
+      "upds",
+      "inadvance",
+      "oktana",
+      "motoclick",
+      "encora",
+      "derco",
+      "huawei",
+      "consultor-oracle"
+    ],
+    "max_bullets": {
+      "default": 2,
+      "bolivianotech": 4,
+      "upds": 4,
+      "inadvance": 3,
+      "oktana": 2,
+      "consultor-oracle": 1,
+      "motoclick": 3
+    },
+    "skill_order": [
+      "ai",
+      "dev",
+      "cloud",
+      "oracle",
+      "agile"
+    ],
     "teaching_section": true
   },
   "docente": {
-    "headline": {"es": "Docente Universitario de Ingeniería de Sistemas | Software, Bases de Datos, Web e Inteligencia Artificial", "en": "University Lecturer in Systems Engineering | Software, Databases, Web and Artificial Intelligence"},
+    "headline": {
+      "es": "Docente Universitario de Ingeniería de Sistemas | Software, Bases de Datos, Web e Inteligencia Artificial",
+      "en": "University Lecturer in Systems Engineering | Software, Databases, Web and Artificial Intelligence"
+    },
     "summary": {
       "es": "Docente universitario de Ingeniería de Sistemas con más de 15 años de docencia, iniciada en 1995 como instructor de algoritmos y docente en la Escuela Naval Militar. Ha dictado Programación I a IV, Desarrollo e Ingeniería de Software, Bases de Datos, Sistemas de Información, Inteligencia Artificial y Sistemas Operativos; hoy dicta Diseño Web y Tecnologías Web en la UPDS. Combina más de 25 años de práctica profesional (Oracle/PL/SQL, Scrum, producto) con investigación en IA en educación superior, herramientas de IA para docentes y el diseño de un diplomado de IA para personal administrativo. Interés central: desarrollo de software asistido por IA.",
       "en": "University lecturer in Systems Engineering with 15+ years of teaching, which began in 1995 as an algorithms instructor and lecturer at the Naval Military School. Has taught Programming I-IV, Software Development and Engineering, Databases, Information Systems, Artificial Intelligence and Operating Systems; now teaches Web Design and Web Technologies at UPDS. Brings 25+ years of professional practice (Oracle/PL/SQL, Scrum, product) together with research on AI in higher education, AI tools for faculty and the design of an AI diploma for administrative staff. Core interest: AI-assisted software development."
     },
-    "priority_tags": ["teach", "ai", "dev", "data"],
-    "experience_order": ["upds", "bolivianotech", "inadvance", "oracle", "encora", "derco-oktana", "huawei", "motoclick", "digitalharbor"],
-    "max_bullets": {"default": 1, "upds": 6, "bolivianotech": 2, "oracle": 2},
-    "skill_order": ["dev", "ai", "oracle", "agile", "cloud"],
+    "priority_tags": [
+      "teach",
+      "ai",
+      "dev",
+      "data"
+    ],
+    "experience_order": [
+      "upds",
+      "bolivianotech",
+      "inadvance",
+      "consultor-oracle",
+      "mercantil",
+      "encora",
+      "derco",
+      "oktana",
+      "huawei"
+    ],
+    "max_bullets": {
+      "default": 1,
+      "upds": 6,
+      "bolivianotech": 2,
+      "consultor-oracle": 2
+    },
+    "skill_order": [
+      "dev",
+      "ai",
+      "oracle",
+      "agile",
+      "cloud"
+    ],
     "teaching_section": true
   },
   "gerente-it": {
-    "headline": {"es": "Gerente de Proyectos y Producto de TI | Liderazgo Ágil Escalado, Transformación Digital e IA", "en": "IT Project and Product Manager | Scaled Agile Leadership, Digital Transformation and AI"},
-    "summary": {
-      "es": "Líder de TI con más de 25 años de experiencia dirigiendo proyectos y equipos multidisciplinarios en telecomunicaciones, banca, salud, e-commerce y educación, en Bolivia, EE. UU., Chile y México. Scrum Master escalado, Product Owner y Test Lead: cuatro proyectos simultáneos de banca digital, el BSS Fase 1 del CBS 5.0 prepago de TIGO y Scrum of Scrums para portales médicos de California y Maryland. Base técnica sólida en Oracle/PL/SQL, arquitectura cloud y agentes de IA; fundador de BolivianoTech y docente universitario. Certificado en Scrum, Agile Coach, AI Project Management y AI Risk Management.",
-      "en": "IT leader with 25+ years leading projects and multidisciplinary teams in telecom, banking, healthcare, e-commerce and education across Bolivia, the US, Chile and Mexico. Scaled Scrum Master, Product Owner and Test Lead: four simultaneous digital banking projects, Phase 1 of the TIGO CBS 5.0 prepaid BSS, and Scrum of Scrums for California and Maryland medical portals. Strong technical foundation in Oracle/PL/SQL, cloud architecture and AI agents; founder of BolivianoTech and university lecturer. Certified in Scrum, Agile Coach, AI Project Management and AI Risk Management."
+    "headline": {
+      "es": "Gerente de Proyectos y Producto de TI | Liderazgo Ágil Escalado, Transformación Digital e IA",
+      "en": "IT Project and Product Manager | Scaled Agile Leadership, Digital Transformation and AI"
     },
-    "priority_tags": ["mgmt", "agile", "po", "qa"],
-    "experience_order": ["motoclick", "bolivianotech", "inadvance", "encora", "derco-oktana", "huawei", "digitalharbor", "upds", "oracle"],
-    "max_bullets": {"default": 3, "upds": 2, "oracle": 2},
-    "skill_order": ["agile", "cloud", "ai", "oracle", "dev"],
+    "summary": {
+      "es": "Líder de TI con más de 25 años de experiencia dirigiendo proyectos y equipos multidisciplinarios en telecomunicaciones, banca, salud, e-commerce y educación, en Bolivia, EE. UU., Chile y México. Scrum Master escalado, Product Owner y Test Lead: cuatro proyectos simultáneos de banca digital, la Fase 1 del BSS (CBS) de TIGO y Scrum of Scrums para portales médicos de California y Maryland. Base técnica sólida en Oracle/PL/SQL, arquitectura cloud y agentes de IA; fundador de BolivianoTech y docente universitario. Certificado en Scrum, Agile Coach, AI Project Management y AI Risk Management.",
+      "en": "IT leader with 25+ years leading projects and multidisciplinary teams in telecom, banking, healthcare, e-commerce and education across Bolivia, the US, Chile and Mexico. Scaled Scrum Master, Product Owner and Test Lead: four simultaneous digital banking projects, Phase 1 of the TIGO BSS (CBS), and Scrum of Scrums for California and Maryland medical portals. Strong technical foundation in Oracle/PL/SQL, cloud architecture and AI agents; founder of BolivianoTech and university lecturer. Certified in Scrum, Agile Coach, AI Project Management and AI Risk Management."
+    },
+    "priority_tags": [
+      "mgmt",
+      "agile",
+      "po",
+      "qa"
+    ],
+    "experience_order": [
+      "motoclick",
+      "usbsw",
+      "bolivianotech",
+      "inadvance",
+      "encora",
+      "derco",
+      "oktana",
+      "orbis",
+      "huawei",
+      "digitalharbor",
+      "upds",
+      "consultor-oracle"
+    ],
+    "max_bullets": {
+      "default": 2,
+      "upds": 2,
+      "consultor-oracle": 1,
+      "huawei": 2,
+      "digitalharbor": 2
+    },
+    "skill_order": [
+      "agile",
+      "cloud",
+      "ai",
+      "oracle",
+      "dev"
+    ],
     "teaching_section": false
   },
   "desarrollo": {
-    "headline": {"es": "Ingeniero de Software | Desarrollo Full-Stack, Oracle/PL-SQL, Arquitectura Cloud y Desarrollo Asistido por IA", "en": "Software Engineer | Full-Stack Development, Oracle/PL-SQL, Cloud Architecture and AI-Assisted Development"},
+    "headline": {
+      "es": "Ingeniero de Software | Desarrollo Full-Stack, Oracle/PL-SQL, Arquitectura Cloud y Desarrollo Asistido por IA",
+      "en": "Software Engineer | Full-Stack Development, Oracle/PL-SQL, Cloud Architecture and AI-Assisted Development"
+    },
     "summary": {
       "es": "Ingeniero de Software con más de 25 años de experiencia, desde Oracle Forms, Reports y PL/SQL hasta arquitecturas serverless y agentes de IA. Desarrolla aplicaciones full-stack con Laravel, Angular, React, Node.js y NestJS, bases de datos Oracle, PostgreSQL, MySQL y Supabase, con Docker y Git/GitHub. Aplica desarrollo asistido por IA (Claude Code, Gemini, Codex) para reducir 60% el tiempo de prototipo a producción. Arquitecto del ERP OMNIA y CRM de CorreSur; migró y fusionó bases de datos Oracle para entidades públicas y asociaciones bancarias. Docente de Programación, Desarrollo de Software y Tecnologías Web.",
       "en": "Software Engineer with 25+ years of experience, from Oracle Forms, Reports and PL/SQL to serverless architectures and AI agents. Builds full-stack applications with Laravel, Angular, React, Node.js and NestJS, on Oracle, PostgreSQL, MySQL and Supabase, using Docker and Git/GitHub. Applies AI-assisted development (Claude Code, Gemini, Codex) to cut prototype-to-production time by 60%. Architect of the OMNIA ERP and CorreSur CRM; migrated and merged Oracle databases for public entities and banking associations. Lecturer in Programming, Software Development and Web Technologies."
     },
-    "priority_tags": ["dev", "oracle", "cloud", "ai", "data"],
-    "experience_order": ["bolivianotech", "inadvance", "upds", "motoclick", "derco-oktana", "oracle", "encora", "huawei", "digitalharbor"],
-    "max_bullets": {"default": 2, "bolivianotech": 4, "inadvance": 3, "oracle": 4, "upds": 3},
-    "skill_order": ["dev", "oracle", "cloud", "ai", "agile"],
+    "priority_tags": [
+      "dev",
+      "oracle",
+      "cloud",
+      "ai",
+      "data"
+    ],
+    "experience_order": [
+      "bolivianotech",
+      "inadvance",
+      "upds",
+      "motoclick",
+      "oktana",
+      "consultor-oracle",
+      "mercantil",
+      "derco",
+      "encora",
+      "huawei"
+    ],
+    "max_bullets": {
+      "default": 2,
+      "bolivianotech": 4,
+      "inadvance": 3,
+      "consultor-oracle": 4,
+      "upds": 3,
+      "oktana": 2,
+      "motoclick": 3
+    },
+    "skill_order": [
+      "dev",
+      "oracle",
+      "cloud",
+      "ai",
+      "agile"
+    ],
     "teaching_section": true
   },
   "soporte": {
-    "headline": {"es": "Ingeniero de Soporte y Operaciones de TI | Oracle, Bases de Datos, ITIL 4 y Automatización con IA", "en": "IT Support and Operations Engineer | Oracle, Databases, ITIL 4 and AI Automation"},
+    "headline": {
+      "es": "Ingeniero de Soporte y Operaciones de TI | Oracle, Bases de Datos, ITIL 4 y Automatización con IA",
+      "en": "IT Support and Operations Engineer | Oracle, Databases, ITIL 4 and AI Automation"
+    },
     "summary": {
       "es": "Ingeniero de Sistemas con más de 25 años de experiencia en operación y soporte de plataformas críticas: administración y migración de bases de datos Oracle (incluida la fusión de Oracle 8i y 9i), soporte de Data Warehouse, facturación prepago y optimización de consultas MySQL en AWS (40% menos de latencia p95). Conoce ITIL 4, análisis de procesos y pruebas, y automatiza la atención y los flujos operativos con agentes de IA y n8n. Comunica con claridad con usuarios técnicos y de negocio; docente universitario de Bases de Datos y Sistemas Operativos.",
       "en": "Systems Engineer with 25+ years of experience operating and supporting critical platforms: Oracle database administration and migration (including merging Oracle 8i and 9i), Data Warehouse support, prepaid billing and MySQL query optimization on AWS (40% lower p95 latency). Knows ITIL 4, process analysis and testing, and automates support and operational flows with AI agents and n8n. Communicates clearly with technical and business users; university lecturer in Databases and Operating Systems."
     },
-    "priority_tags": ["support", "oracle", "data", "cloud", "qa"],
-    "experience_order": ["oracle", "motoclick", "huawei", "bolivianotech", "inadvance", "encora", "upds", "derco-oktana", "digitalharbor"],
-    "max_bullets": {"default": 2, "oracle": 4, "bolivianotech": 3},
-    "skill_order": ["oracle", "cloud", "ai", "agile", "dev"],
+    "priority_tags": [
+      "support",
+      "oracle",
+      "data",
+      "cloud",
+      "qa"
+    ],
+    "experience_order": [
+      "consultor-oracle",
+      "mercantil",
+      "motoclick",
+      "huawei",
+      "bolivianotech",
+      "inadvance",
+      "encora",
+      "upds",
+      "oktana"
+    ],
+    "max_bullets": {
+      "default": 2,
+      "consultor-oracle": 4,
+      "bolivianotech": 3,
+      "huawei": 3
+    },
+    "skill_order": [
+      "oracle",
+      "cloud",
+      "ai",
+      "agile",
+      "dev"
+    ],
     "teaching_section": false
   },
   "qa-sdet": {
-    "headline": {"es": "Líder de Calidad y Pruebas de Software | Test Lead, Estrategia de Pruebas y Automatización con IA", "en": "Software Quality and Test Lead | Test Strategy and AI-Driven Automation"},
-    "summary": {
-      "es": "Ingeniero de Sistemas con más de 25 años de experiencia, incluida la función de Test Lead en la Fase 1 del BSS (CBS 5.0 prepago) de TIGO Bolivia, donde definió la estrategia de pruebas y coordinó equipos multidisciplinarios. Trabaja con equipos ágiles que incluyen QA, con ceremonias completas y trazabilidad en Jira y GitHub. Programa en Python, JavaScript/TypeScript y Java, y usa agentes de IA para automatizar flujos de trabajo. Realiza auditorías de accesibilidad WCAG/ADA y de sistemas; docente de Ingeniería de Software.",
-      "en": "Systems Engineer with 25+ years of experience, including the Test Lead role on Phase 1 of the TIGO Bolivia BSS (CBS 5.0 prepaid), where defined the test strategy and coordinated multidisciplinary teams. Works with agile teams that include QA, with full ceremonies and traceability in Jira and GitHub. Codes in Python, JavaScript/TypeScript and Java, and uses AI agents to automate workflows. Performs WCAG/ADA accessibility and systems audits; Software Engineering lecturer."
+    "headline": {
+      "es": "Ingeniero de Sistemas | Test Leader | QA/SDET: Validación de APIs y Backend | CSPO",
+      "en": "Systems Engineer | Test Leader | QA/SDET: API and Backend Validation | CSPO"
     },
-    "priority_tags": ["qa", "dev", "agile", "cloud"],
-    "experience_order": ["huawei", "bolivianotech", "motoclick", "encora", "inadvance", "upds", "derco-oktana", "oracle", "digitalharbor"],
-    "max_bullets": {"default": 2, "huawei": 2, "bolivianotech": 3},
-    "skill_order": ["qa", "dev", "cloud", "ai", "agile"],
+    "summary": {
+      "es": "Ingeniero de Sistemas con Maestría en Ingeniería Matemática e Informática (Sistemas Flexibles Inteligentes) y más de 10 años de experiencia en aseguramiento de calidad, testing funcional y automatización, como líder de pruebas en sistemas críticos de telecomunicaciones, banca, seguros, retail y productos propios. Como Test Leader en Huawei Technologies diseñó y documentó la estrategia de pruebas de integración y actualización (upgrade/patch) del Core Banking/Billing System (CBS) de TIGO Bolivia. Diseña y ejecuta pruebas automatizadas de APIs y UI (Postman/Newman) con patrones BDD y valida backend con SQL/JDBC sobre MySQL, Oracle y SQL Server. Usuario avanzado de Jira, GitHub Issues, TestLodge, Notion y Confluence. Complementa su perfil con una trayectoria como Scrum Master, Product Owner y Business Analyst, y como docente universitario de Ingeniería de Software.",
+      "en": "Systems Engineer with a Master's in Mathematical and Computer Engineering (Intelligent Flexible Systems) and 10+ years of experience in quality assurance, functional testing and automation, as a test lead on critical systems in telecom, banking, insurance, retail and in-house products. As Test Leader at Huawei Technologies, designed and documented the integration and upgrade/patch test strategy for the TIGO Bolivia Core Banking/Billing System (CBS). Designs and runs automated API and UI tests (Postman/Newman) using BDD patterns and validates backends with SQL/JDBC on MySQL, Oracle and SQL Server. Advanced user of Jira, GitHub Issues, TestLodge, Notion and Confluence. Complements this with a background as Scrum Master, Product Owner and Business Analyst, and as a Software Engineering lecturer."
+    },
+    "priority_tags": [
+      "qa",
+      "dev",
+      "data",
+      "agile",
+      "cloud"
+    ],
+    "experience_order": [
+      "huawei",
+      "bolivianotech",
+      "oktana",
+      "digitalharbor",
+      "encora",
+      "motoclick",
+      "inadvance",
+      "orbis",
+      "upds",
+      "consultor-oracle"
+    ],
+    "max_bullets": {
+      "default": 2,
+      "huawei": 3,
+      "bolivianotech": 4,
+      "oktana": 3,
+      "digitalharbor": 3,
+      "orbis": 2
+    },
+    "skill_order": [
+      "qa",
+      "dev",
+      "cloud",
+      "ai",
+      "agile"
+    ],
     "teaching_section": false
   }
 }
