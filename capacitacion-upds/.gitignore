@@ -1,0 +1,8 @@
+# Material pesado: NUNCA se sube a GitHub (los videos van a YouTube o Drive)
+capturas-originales/
+videos-locales/
+*.mp4
+*.mkv
+*.mov
+*.avi
+Thumbs.db
