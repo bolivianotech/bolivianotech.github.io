@@ -65,6 +65,6 @@ AI Agents · Claude · Prompt Engineering · n8n · Oracle Database · PL/SQL ·
 
 ## Otros proyectos y roles (sin fechas documentadas; agregar en la descripción de cada empresa o en Proyectos)
 
-- Coordinador del proyecto Axcel X — Seguros y Reaseguros Fortaleza S.A. (hoy un banco consolidado)
+- Coordinador del proyecto Axcel X — Seguros y Reaseguros Fortaleza S.A. (2008 – 2009; hoy un banco consolidado)
 - Responsable nacional de Sistemas — Bellcos
 - Responsable regional de Sistemas — Emapa

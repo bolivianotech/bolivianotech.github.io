@@ -33,7 +33,7 @@
     "max_bullets": {
       "default": 1,
       "upds": 4,
-      "bolivianotech": 3,
+      "bolivianotech": 2,
       "motoclick": 3,
       "inadvance": 2,
       "encora": 2,
@@ -373,8 +373,7 @@
     "selected_projects": [
       "axcelx",
       "bellcos",
-      "emapa",
-      "viva"
+      "emapa"
     ],
     "max_bullets": {
       "default": 1,
