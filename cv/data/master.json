@@ -143,11 +143,29 @@
       "bullets": [
         {
           "tags": [
+            "mgmt",
+            "ai"
+          ],
+          "es": "Dirige una consultoría de agilidad, transformación digital e inteligencia artificial, y la línea Aigentic (agentes de IA para pequeños negocios); planifica, coordina y entrega proyectos de software a medida, automatización e integración de sistemas para clientes de Bolivia y EE. UU.",
+          "en": "Runs a consultancy in agility, digital transformation and artificial intelligence, and the Aigentic line (AI agents for small businesses); plans, coordinates and delivers custom software, automation and systems-integration projects for clients in Bolivia and the US.",
+          "pin": [
+            "pmo",
+            "scrum-master",
+            "po-ba"
+          ]
+        },
+        {
+          "tags": [
             "ai",
             "dev"
           ],
           "es": "Diseña y orquesta agentes de IA (percepción, planificación, uso de herramientas y memoria) con Anthropic Claude, OpenAI y Gemini, integrados con bases de datos, pasarelas de pago/QR, CRMs y sistemas de negocio, en un portafolio de más de 7 productos propios.",
-          "en": "Designs and orchestrates AI agents (perception, planning, tool use and memory) with Anthropic Claude, OpenAI and Gemini, integrated with databases, payment/QR gateways, CRMs and business systems, across a portfolio of 7+ in-house products."
+          "en": "Designs and orchestrates AI agents (perception, planning, tool use and memory) with Anthropic Claude, OpenAI and Gemini, integrated with databases, payment/QR gateways, CRMs and business systems, across a portfolio of 7+ in-house products.",
+          "pin": [
+            "pmo",
+            "scrum-master",
+            "po-ba"
+          ]
         },
         {
           "tags": [
@@ -252,7 +270,36 @@
             "mgmt"
           ],
           "es": "Coaching ágil y coordinación de alcance, cronograma y avance entre dos líneas de producto: delivery en Bolivia y EE. UU. y hardware inteligente.",
-          "en": "Agile coaching and coordination of scope, schedule and progress across two product lines: delivery in Bolivia and the US, and smart hardware."
+          "en": "Agile coaching and coordination of scope, schedule and progress across two product lines: delivery in Bolivia and the US, and smart hardware.",
+          "pin": [
+            "pmo",
+            "scrum-master"
+          ]
+        },
+        {
+          "tags": [
+            "agile",
+            "mgmt"
+          ],
+          "es": "Facilitó Scrum of Scrums, mapeó dependencias entre equipos y presentó la hoja de ruta a nivel ejecutivo.",
+          "en": "Facilitated Scrum of Scrums, mapped dependencies across teams and presented the roadmap at executive level.",
+          "pin": [
+            "pmo",
+            "scrum-master"
+          ]
+        },
+        {
+          "tags": [
+            "mgmt",
+            "agile",
+            "ai"
+          ],
+          "es": "Diseñó tableros de seguimiento, indicadores OKR y flujos de atención de tickets bajo ITIL 4; evaluó marcos de IA con RACI y escalas de madurez.",
+          "en": "Designed tracking boards, OKR indicators and ticket-handling flows under ITIL 4; assessed AI frameworks with RACI and maturity scales.",
+          "pin": [
+            "pmo",
+            "scrum-master"
+          ]
         },
         {
           "tags": [
@@ -341,8 +388,14 @@
             "po",
             "mgmt"
           ],
-          "es": "Lideró cuatro proyectos simultáneos de banca digital con equipos multidisciplinarios (frontend, backend, UI/UX, QA) bajo ceremonias ágiles completas: planning, refinement, review y retrospectiva.",
-          "en": "Led four simultaneous digital banking projects with multidisciplinary teams (frontend, backend, UI/UX, QA) running full agile ceremonies: planning, refinement, review and retrospective."
+          "es": "Project Manager y Scrum Master de proyectos de banca digital para la entidad financiera Caja Piura (actualización de su aplicación móvil, su sitio web y su backoffice): lideró cuatro proyectos simultáneos con equipos multidisciplinarios (frontend, backend, UI/UX, QA) bajo ceremonias ágiles completas.",
+          "en": "Project Manager and Scrum Master of digital banking projects for the financial institution Caja Piura (upgrade of its mobile app, website and backoffice): led four simultaneous projects with multidisciplinary teams (frontend, backend, UI/UX, QA) running full agile ceremonies.",
+          "pin": [
+            "pmo",
+            "scrum-master",
+            "po-ba",
+            "gerente-it"
+          ]
         },
         {
           "tags": [
@@ -351,7 +404,11 @@
             "support"
           ],
           "es": "Levantó y analizó requerimientos funcionales y técnicos, identificando oportunidades de mejora y automatización en los canales digitales de un cliente financiero.",
-          "en": "Gathered and analyzed functional and technical requirements, identifying improvement and automation opportunities in a financial client's digital channels."
+          "en": "Gathered and analyzed functional and technical requirements, identifying improvement and automation opportunities in a financial client's digital channels.",
+          "pin": [
+            "pmo",
+            "po-ba"
+          ]
         }
       ]
     },
@@ -377,8 +434,14 @@
             "po",
             "mgmt"
           ],
-          "es": "Product Owner de 12 campañas de fidelización en cuatro países: definió y priorizó KPIs e indicadores de gestión y los tradujo en un backlog accionable.",
-          "en": "Product Owner for 12 loyalty campaigns across four countries: defined and prioritized KPIs and management indicators and turned them into an actionable backlog."
+          "es": "Product Owner de iniciativas de lealtad en Marketing Digital: 12 campañas de fidelización en cuatro países; definió y priorizó KPIs e indicadores de gestión y los tradujo en un backlog accionable.",
+          "en": "Product Owner of loyalty initiatives in Digital Marketing: 12 loyalty campaigns across four countries; defined and prioritized KPIs and management indicators and turned them into an actionable backlog.",
+          "pin": [
+            "pmo",
+            "po-ba",
+            "scrum-master",
+            "gerente-it"
+          ]
         },
         {
           "tags": [
@@ -415,7 +478,24 @@
             "dev"
           ],
           "es": "Entregó un Contact Center con IA (API Dialogflow) sobre Salesforce para AT&T, cliente final de Google que solicitó la implementación.",
-          "en": "Delivered an AI Contact Center (Dialogflow API) on Salesforce for AT&T, the end client of Google that requested the implementation."
+          "en": "Delivered an AI Contact Center (Dialogflow API) on Salesforce for AT&T, the end client of Google that requested the implementation.",
+          "pin": [
+            "pmo",
+            "po-ba"
+          ]
+        },
+        {
+          "tags": [
+            "po",
+            "dev",
+            "mgmt"
+          ],
+          "es": "Lideró el equipo de desarrollo y el análisis de negocio de una solución mobile first para la venta de bicicletas profesionales (Mike Micucci, San Francisco) y de la evaluación de hospitales en EE. UU. para NORC, de la Universidad de Chicago.",
+          "en": "Led the development team and business analysis for a mobile-first solution for selling professional bicycles (Mike Micucci, San Francisco) and for the evaluation of hospitals in the US for NORC, at the University of Chicago.",
+          "pin": [
+            "pmo",
+            "po-ba"
+          ]
         },
         {
           "tags": [
@@ -482,14 +562,15 @@
       "org": "Huawei Technologies (cuenta MIC G-KAD)",
       "place": "Santa Cruz, Bolivia",
       "role": {
-        "es": "Test Leader | Solution Manager | Project Manager",
-        "en": "Test Leader | Solution Manager | Project Manager"
+        "es": "Sales Solutions Manager y PMO | Project Manager | Test Leader",
+        "en": "Sales Solutions Manager and PMO | Project Manager | Test Leader"
       },
       "start": "02/2015",
       "end": "03/2017",
       "tags": [
-        "qa",
+        "pmo",
         "mgmt",
+        "qa",
         "agile",
         "support",
         "data",
@@ -498,28 +579,64 @@
       "bullets": [
         {
           "tags": [
-            "qa",
+            "pmo",
             "mgmt"
+          ],
+          "es": "Se incorporó como Sales Solutions Manager y PMO, con la implementación de iSales.",
+          "en": "Joined as Sales Solutions Manager and PMO, with the implementation of iSales.",
+          "pin": [
+            "pmo",
+            "gerente-it"
+          ]
+        },
+        {
+          "tags": [
+            "pmo",
+            "mgmt",
+            "agile"
+          ],
+          "es": "Gestionó proyectos de telecomunicaciones y seguridad: sistema de CCTV para la gestión de seguridad ciudadana de Cochabamba, modernización de la red 2G a 3G de la Cooperativa de Teléfonos Santa Cruz (COTAS), IP School, logística de antenas para Millicom y seguimiento y despliegue (rollout) de una antena móvil para el Rally Dakar en Bolivia.",
+          "en": "Managed telecom and security projects: a CCTV system for Cochabamba's citizen security management, the 2G-to-3G network modernization for Cooperativa de Teléfonos Santa Cruz (COTAS), IP School, antenna logistics for Millicom, and tracking and rollout of a mobile antenna for the Dakar Rally in Bolivia.",
+          "pin": [
+            "pmo",
+            "gerente-it",
+            "scrum-master"
+          ]
+        },
+        {
+          "tags": [
+            "qa",
+            "mgmt",
+            "agile"
           ],
           "es": "Como Test Leader, diseñó y documentó la estrategia de pruebas de integración y actualización (upgrade/patch) del Core Banking/Billing System (CBS), Fase 1, validando la integración entre el BSS de Huawei y la red core de TIGO Bolivia.",
-          "en": "As Test Leader, designed and documented the integration and upgrade/patch test strategy for the Core Banking/Billing System (CBS), Phase 1, validating the integration between the Huawei BSS and the TIGO Bolivia core network."
+          "en": "As Test Leader, designed and documented the integration and upgrade/patch test strategy for the Core Banking/Billing System (CBS), Phase 1, validating the integration between Huawei's BSS and TIGO Bolivia's core network.",
+          "pin": [
+            "pmo",
+            "qa-sdet"
+          ]
         },
         {
           "tags": [
             "qa",
-            "mgmt"
+            "mgmt",
+            "agile"
           ],
           "es": "Coordinó equipos multidisciplinarios de prueba y desarrollo y dio seguimiento a defectos, cronogramas, recursos y riesgos hasta el cierre de cada ciclo.",
-          "en": "Coordinated multidisciplinary test and development teams and tracked defects, schedules, resources and risks to the close of each cycle."
+          "en": "Coordinated multidisciplinary test and development teams and tracked defects, schedules, resources and risks through the close of each cycle.",
+          "pin": [
+            "pmo",
+            "scrum-master"
+          ]
         },
         {
           "tags": [
-            "qa",
+            "data",
             "oracle",
-            "data"
+            "qa"
           ],
           "es": "Verificó integridad de datos y reglas de negocio con consultas SQL sobre Oracle, validando cargas y migraciones de la actualización.",
-          "en": "Verified data integrity and business rules with SQL queries on Oracle, validating loads and migrations for the upgrade."
+          "en": "Verified data integrity and business rules with SQL queries on Oracle, validating loads and migrations of the upgrade."
         }
       ]
     },
@@ -614,7 +731,10 @@
             "oracle"
           ],
           "es": "Arquitecto de software en Visual Studio (Zurich–La Boliviana Ciacruz); migraciones de bases de datos e interfaces bancarias.",
-          "en": "Software architect on Visual Studio (Zurich–La Boliviana Ciacruz); database migrations and banking interfaces."
+          "en": "Software architect on Visual Studio (Zurich–La Boliviana Ciacruz); database migrations and banking interfaces.",
+          "pin": [
+            "pmo"
+          ]
         }
       ]
     },
@@ -699,6 +819,21 @@
       "id": "mercantil",
       "es": "Programador PL/SQL, Oracle Forms y Reports en Banco Mercantil Santa Cruz (12/2000 – 2002).",
       "en": "PL/SQL, Oracle Forms and Reports programmer at Banco Mercantil Santa Cruz (12/2000 – 2002)."
+    },
+    {
+      "id": "axcelx",
+      "es": "Coordinador del proyecto Axcel X en Seguros y Reaseguros Fortaleza S.A. (hoy un banco consolidado).",
+      "en": "Coordinator of the Axcel X project at Seguros y Reaseguros Fortaleza S.A. (today a consolidated bank)."
+    },
+    {
+      "id": "bellcos",
+      "es": "Responsable nacional de Sistemas en Bellcos.",
+      "en": "National Head of Systems at Bellcos."
+    },
+    {
+      "id": "emapa",
+      "es": "Responsable regional de Sistemas en Emapa.",
+      "en": "Regional Head of Systems at Emapa."
     }
   ],
   "teaching_history": {
@@ -732,6 +867,40 @@
     "BPMN / Bizagi"
   ],
   "skills": [
+    {
+      "id": "pmo",
+      "label": {
+        "es": "Gobernanza y PMO",
+        "en": "Governance and PMO"
+      },
+      "items": [
+        {
+          "es": "Estructuración de PMO y gobernanza de proyectos",
+          "en": "PMO set-up and project governance"
+        },
+        {
+          "es": "Plan maestro de hitos, responsables y entregables",
+          "en": "Master plan of milestones, owners and deliverables"
+        },
+        {
+          "es": "Cronogramas, dependencias y gestión de riesgos",
+          "en": "Schedules, dependencies and risk management"
+        },
+        {
+          "es": "Alcance, requerimientos y control de cambios",
+          "en": "Scope, requirements and change control"
+        },
+        {
+          "es": "Indicadores y reportes ejecutivos",
+          "en": "KPIs and executive reporting"
+        },
+        "RACI",
+        "PMBOK",
+        "OKR",
+        "ITIL 4",
+        "ISO 9001"
+      ]
+    },
     {
       "id": "ai",
       "label": {
@@ -923,6 +1092,35 @@
           "en": "WCAG/ADA and systems audits"
         }
       ]
+    },
+    {
+      "id": "fin",
+      "label": {
+        "es": "Banca, sistemas y datos",
+        "en": "Banking, systems and data"
+      },
+      "items": [
+        {
+          "es": "Core de facturación y banca",
+          "en": "Core billing and banking systems"
+        },
+        {
+          "es": "Interfaces bancarias y pasarelas de pago",
+          "en": "Bank interfaces and payment gateways"
+        },
+        {
+          "es": "QR dinámicos para cobros",
+          "en": "Dynamic QR payments"
+        },
+        {
+          "es": "Oracle, PL/SQL, Forms y Reports",
+          "en": "Oracle, PL/SQL, Forms and Reports"
+        },
+        "PostgreSQL",
+        "SQL Server",
+        "Power BI",
+        "ETL"
+      ]
     }
   ],
   "languages": {
@@ -942,7 +1140,11 @@
       "present": "Presente",
       "web": "Portafolio",
       "refs": "REFERENCIAS",
-      "refs_text": "Disponibles a solicitud."
+      "refs_text": "Disponibles a solicitud.",
+      "contrib": "APORTES AL PROYECTO",
+      "projects": "OTROS PROYECTOS Y ROLES SELECCIONADOS",
+      "dates_note": "Periodos disponibles a solicitud.",
+      "parallel": "periodos en paralelo"
     },
     "en": {
       "summary": "PROFESSIONAL SUMMARY",
@@ -956,7 +1158,15 @@
       "present": "Present",
       "web": "Portfolio",
       "refs": "REFERENCES",
-      "refs_text": "Available upon request."
+      "refs_text": "Available upon request.",
+      "contrib": "CONTRIBUTION TO THE PROJECT",
+      "projects": "OTHER SELECTED PROJECTS AND ROLES",
+      "dates_note": "Dates available upon request.",
+      "parallel": "overlapping periods"
     }
+  },
+  "teaching_current": {
+    "es": "Docente universitario con más de 15 años de docencia e investigador en la UPDS (06/2025 – Presente). Crea herramientas de IA para docentes y administrativos y co-crea el Diplomado de IA Aplicada a Entornos Empresariales.",
+    "en": "University lecturer with 15+ years of teaching and researcher at UPDS (06/2025 – Present). Builds AI tools for faculty and administrative staff and co-creates the Diploma in Applied AI in Business Environments."
   }
 }
