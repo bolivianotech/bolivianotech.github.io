@@ -314,121 +314,6 @@
     ],
     "teaching_section": false
   },
-  "pmo": {
-    "headline": {
-      "es": "Ingeniero de Sistemas | PMO y Gestión de Proyectos | Banca y Servicios Financieros | Liderazgo Ágil e IA",
-      "en": "Systems Engineer | PMO and Project Management | Banking and Financial Services | Agile Leadership and AI"
-    },
-    "summary": {
-      "es": "Ingeniero de Sistemas con Maestría en Ingeniería Matemática e Informática (mención en Sistemas Flexibles Inteligentes) y más de 25 años de trayectoria en tecnología, desde 2000, con raíces en la banca (Banco Mercantil Santa Cruz). Ha ejercido como PMO, Project Manager, Program Manager, Scrum of Scrums, Scrum Master escalado y Product Owner en proyectos de banca digital, core de facturación, seguros, telecomunicaciones y salud, con equipos en Bolivia, EE. UU., Chile y México. Coordinó el proyecto Axcel X en Seguros y Reaseguros Fortaleza (hoy un banco consolidado) y lideró cuatro proyectos simultáneos de banca digital en Encora para Caja Piura. Estructura gobernanza, hitos, riesgos y reportes ejecutivos con PMBOK, Scrum, SAFe e ITIL 4, y aplica IA y automatización (agentes, n8n, AI-DLC) al seguimiento y a la reducción de trabajo manual.",
-      "en": "Systems Engineer with a Master's in Mathematical and Computer Engineering (specialization in Intelligent Flexible Systems) and 25+ years in technology, since 2000, with roots in banking (Banco Mercantil Santa Cruz). Has worked as PMO, Project Manager, Program Manager, Scrum of Scrums, Scaled Scrum Master and Product Owner in digital banking, core billing, insurance, telecom and healthcare, with teams in Bolivia, the US, Chile and Mexico. Coordinated the Axcel X project at Seguros y Reaseguros Fortaleza (today a consolidated bank) and led four simultaneous digital banking projects at Encora for Caja Piura. Structures governance, milestones, risks and executive reporting with PMBOK, Scrum, SAFe and ITIL 4, and applies AI and automation (agents, n8n, AI-DLC) to tracking and to cutting manual work."
-    },
-    "priority_tags": [
-      "pmo",
-      "mgmt",
-      "agile",
-      "po",
-      "data",
-      "ai"
-    ],
-    "groups": [
-      {
-        "title": {
-          "es": "Consultoría y proyectos por contrato (en paralelo, desde 2021)",
-          "en": "Consulting and contract projects (running in parallel, since 2021)"
-        },
-        "ids": [
-          "bolivianotech",
-          "usbsw",
-          "motoclick",
-          "inadvance"
-        ]
-      },
-      {
-        "title": {
-          "es": "Experiencia en empresas y proyectos de cliente",
-          "en": "Experience in companies and client projects"
-        },
-        "ids": [
-          "encora",
-          "derco",
-          "oktana",
-          "orbis",
-          "digitalharbor",
-          "huawei"
-        ]
-      },
-      {
-        "title": {
-          "es": "Trayectoria temprana en banca, seguros y telecomunicaciones (periodos en paralelo)",
-          "en": "Early career in banking, insurance and telecom (overlapping periods)"
-        },
-        "ids": [
-          "consultor-oracle",
-          "mercantil",
-          "entel"
-        ]
-      }
-    ],
-    "selected_projects": [
-      "axcelx",
-      "bellcos",
-      "emapa"
-    ],
-    "max_bullets": {
-      "default": 1,
-      "bolivianotech": 2,
-      "inadvance": 2,
-      "oktana": 2,
-      "orbis": 1,
-      "digitalharbor": 1,
-      "consultor-oracle": 1,
-      "huawei": 4,
-      "encora": 2,
-      "derco": 1
-    },
-    "skill_order": [
-      "pmo",
-      "agile",
-      "fin",
-      "ai"
-    ],
-    "teaching_section": "brief",
-    "contribution": {
-      "intro": {
-        "es": "Capacidades transferibles a la apertura de una entidad financiera (no son logros previos en una apertura bancaria):",
-        "en": "Capabilities transferable to opening a financial institution (not prior achievements in a bank opening):"
-      },
-      "items": [
-        {
-          "es": "Estructurar la PMO: gobernanza, matriz RACI, plan maestro de hitos y entregables, y cadencia de seguimiento y comités (Scrum of Scrums y reportes ejecutivos en Digital Harbor y MotoClick).",
-          "en": "Structuring the PMO: governance, RACI matrix, master plan of milestones and deliverables, and a cadence of follow-up and steering meetings (Scrum of Scrums and executive reporting at Digital Harbor and MotoClick)."
-        },
-        {
-          "es": "Coordinar al especialista líder, las áreas y los proveedores: dependencias, responsables, alcance y control de cambios entre negocio y tecnología.",
-          "en": "Coordinating the lead specialist, business areas and vendors: dependencies, owners, scope and change control between business and technology."
-        },
-        {
-          "es": "Dar visibilidad a la dirección: tableros, indicadores y reportes de avance, riesgos y decisiones pendientes.",
-          "en": "Giving leadership visibility: dashboards, indicators and progress, risk and pending-decision reports."
-        },
-        {
-          "es": "Comprender el dominio financiero: banca digital (Caja Piura), core de facturación (CBS de TIGO), seguros (Fortaleza) y sistemas bancarios (Banco Mercantil Santa Cruz).",
-          "en": "Understanding the financial domain: digital banking (Caja Piura), core billing (TIGO CBS), insurance (Fortaleza) and banking systems (Banco Mercantil Santa Cruz)."
-        },
-        {
-          "es": "Automatizar el seguimiento con IA y n8n para reducir trabajo manual y acelerar reportes.",
-          "en": "Automating follow-up with AI and n8n to cut manual work and speed up reporting."
-        }
-      ]
-    },
-    "skill_drop": [
-      "langchain",
-      "prompt engineering",
-      "hoppscotch"
-    ],
-    "show_refs": false
-  },
   "scrum-master": {
     "headline": {
       "es": "Scrum Master Escalado y Agile Lead | Scrum of Scrums, SAFe y OKR | Banca Digital e IA",
@@ -512,7 +397,8 @@
       "fin"
     ],
     "teaching_section": "brief",
-    "show_refs": false
+    "show_refs": false,
+    "certs_early": true
   },
   "po-ba": {
     "headline": {
@@ -585,7 +471,7 @@
       "motoclick": 2,
       "derco": 2,
       "encora": 2,
-      "oktana": 3,
+      "oktana": 2,
       "digitalharbor": 2,
       "orbis": 1,
       "huawei": 2,
@@ -598,6 +484,121 @@
       "ai"
     ],
     "teaching_section": "brief",
-    "show_refs": false
+    "show_refs": false,
+    "certs_early": true
+  },
+  "apm": {
+    "headline": {
+      "es": "Agile Project Manager (APM) | Gestión de Proyectos, Scrum of Scrums y Gobernanza | Banca, Seguros e IA",
+      "en": "Agile Project Manager (APM) | Project Management, Scrum of Scrums and Governance | Banking, Insurance and AI"
+    },
+    "summary": {
+      "es": "Agile Project Manager (APM) con Maestría en Ingeniería Matemática e Informática (mención en Sistemas Flexibles Inteligentes) y más de 25 años de trayectoria en tecnología, desde 2000, con raíces en la banca (Banco Mercantil Santa Cruz). PMO empírico: su criterio de gobernanza se formó en la práctica, como coordinador, Scrum Master, Product Owner, Business Analyst y Team Leader en proyectos de aseguradoras y bancos (entre ellos Fortaleza y Caja Piura), además de telecomunicaciones, con equipos en Bolivia, EE. UU., Chile y México. Coordinó el proyecto Axcel X (2008 – 2009) y lideró cuatro proyectos simultáneos de banca digital en Encora. Planifica hitos, riesgos y reportes ejecutivos con PMBOK, Scrum, SAFe e ITIL 4, y aplica IA y automatización (agentes, n8n, AI-DLC) al seguimiento y a la reducción de trabajo manual.",
+      "en": "Agile Project Manager (APM) with a Master's in Mathematical and Computer Engineering (specialization in Intelligent Flexible Systems) and 25+ years in technology, since 2000, with roots in banking (Banco Mercantil Santa Cruz). Empirical PMO: governance skills built in practice as coordinator, Scrum Master, Product Owner, Business Analyst and Team Leader on projects for insurers and banks (including Fortaleza and Caja Piura), plus telecom, with teams in Bolivia, the US, Chile and Mexico. Coordinated the Axcel X project (2008 – 2009) and led four simultaneous digital banking projects at Encora. Plans milestones, risks and executive reporting with PMBOK, Scrum, SAFe and ITIL 4, and applies AI and automation (agents, n8n, AI-DLC) to tracking and to cutting manual work."
+    },
+    "priority_tags": [
+      "pmo",
+      "mgmt",
+      "agile",
+      "po",
+      "data",
+      "ai"
+    ],
+    "groups": [
+      {
+        "title": {
+          "es": "Consultoría y proyectos por contrato (en paralelo, desde 2021)",
+          "en": "Consulting and contract projects (running in parallel, since 2021)"
+        },
+        "ids": [
+          "bolivianotech",
+          "usbsw",
+          "motoclick",
+          "inadvance"
+        ]
+      },
+      {
+        "title": {
+          "es": "Experiencia en empresas y proyectos de cliente",
+          "en": "Experience in companies and client projects"
+        },
+        "ids": [
+          "encora",
+          "derco",
+          "oktana",
+          "orbis",
+          "digitalharbor",
+          "huawei"
+        ]
+      },
+      {
+        "title": {
+          "es": "Trayectoria temprana en banca, seguros y telecomunicaciones (periodos en paralelo)",
+          "en": "Early career in banking, insurance and telecom (overlapping periods)"
+        },
+        "ids": [
+          "consultor-oracle",
+          "mercantil",
+          "entel"
+        ]
+      }
+    ],
+    "selected_projects": [
+      "axcelx",
+      "bellcos",
+      "emapa"
+    ],
+    "max_bullets": {
+      "default": 1,
+      "bolivianotech": 2,
+      "inadvance": 1,
+      "oktana": 2,
+      "orbis": 1,
+      "digitalharbor": 1,
+      "consultor-oracle": 1,
+      "huawei": 3,
+      "encora": 2,
+      "derco": 1
+    },
+    "skill_order": [
+      "pmo",
+      "agile",
+      "fin",
+      "ai"
+    ],
+    "teaching_section": "brief",
+    "contribution": {
+      "intro": {
+        "es": "Capacidades transferibles a la apertura de una entidad financiera (no son logros previos en una apertura bancaria):",
+        "en": "Capabilities transferable to opening a financial institution (not prior achievements in a bank opening):"
+      },
+      "items": [
+        {
+          "es": "Estructurar la PMO: gobernanza, matriz RACI, plan maestro de hitos y entregables, y cadencia de seguimiento y comités (Scrum of Scrums y reportes ejecutivos en Digital Harbor y MotoClick).",
+          "en": "Structuring the PMO: governance, RACI matrix, master plan of milestones and deliverables, and a cadence of follow-up and steering meetings (Scrum of Scrums and executive reporting at Digital Harbor and MotoClick)."
+        },
+        {
+          "es": "Coordinar al especialista líder, las áreas y los proveedores: dependencias, responsables, alcance y control de cambios entre negocio y tecnología.",
+          "en": "Coordinating the lead specialist, business areas and vendors: dependencies, owners, scope and change control between business and technology."
+        },
+        {
+          "es": "Dar visibilidad a la dirección: tableros, indicadores y reportes de avance, riesgos y decisiones pendientes.",
+          "en": "Giving leadership visibility: dashboards, indicators and progress, risk and pending-decision reports."
+        },
+        {
+          "es": "Comprender el dominio financiero: banca digital (Caja Piura), core de facturación (CBS de TIGO), seguros (Fortaleza) y sistemas bancarios (Banco Mercantil Santa Cruz).",
+          "en": "Understanding the financial domain: digital banking (Caja Piura), core billing (TIGO CBS), insurance (Fortaleza) and banking systems (Banco Mercantil Santa Cruz)."
+        }
+      ]
+    },
+    "skill_drop": [
+      "langchain",
+      "prompt engineering",
+      "hoppscotch",
+      "autogen",
+      "crewai"
+    ],
+    "show_refs": false,
+    "certs_early": true
   }
 }

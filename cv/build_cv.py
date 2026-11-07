@@ -122,6 +122,11 @@ def en_fix(text, lang):
     return text
 
 
+def certs_block(doc, lab, lang):
+    heading(doc, lab["certs"])
+    para(doc, "  ·  ".join(tr(c, lang) for c in MASTER["certifications"]))
+
+
 def job_block(doc, j, profile, lang):
     p = doc.add_paragraph()
     p.paragraph_format.space_before = Pt(4)
@@ -186,6 +191,9 @@ def build(profile_id, lang):
     if "qa" not in profile["skill_order"] and "qa" in profile["priority_tags"]:
         skill_line("qa")
 
+    if profile.get("certs_early"):
+        certs_block(doc, lab, lang)
+
     if "contribution" in profile:
         cb = profile["contribution"]
         heading(doc, lab["contrib"])
@@ -231,8 +239,8 @@ def build(profile_id, lang):
     for e in MASTER["education"]:
         doc.add_paragraph(tr(e, lang), style="List Bullet")
 
-    heading(doc, lab["certs"])
-    para(doc, "  ·  ".join(MASTER["certifications"]))
+    if not profile.get("certs_early"):
+        certs_block(doc, lab, lang)
 
     heading(doc, lab["languages"])
     para(doc, MASTER["languages"][lang])
@@ -271,7 +279,7 @@ def main(argv):
             out = to_pdf(f) if pdf else f
             print("OK", out)
     # Se publican en la pagina web: 'general' (nombres historicos) y las versiones por rol
-    published = {"general": "", "pmo": "PMO_", "scrum-master": "Scrum-Master_", "po-ba": "PO-BA_"}
+    published = {"general": "", "apm": "APM_", "scrum-master": "Scrum-Master_", "po-ba": "PO-BA_"}
     if pdf:
         for pid in pids:
             if pid in published:

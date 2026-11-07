@@ -4,9 +4,9 @@ Actualizado: 2026-11-07. Pegar manualmente en cada sección (LinkedIn requiere t
 
 ## Titular (máx. 220 caracteres)
 
-**ES:** Ingeniero de Sistemas | PMO y Gestión de Proyectos · Banca y Servicios Financieros · Scrum Master y Product Owner · Agentes de IA | Docente universitario (UPDS)
+**ES:** Agile Project Manager (APM) | Banca, Seguros y Servicios Financieros · Scrum Master y Product Owner · Agentes de IA | Docente universitario (UPDS)
 
-**EN:** Systems Engineer | PMO and Project Management · Banking and Financial Services · Scrum Master & Product Owner · AI Agents | University Lecturer (UPDS)
+**EN:** Agile Project Manager (APM) | Banking, Insurance and Financial Services · Scrum Master & Product Owner · AI Agents | University Lecturer (UPDS)
 
 ## Acerca de (ES)
 
@@ -68,3 +68,13 @@ AI Agents · Claude · Prompt Engineering · n8n · Oracle Database · PL/SQL ·
 - Coordinador del proyecto Axcel X — Seguros y Reaseguros Fortaleza S.A. (2008 – 2009; hoy un banco consolidado)
 - Responsable nacional de Sistemas — Bellcos
 - Responsable regional de Sistemas — Emapa
+
+## Certificaciones (orden sugerido)
+
+1. Certified Scrum Product Owner (CSPO) — Scrum Alliance
+2. Software Project Leader (SPLPC) — CertiProf
+3. Gestión de Proyectos
+4. AI Risk Management Professional Certification (AIRMPC) — CertiProf
+5. Design Sprint Certification (CPDSC) — CertiProf
+6. AI Project Management Specialist
+7. ACPC, SMPC, BDPC (CertiProf), CT-SM, Microsoft Power BI Data Analyst, BPMN/Bizagi
