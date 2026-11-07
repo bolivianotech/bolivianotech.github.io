@@ -149,7 +149,7 @@
           "es": "Dirige una consultoría de agilidad, transformación digital e inteligencia artificial, y la línea Aigentic (agentes de IA para pequeños negocios); planifica, coordina y entrega proyectos de software a medida, automatización e integración de sistemas para clientes de Bolivia y EE. UU.",
           "en": "Runs a consultancy in agility, digital transformation and artificial intelligence, and the Aigentic line (AI agents for small businesses); plans, coordinates and delivers custom software, automation and systems-integration projects for clients in Bolivia and the US.",
           "pin": [
-            "pmo",
+            "apm",
             "scrum-master",
             "po-ba"
           ]
@@ -162,7 +162,7 @@
           "es": "Diseña y orquesta agentes de IA (percepción, planificación, uso de herramientas y memoria) con Anthropic Claude, OpenAI y Gemini, integrados con bases de datos, pasarelas de pago/QR, CRMs y sistemas de negocio, en un portafolio de más de 7 productos propios.",
           "en": "Designs and orchestrates AI agents (perception, planning, tool use and memory) with Anthropic Claude, OpenAI and Gemini, integrated with databases, payment/QR gateways, CRMs and business systems, across a portfolio of 7+ in-house products.",
           "pin": [
-            "pmo",
+            "apm",
             "scrum-master",
             "po-ba"
           ]
@@ -272,7 +272,7 @@
           "es": "Coaching ágil y coordinación de alcance, cronograma y avance entre dos líneas de producto: delivery en Bolivia y EE. UU. y hardware inteligente.",
           "en": "Agile coaching and coordination of scope, schedule and progress across two product lines: delivery in Bolivia and the US, and smart hardware.",
           "pin": [
-            "pmo",
+            "apm",
             "scrum-master"
           ]
         },
@@ -284,7 +284,7 @@
           "es": "Facilitó Scrum of Scrums, mapeó dependencias entre equipos y presentó la hoja de ruta a nivel ejecutivo.",
           "en": "Facilitated Scrum of Scrums, mapped dependencies across teams and presented the roadmap at executive level.",
           "pin": [
-            "pmo",
+            "apm",
             "scrum-master"
           ]
         },
@@ -297,7 +297,7 @@
           "es": "Diseñó tableros de seguimiento, indicadores OKR y flujos de atención de tickets bajo ITIL 4; evaluó marcos de IA con RACI y escalas de madurez.",
           "en": "Designed tracking boards, OKR indicators and ticket-handling flows under ITIL 4; assessed AI frameworks with RACI and maturity scales.",
           "pin": [
-            "pmo",
+            "apm",
             "scrum-master"
           ]
         },
@@ -391,7 +391,7 @@
           "es": "Project Manager y Scrum Master de proyectos de banca digital para la entidad financiera Caja Piura (actualización de su aplicación móvil, su sitio web y su backoffice): lideró cuatro proyectos simultáneos con equipos multidisciplinarios (frontend, backend, UI/UX, QA) bajo ceremonias ágiles completas.",
           "en": "Project Manager and Scrum Master of digital banking projects for the financial institution Caja Piura (upgrade of its mobile app, website and backoffice): led four simultaneous projects with multidisciplinary teams (frontend, backend, UI/UX, QA) running full agile ceremonies.",
           "pin": [
-            "pmo",
+            "apm",
             "scrum-master",
             "po-ba",
             "gerente-it"
@@ -406,7 +406,7 @@
           "es": "Levantó y analizó requerimientos funcionales y técnicos, identificando oportunidades de mejora y automatización en los canales digitales de un cliente financiero.",
           "en": "Gathered and analyzed functional and technical requirements, identifying improvement and automation opportunities in a financial client's digital channels.",
           "pin": [
-            "pmo",
+            "apm",
             "po-ba"
           ]
         }
@@ -437,7 +437,7 @@
           "es": "Product Owner de iniciativas de lealtad en Marketing Digital: 12 campañas de fidelización en cuatro países; definió y priorizó KPIs e indicadores de gestión y los tradujo en un backlog accionable.",
           "en": "Product Owner of loyalty initiatives in Digital Marketing: 12 loyalty campaigns across four countries; defined and prioritized KPIs and management indicators and turned them into an actionable backlog.",
           "pin": [
-            "pmo",
+            "apm",
             "po-ba",
             "scrum-master",
             "gerente-it"
@@ -480,7 +480,7 @@
           "es": "Entregó un Contact Center con IA (API Dialogflow) sobre Salesforce para AT&T, cliente final de Google que solicitó la implementación.",
           "en": "Delivered an AI Contact Center (Dialogflow API) on Salesforce for AT&T, the end client of Google that requested the implementation.",
           "pin": [
-            "pmo",
+            "apm",
             "po-ba"
           ]
         },
@@ -493,7 +493,7 @@
           "es": "Lideró el equipo de desarrollo y el análisis de negocio de una app móvil (mobile first) para vender bicicletas profesionales desde una tienda Shopify con Lightspeed (cliente de San Francisco, ex gerente de eCommerce de Salesforce) y de la evaluación de hospitales en EE. UU. para NORC (Universidad de Chicago).",
           "en": "Led the development team and business analysis for a mobile-first app to sell professional bicycles from a Shopify store with Lightspeed (San Francisco client, former Salesforce eCommerce manager) and for the evaluation of hospitals in the US for NORC (University of Chicago).",
           "pin": [
-            "pmo",
+            "apm",
             "po-ba"
           ]
         },
@@ -585,7 +585,7 @@
           "es": "Se incorporó como Sales Solutions Manager y PMO, con la implementación de iSales.",
           "en": "Joined as Sales Solutions Manager and PMO, with the implementation of iSales.",
           "pin": [
-            "pmo",
+            "apm",
             "gerente-it"
           ]
         },
@@ -598,7 +598,7 @@
           "es": "Gestionó proyectos de telecomunicaciones y seguridad: sistema de CCTV para la gestión de seguridad ciudadana de Cochabamba, modernización de la red 2G a 3G de la Cooperativa de Teléfonos Santa Cruz (COTAS), IP School, logística de antenas para Millicom y seguimiento y despliegue (rollout) de una antena móvil para el Rally Dakar en Bolivia.",
           "en": "Managed telecom and security projects: a CCTV system for Cochabamba's citizen security management, the 2G-to-3G network modernization for Cooperativa de Teléfonos Santa Cruz (COTAS), IP School, antenna logistics for Millicom, and tracking and rollout of a mobile antenna for the Dakar Rally in Bolivia.",
           "pin": [
-            "pmo",
+            "apm",
             "gerente-it",
             "scrum-master"
           ]
@@ -612,7 +612,7 @@
           "es": "Como Test Leader, diseñó y documentó la estrategia de pruebas de integración y actualización (upgrade/patch) del Core Banking/Billing System (CBS), Fase 1, validando la integración entre el BSS de Huawei y la red core de TIGO Bolivia.",
           "en": "As Test Leader, designed and documented the integration and upgrade/patch test strategy for the Core Banking/Billing System (CBS), Phase 1, validating the integration between Huawei's BSS and TIGO Bolivia's core network.",
           "pin": [
-            "pmo",
+            "apm",
             "qa-sdet"
           ]
         },
@@ -625,7 +625,6 @@
           "es": "Coordinó equipos multidisciplinarios de prueba y desarrollo y dio seguimiento a defectos, cronogramas, recursos y riesgos hasta el cierre de cada ciclo.",
           "en": "Coordinated multidisciplinary test and development teams and tracked defects, schedules, resources and risks through the close of each cycle.",
           "pin": [
-            "pmo",
             "scrum-master"
           ]
         },
@@ -733,7 +732,7 @@
           "es": "Arquitecto de software en Visual Studio (Zurich–La Boliviana Ciacruz); migraciones de bases de datos e interfaces bancarias.",
           "en": "Software architect on Visual Studio (Zurich–La Boliviana Ciacruz); database migrations and banking interfaces.",
           "pin": [
-            "pmo"
+            "apm"
           ]
         }
       ]
@@ -859,13 +858,30 @@
     }
   ],
   "certifications": [
+    {
+      "es": "Certified Scrum Product Owner (CSPO) — Scrum Alliance",
+      "en": "Certified Scrum Product Owner (CSPO) — Scrum Alliance"
+    },
+    {
+      "es": "Software Project Leader (SPLPC) — CertiProf",
+      "en": "Software Project Leader (SPLPC) — CertiProf"
+    },
+    {
+      "es": "Gestión de Proyectos",
+      "en": "Project Management"
+    },
+    {
+      "es": "AI Risk Management Professional Certification (AIRMPC) — CertiProf",
+      "en": "AI Risk Management Professional Certification (AIRMPC) — CertiProf"
+    },
+    {
+      "es": "Design Sprint Certification (CPDSC™) — CertiProf",
+      "en": "Design Sprint Certification (CPDSC™) — CertiProf"
+    },
     "AI Project Management Specialist",
-    "AI Risk Management Professional (AIRMPC)",
-    "CSPO (Certified Scrum Product Owner)",
-    "Agile Coach Professional (ACPC)",
-    "Scrum Master Professional (SMPC)",
-    "Software Project Leader (SPLPC)",
-    "Big Data Professional (BDPC)",
+    "Agile Coach Professional (ACPC) — CertiProf",
+    "Scrum Master Professional (SMPC) — CertiProf",
+    "Big Data Professional (BDPC) — CertiProf",
     "CT-SM",
     "Microsoft Power BI Data Analyst",
     "BPMN / Bizagi"
@@ -874,12 +890,12 @@
     {
       "id": "pmo",
       "label": {
-        "es": "Gobernanza y PMO",
-        "en": "Governance and PMO"
+        "es": "Gobernanza de proyectos",
+        "en": "Project governance"
       },
       "items": [
         {
-          "es": "Estructuración de PMO y gobernanza de proyectos",
+          "es": "Estructuración de oficina de proyectos (PMO) y gobernanza",
           "en": "PMO set-up and project governance"
         },
         {
