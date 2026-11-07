@@ -69,7 +69,7 @@ def set_style(doc):
     h.font.bold = True
     h.font.color.rgb = RGBColor(0x1F, 0x2A, 0x44)
     h.element.rPr.rFonts.set(qn("w:eastAsia"), FONT)
-    h.paragraph_format.space_before = Pt(10)
+    h.paragraph_format.space_before = Pt(8)
     h.paragraph_format.space_after = Pt(3)
     h.paragraph_format.keep_with_next = True
     lb = doc.styles["List Bullet"]
@@ -109,6 +109,36 @@ def para(doc, text="", bold=False, italic=False, size=None, align=None, space_af
     return p
 
 
+EN_FIX = [("EE. UU.", "USA"), ("(remoto)", "(remote)"), ("Nueva York y San Francisco", "New York and San Francisco"),
+          ("Perú", "Peru"), ("La Paz y Santa Cruz", "La Paz and Santa Cruz"), ("socio estratégico de", "strategic partner of"),
+          ("con IAdáptate", "with IAdáptate"), (" y MotoClick", " and MotoClick"), ("(hoy ", "(now "),
+          ("(consultoría)", "(consulting)"), ("(cuenta ", "(account "), ("Bolivia /", "Bolivia /")]
+
+
+def en_fix(text, lang):
+    if lang == "en":
+        for a, b in EN_FIX:
+            text = text.replace(a, b)
+    return text
+
+
+def job_block(doc, j, profile, lang):
+    p = doc.add_paragraph()
+    p.paragraph_format.space_before = Pt(4)
+    p.paragraph_format.keep_with_next = True
+    p.add_run(f"{tr(j['role'], lang)}").bold = True
+    p.add_run(f" — {en_fix(j['org'], lang)}").bold = True
+    bits = [b for b in [en_fix(j["place"], lang)] if b]
+    if j["start"] or j["end"]:
+        end = tr(j["end"], lang) if j["end"] else ""
+        bits.append(f"{j['start']} – {end}".strip(" –"))
+    if bits:
+        q = para(doc, "  |  ".join(bits), italic=True, size=9.5, space_after=1)
+        q.paragraph_format.keep_with_next = True
+    for b in select_bullets(j, profile):
+        doc.add_paragraph(tr(b, lang), style="List Bullet")
+
+
 def build(profile_id, lang):
     profile = dict(PROFILES[profile_id], _id=profile_id)
     lab =MASTER["section_labels"][lang]
@@ -116,8 +146,8 @@ def build(profile_id, lang):
     doc = Document()
     s = doc.sections[0]
     s.page_width, s.page_height = Inches(8.5), Inches(11)  # carta/letter
-    s.left_margin = s.right_margin = Inches(0.8)
-    s.top_margin = s.bottom_margin = Inches(0.55)
+    s.left_margin = s.right_margin = Inches(0.75)
+    s.top_margin = s.bottom_margin = Inches(0.5)
     set_style(doc)
     doc.core_properties.title = f"CV {MASTER['name']}"
     doc.core_properties.author = MASTER["name"]
@@ -135,46 +165,65 @@ def build(profile_id, lang):
     para(doc, tr(profile["summary"], lang))
 
     heading(doc, lab["skills"])
-    groups = {g["id"]: g for g in MASTER["skills"]}
-    for gid in profile["skill_order"]:
-        g = groups[gid]
+    sgroups = {g["id"]: g for g in MASTER["skills"]}
+    shown = set()
+
+    def skill_line(gid):
+        g = sgroups[gid]
+        items = []
+        for i in g["items"]:
+            t = tr(i, lang)
+            if t.lower() not in shown and not any(d in t.lower() for d in profile.get("skill_drop", [])):
+                shown.add(t.lower())
+                items.append(t)
         p = doc.add_paragraph()
         p.add_run(f"{tr(g['label'], lang)}: ").bold = True
-        p.add_run(", ".join(tr(i, lang) for i in g["items"]))
+        p.add_run(", ".join(items))
+
+    for gid in profile["skill_order"]:
+        skill_line(gid)
     # Pruebas y calidad solo cuando el perfil la prioriza
     if "qa" not in profile["skill_order"] and "qa" in profile["priority_tags"]:
-        g = groups["qa"]
-        p = doc.add_paragraph()
-        p.add_run(f"{tr(g['label'], lang)}: ").bold = True
-        p.add_run(", ".join(tr(i, lang) for i in g["items"]))
+        skill_line("qa")
+
+    if "contribution" in profile:
+        cb = profile["contribution"]
+        heading(doc, lab["contrib"])
+        para(doc, tr(cb["intro"], lang), italic=True)
+        for it in cb["items"]:
+            doc.add_paragraph(tr(it, lang), style="List Bullet")
 
     heading(doc, lab["experience"])
     jobs = {j["id"]: j for j in MASTER["experience"]}
-    for jid in profile["experience_order"]:
-        j = jobs[jid]
-        p = doc.add_paragraph()
-        p.paragraph_format.space_before = Pt(5)
-        p.paragraph_format.keep_with_next = True
-        p.add_run(f"{tr(j['role'], lang)}").bold = True
-        p.add_run(f" — {j['org']}").bold = True
-        bits = [b for b in [j["place"]] if b]
-        if j["start"] or j["end"]:
-            end = tr(j["end"], lang) if j["end"] else ""
-            bits.append(f"{j['start']} – {end}".strip(" –"))
-        if bits:
-            q = para(doc, "  |  ".join(bits), italic=True, size=9.5, space_after=1)
-            q.paragraph_format.keep_with_next = True
-        for b in select_bullets(j, profile):
-            doc.add_paragraph(tr(b, lang), style="List Bullet")
+    groups = profile.get("groups") or [{"title": None, "ids": profile["experience_order"]}]
+    for grp in groups:
+        if grp["title"]:
+            g = para(doc, tr(grp["title"], lang), bold=True, italic=True, size=10.5, space_after=1)
+            g.paragraph_format.space_before = Pt(6)
+            g.paragraph_format.keep_with_next = True
+        for jid in grp["ids"]:
+            job_block(doc, jobs[jid], profile, lang)
 
-    # "Otra experiencia": omite lo que el perfil ya detalla arriba
-    extra = [o for o in MASTER["other_experience"] if o["id"] not in profile["experience_order"]]
-    if extra:
-        heading(doc, lab["other"])
-        for o in extra:
-            doc.add_paragraph(o[lang], style="List Bullet")
+    # Proyectos y roles sin periodo documentado: lista explicita del perfil o, por defecto,
+    # lo que el perfil no detalla arriba
+    if profile.get("selected_projects"):
+        oth = {o["id"]: o for o in MASTER["other_experience"]}
+        heading(doc, lab["projects"])
+        for pid_ in profile["selected_projects"]:
+            doc.add_paragraph(oth[pid_][lang], style="List Bullet")
+        para(doc, lab["dates_note"], italic=True, size=9.5)
+    else:
+        listed = [i for g in groups for i in g["ids"]]
+        extra = [o for o in MASTER["other_experience"] if o["id"] not in listed]
+        if extra:
+            heading(doc, lab["other"])
+            for o in extra:
+                doc.add_paragraph(o[lang], style="List Bullet")
 
-    if profile.get("teaching_section"):
+    if profile.get("teaching_section") == "brief":
+        heading(doc, lab["teaching"])
+        para(doc, MASTER["teaching_current"][lang])
+    elif profile.get("teaching_section"):
         heading(doc, lab["teaching"])
         para(doc, MASTER["teaching_history"][lang])
 
@@ -188,8 +237,9 @@ def build(profile_id, lang):
     heading(doc, lab["languages"])
     para(doc, MASTER["languages"][lang])
 
-    heading(doc, lab["refs"])
-    para(doc, lab["refs_text"])
+    if profile.get("show_refs", True):
+        heading(doc, lab["refs"])
+        para(doc, lab["refs_text"])
 
     OUT.mkdir(exist_ok=True)
     d = OUT / profile_id
@@ -220,13 +270,16 @@ def main(argv):
             f = build(pid, lang)
             out = to_pdf(f) if pdf else f
             print("OK", out)
-    # Los CVs 'general' son los que se publican en la pagina web
-    if "general" in pids and pdf:
-        for lang in langs:
-            src = OUT / "general" / f"CV_Jimmy_Requena_general_{lang.upper()}.pdf"
-            shutil.copyfile(src, ROOT / f"CV_Jimmy_Requena_{lang.upper()}.pdf")
-            print("PUBLICADO", ROOT / f"CV_Jimmy_Requena_{lang.upper()}.pdf")
-
+    # Se publican en la pagina web: 'general' (nombres historicos) y las versiones por rol
+    published = {"general": "", "pmo": "PMO_", "scrum-master": "Scrum-Master_", "po-ba": "PO-BA_"}
+    if pdf:
+        for pid in pids:
+            if pid in published:
+                for lang in langs:
+                    src = OUT / pid / f"CV_Jimmy_Requena_{pid}_{lang.upper()}.pdf"
+                    dst = ROOT / f"CV_Jimmy_Requena_{published[pid]}{lang.upper()}.pdf"
+                    shutil.copyfile(src, dst)
+                    print("PUBLICADO", dst)
 
 if __name__ == "__main__":
     main(sys.argv[1:])

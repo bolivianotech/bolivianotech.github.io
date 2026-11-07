@@ -1,12 +1,12 @@
 # Texto para LinkedIn — https://www.linkedin.com/in/jimrequena
 
-Actualizado: 2026-10-04. Pegar manualmente en cada sección (LinkedIn requiere tu sesión).
+Actualizado: 2026-11-07. Pegar manualmente en cada sección (LinkedIn requiere tu sesión).
 
 ## Titular (máx. 220 caracteres)
 
-**ES:** Ingeniero de Sistemas | Agentes de IA · Desarrollo de Software · Oracle/PL-SQL · Scrum Master y Product Owner | Docente universitario (UPDS)
+**ES:** Ingeniero de Sistemas | PMO y Gestión de Proyectos · Banca y Servicios Financieros · Scrum Master y Product Owner · Agentes de IA | Docente universitario (UPDS)
 
-**EN:** Systems Engineer | AI Agents · Software Development · Oracle/PL-SQL · Scrum Master & Product Owner | University Lecturer (UPDS)
+**EN:** Systems Engineer | PMO and Project Management · Banking and Financial Services · Scrum Master & Product Owner · AI Agents | University Lecturer (UPDS)
 
 ## Acerca de (ES)
 
@@ -49,12 +49,12 @@ Portfolio and resume: https://bolivianotech.github.io
 3. Coordinador del Proyecto — US-BSW, con IAdáptate Bolivia — 2026 – Presente
 4. Senior Scaled Scrum Master | Consultor Coordinador (AI-DLC: agentes de IA, n8n, WhatsApp API, QR dinámicos) — NexusPatio Tech y MotoClick App — 12/2025 – 08/2026
 5. Arquitecto de Software y Consultor de IA — IN-ADVANCE — 02/2025 – 12/2025
-6. Business Analyst | PM y Scrum Master — Encora — 06/2023 – 04/2024
+6. Business Analyst | PM y Scrum Master (Caja Piura: app móvil, web y backoffice) — Encora — 06/2023 – 04/2024
 7. Product Owner | Business Analytics — Derco (hoy Inchcape) — 01/2022 – 05/2023
 8. Team Leader | Business Analyst — Oktana Corporation — 12/2020 – 12/2021
 9. Program Manager | Agile Coach — Orbis Compliance LLC — 05/2019 – 09/2019
 10. Project Manager | Scrum of Scrums — Digital Harbor — 02/2017 – 12/2017
-11. Test Leader | Solution Manager | Project Manager — Huawei Technologies — 02/2015 – 03/2017
+11. Sales Solutions Manager y PMO | Project Manager | Test Leader — Huawei Technologies — 02/2015 – 03/2017 (iSales, CCTV Cochabamba, COTAS 2G a 3G, IP School, antenas Millicom, Dakar, CBS de TIGO)
 12. Consultor Oracle (Intersoft, Iteäm, Advantech) — 2002 – 2012
 13. Programador PL/SQL, Oracle Forms y Reports — Banco Mercantil Santa Cruz — 12/2000 – 2002
 14. Project Manager eCommerce | Analista de facturación — ENTEL — 01/2000 – 12/2005
@@ -62,3 +62,9 @@ Portfolio and resume: https://bolivianotech.github.io
 ## Aptitudes (las 50 que LinkedIn permite; prioridad)
 
 AI Agents · Claude · Prompt Engineering · n8n · Oracle Database · PL/SQL · Oracle Forms and Reports · Scrum · Product Owner · SAFe · Python · Node.js · Laravel · Angular · React · PostgreSQL · AWS · Docker · Git · Power BI · ITIL 4 · Docencia universitaria
+
+## Otros proyectos y roles (sin fechas documentadas; agregar en la descripción de cada empresa o en Proyectos)
+
+- Coordinador del proyecto Axcel X — Seguros y Reaseguros Fortaleza S.A. (hoy un banco consolidado)
+- Responsable nacional de Sistemas — Bellcos
+- Responsable regional de Sistemas — Emapa

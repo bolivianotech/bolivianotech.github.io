@@ -313,5 +313,292 @@
       "agile"
     ],
     "teaching_section": false
+  },
+  "pmo": {
+    "headline": {
+      "es": "Ingeniero de Sistemas | PMO y Gestión de Proyectos | Banca y Servicios Financieros | Liderazgo Ágil e IA",
+      "en": "Systems Engineer | PMO and Project Management | Banking and Financial Services | Agile Leadership and AI"
+    },
+    "summary": {
+      "es": "Ingeniero de Sistemas con Maestría en Ingeniería Matemática e Informática (mención en Sistemas Flexibles Inteligentes) y más de 25 años de trayectoria en tecnología, desde 2000, con raíces en la banca (Banco Mercantil Santa Cruz). Ha ejercido como PMO, Project Manager, Program Manager, Scrum of Scrums, Scrum Master escalado y Product Owner en proyectos de banca digital, core de facturación, seguros, telecomunicaciones y salud, con equipos en Bolivia, EE. UU., Chile y México. Coordinó el proyecto Axcel X en Seguros y Reaseguros Fortaleza (hoy un banco consolidado) y lideró cuatro proyectos simultáneos de banca digital en Encora para Caja Piura. Estructura gobernanza, hitos, riesgos y reportes ejecutivos con PMBOK, Scrum, SAFe e ITIL 4, y aplica IA y automatización (agentes, n8n, AI-DLC) al seguimiento y a la reducción de trabajo manual.",
+      "en": "Systems Engineer with a Master's in Mathematical and Computer Engineering (specialization in Intelligent Flexible Systems) and 25+ years in technology, since 2000, with roots in banking (Banco Mercantil Santa Cruz). Has worked as PMO, Project Manager, Program Manager, Scrum of Scrums, Scaled Scrum Master and Product Owner in digital banking, core billing, insurance, telecom and healthcare, with teams in Bolivia, the US, Chile and Mexico. Coordinated the Axcel X project at Seguros y Reaseguros Fortaleza (today a consolidated bank) and led four simultaneous digital banking projects at Encora for Caja Piura. Structures governance, milestones, risks and executive reporting with PMBOK, Scrum, SAFe and ITIL 4, and applies AI and automation (agents, n8n, AI-DLC) to tracking and to cutting manual work."
+    },
+    "priority_tags": [
+      "pmo",
+      "mgmt",
+      "agile",
+      "po",
+      "data",
+      "ai"
+    ],
+    "groups": [
+      {
+        "title": {
+          "es": "Consultoría y proyectos por contrato (en paralelo, desde 2021)",
+          "en": "Consulting and contract projects (running in parallel, since 2021)"
+        },
+        "ids": [
+          "bolivianotech",
+          "usbsw",
+          "motoclick",
+          "inadvance"
+        ]
+      },
+      {
+        "title": {
+          "es": "Experiencia en empresas y proyectos de cliente",
+          "en": "Experience in companies and client projects"
+        },
+        "ids": [
+          "encora",
+          "derco",
+          "oktana",
+          "orbis",
+          "digitalharbor",
+          "huawei"
+        ]
+      },
+      {
+        "title": {
+          "es": "Trayectoria temprana en banca, seguros y telecomunicaciones (periodos en paralelo)",
+          "en": "Early career in banking, insurance and telecom (overlapping periods)"
+        },
+        "ids": [
+          "consultor-oracle",
+          "mercantil",
+          "entel"
+        ]
+      }
+    ],
+    "selected_projects": [
+      "axcelx",
+      "bellcos",
+      "emapa",
+      "viva"
+    ],
+    "max_bullets": {
+      "default": 1,
+      "bolivianotech": 2,
+      "inadvance": 2,
+      "oktana": 2,
+      "orbis": 1,
+      "digitalharbor": 1,
+      "consultor-oracle": 1,
+      "huawei": 4,
+      "encora": 2,
+      "derco": 1
+    },
+    "skill_order": [
+      "pmo",
+      "agile",
+      "fin",
+      "ai"
+    ],
+    "teaching_section": "brief",
+    "contribution": {
+      "intro": {
+        "es": "Capacidades transferibles a la apertura de una entidad financiera (no son logros previos en una apertura bancaria):",
+        "en": "Capabilities transferable to opening a financial institution (not prior achievements in a bank opening):"
+      },
+      "items": [
+        {
+          "es": "Estructurar la PMO: gobernanza, matriz RACI, plan maestro de hitos y entregables, y cadencia de seguimiento y comités (Scrum of Scrums y reportes ejecutivos en Digital Harbor y MotoClick).",
+          "en": "Structuring the PMO: governance, RACI matrix, master plan of milestones and deliverables, and a cadence of follow-up and steering meetings (Scrum of Scrums and executive reporting at Digital Harbor and MotoClick)."
+        },
+        {
+          "es": "Coordinar al especialista líder, las áreas y los proveedores: dependencias, responsables, alcance y control de cambios entre negocio y tecnología.",
+          "en": "Coordinating the lead specialist, business areas and vendors: dependencies, owners, scope and change control between business and technology."
+        },
+        {
+          "es": "Dar visibilidad a la dirección: tableros, indicadores y reportes de avance, riesgos y decisiones pendientes.",
+          "en": "Giving leadership visibility: dashboards, indicators and progress, risk and pending-decision reports."
+        },
+        {
+          "es": "Comprender el dominio financiero: banca digital (Caja Piura), core de facturación (CBS de TIGO), seguros (Fortaleza) y sistemas bancarios (Banco Mercantil Santa Cruz).",
+          "en": "Understanding the financial domain: digital banking (Caja Piura), core billing (TIGO CBS), insurance (Fortaleza) and banking systems (Banco Mercantil Santa Cruz)."
+        },
+        {
+          "es": "Automatizar el seguimiento con IA y n8n para reducir trabajo manual y acelerar reportes.",
+          "en": "Automating follow-up with AI and n8n to cut manual work and speed up reporting."
+        }
+      ]
+    },
+    "skill_drop": [
+      "langchain",
+      "prompt engineering",
+      "hoppscotch"
+    ],
+    "show_refs": false
+  },
+  "scrum-master": {
+    "headline": {
+      "es": "Scrum Master Escalado y Agile Lead | Scrum of Scrums, SAFe y OKR | Banca Digital e IA",
+      "en": "Scaled Scrum Master and Agile Lead | Scrum of Scrums, SAFe and OKR | Digital Banking and AI"
+    },
+    "summary": {
+      "es": "Ingeniero de Sistemas con Maestría en Ingeniería Matemática e Informática y más de 25 años de trayectoria en tecnología, desde 2000. Scrum Master escalado y Agile Lead (Scrum, SAFe, Kanban, OKR) de equipos multidisciplinarios en Bolivia, EE. UU., Chile y México: facilita las ceremonias, gestiona impedimentos, mapea dependencias entre equipos con Scrum of Scrums y reporta métricas y avance a nivel ejecutivo. Lideró cuatro proyectos simultáneos de banca digital en Encora (Caja Piura), implementó Scrum y OKR en más de cuatro equipos en Orbis Compliance y acompañó dos líneas de producto en MotoClick y NexusPatio. Certificado como Scrum Master, Agile Coach y CSPO; usa IA y automatización (agentes, n8n, AI-DLC) para dar visibilidad al trabajo y reducir tareas manuales.",
+      "en": "Systems Engineer with a Master's in Mathematical and Computer Engineering and 25+ years in technology, since 2000. Scaled Scrum Master and Agile Lead (Scrum, SAFe, Kanban, OKR) of multidisciplinary teams in Bolivia, the US, Chile and Mexico: facilitates ceremonies, manages impediments, maps cross-team dependencies with Scrum of Scrums and reports metrics and progress at executive level. Led four simultaneous digital banking projects at Encora (Caja Piura), implemented Scrum and OKRs across 4+ teams at Orbis Compliance and coached two product lines at MotoClick and NexusPatio. Certified Scrum Master, Agile Coach and CSPO; uses AI and automation (agents, n8n, AI-DLC) to make work visible and cut manual tasks."
+    },
+    "priority_tags": [
+      "agile",
+      "mgmt",
+      "pmo",
+      "po",
+      "ai"
+    ],
+    "groups": [
+      {
+        "title": {
+          "es": "Consultoría y proyectos por contrato (en paralelo, desde 2021)",
+          "en": "Consulting and contract projects (running in parallel, since 2021)"
+        },
+        "ids": [
+          "motoclick",
+          "bolivianotech",
+          "inadvance",
+          "usbsw"
+        ]
+      },
+      {
+        "title": {
+          "es": "Experiencia en empresas y proyectos de cliente",
+          "en": "Experience in companies and client projects"
+        },
+        "ids": [
+          "encora",
+          "orbis",
+          "digitalharbor",
+          "derco",
+          "oktana",
+          "huawei"
+        ]
+      },
+      {
+        "title": {
+          "es": "Trayectoria temprana en banca, seguros y telecomunicaciones (periodos en paralelo)",
+          "en": "Early career in banking, insurance and telecom (overlapping periods)"
+        },
+        "ids": [
+          "consultor-oracle",
+          "mercantil",
+          "entel"
+        ]
+      }
+    ],
+    "selected_projects": [
+      "axcelx",
+      "bellcos",
+      "emapa",
+      "viva",
+      "tigo",
+      "con4t"
+    ],
+    "max_bullets": {
+      "default": 1,
+      "motoclick": 4,
+      "bolivianotech": 2,
+      "inadvance": 2,
+      "encora": 2,
+      "orbis": 2,
+      "digitalharbor": 2,
+      "huawei": 2,
+      "derco": 1,
+      "oktana": 1,
+      "consultor-oracle": 1
+    },
+    "skill_order": [
+      "agile",
+      "pmo",
+      "ai",
+      "fin"
+    ],
+    "teaching_section": "brief",
+    "show_refs": false
+  },
+  "po-ba": {
+    "headline": {
+      "es": "Product Owner y Business Analyst | Visión de Producto, Requerimientos y Backlog | Banca y Servicios Financieros | IA",
+      "en": "Product Owner and Business Analyst | Product Vision, Requirements and Backlog | Banking and Financial Services | AI"
+    },
+    "summary": {
+      "es": "Ingeniero de Sistemas con Maestría en Ingeniería Matemática e Informática y más de 25 años de trayectoria en tecnología, desde 2000. Product Owner de 12 campañas de fidelización en cuatro países (Derco), Business Analyst y Project Manager de banca digital para Caja Piura (Encora) y Business Analyst y Team Leader en Salesforce (Oktana). Levanta y prioriza requerimientos, traduce indicadores en un backlog accionable, modela procesos AS-IS/TO-BE (BPMN/Bizagi, UML) y coordina a negocio con tecnología. Certificado CSPO; aplica IA y automatización (agentes, n8n, AI-DLC) para descubrir oportunidades de mejora y acelerar la entrega.",
+      "en": "Systems Engineer with a Master's in Mathematical and Computer Engineering and 25+ years in technology, since 2000. Product Owner of 12 loyalty campaigns across four countries (Derco), Business Analyst and Project Manager of digital banking for Caja Piura (Encora), and Business Analyst and Team Leader on Salesforce (Oktana). Gathers and prioritizes requirements, turns indicators into an actionable backlog, models AS-IS/TO-BE processes (BPMN/Bizagi, UML) and bridges business and technology. CSPO certified; applies AI and automation (agents, n8n, AI-DLC) to uncover improvement opportunities and speed up delivery."
+    },
+    "priority_tags": [
+      "po",
+      "mgmt",
+      "data",
+      "agile",
+      "ai",
+      "pmo"
+    ],
+    "groups": [
+      {
+        "title": {
+          "es": "Consultoría y proyectos por contrato (en paralelo, desde 2021)",
+          "en": "Consulting and contract projects (running in parallel, since 2021)"
+        },
+        "ids": [
+          "bolivianotech",
+          "usbsw",
+          "motoclick",
+          "inadvance"
+        ]
+      },
+      {
+        "title": {
+          "es": "Experiencia en empresas y proyectos de cliente",
+          "en": "Experience in companies and client projects"
+        },
+        "ids": [
+          "derco",
+          "encora",
+          "oktana",
+          "digitalharbor",
+          "orbis",
+          "huawei"
+        ]
+      },
+      {
+        "title": {
+          "es": "Trayectoria temprana en banca, seguros y telecomunicaciones (periodos en paralelo)",
+          "en": "Early career in banking, insurance and telecom (overlapping periods)"
+        },
+        "ids": [
+          "consultor-oracle",
+          "mercantil",
+          "entel"
+        ]
+      }
+    ],
+    "selected_projects": [
+      "axcelx",
+      "bellcos",
+      "emapa",
+      "viva",
+      "tigo",
+      "con4t"
+    ],
+    "max_bullets": {
+      "default": 1,
+      "bolivianotech": 2,
+      "inadvance": 3,
+      "motoclick": 2,
+      "derco": 2,
+      "encora": 2,
+      "oktana": 3,
+      "digitalharbor": 2,
+      "orbis": 1,
+      "huawei": 2,
+      "consultor-oracle": 1
+    },
+    "skill_order": [
+      "agile",
+      "pmo",
+      "fin",
+      "ai"
+    ],
+    "teaching_section": "brief",
+    "show_refs": false
   }
 }
