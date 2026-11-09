@@ -286,6 +286,8 @@ def main(argv):
                 for lang in langs:
                     src = OUT / pid / f"CV_Jimmy_Requena_{pid}_{lang.upper()}.pdf"
                     dst = ROOT / f"CV_Jimmy_Requena_{published[pid]}{lang.upper()}.pdf"
+                    if pid == "apm" and lang == "en":
+                        dst = ROOT / "jimmy_requena_apm.pdf"  # nombre corto pedido para el resume en ingles
                     shutil.copyfile(src, dst)
                     print("PUBLICADO", dst)
 
